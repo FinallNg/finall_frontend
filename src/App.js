@@ -1,9 +1,12 @@
 import './App.css';
-import Team from './Components/LandingPage/Team/Team'
+import LandingPage from './Components/LandingPage/LandingPage';
 
 function App() {
   return (
-    <Team />
+    <div className="App">
+     {/* <p>Finall Frontend</p> */}
+     <LandingPage />
+    </div>
   );
 }
 
