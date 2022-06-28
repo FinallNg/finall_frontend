@@ -1,11 +1,9 @@
-
 import './App.css';
+import Team from './Components/LandingPage/Team/Team'
 
 function App() {
   return (
-    <div className="App">
-     <p>Finall Frontend</p>
-    </div>
+    <Team />
   );
 }
 
