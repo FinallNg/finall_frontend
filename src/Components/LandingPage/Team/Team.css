@@ -29,12 +29,12 @@
     border: 2px solid grey;
     width: 300px;
     border-radius:15px;
-    height:400px
+    height:400px;
+    
 }
-img{
+.card-img{
     border-radius: 50%;
     border:2px solid grey;
-    background-color:grey;
     height:40%;
     width:50%;
     margin-top:50px
