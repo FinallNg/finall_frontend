@@ -1,0 +1,138 @@
+@import url("https:fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+.services {
+  position: relative;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  max-width: 1440px;
+  overflow: hidden;
+}
+
+.services h2 {
+  color: #1a33b2;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 69px;
+}
+
+.card-container {
+  max-width: 359px;
+  height: 435px;
+  background: #ffffff;
+  box-shadow: 4px 4px 50px #e6eaee;
+  border-radius: 20px;
+}
+
+.card-img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 21.76px;
+}
+
+.card-img {
+  width: 152x;
+  height: 152px;
+  object-fit: cover;
+}
+
+.card-body {
+  color: #1a33b2;
+  padding: 0 24px;
+  font-family: "Lato", sans-serif;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 2px;
+  margin-top: 28.71px;
+}
+
+.card-content {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.card-container-active {
+  max-width: 359px;
+  height: 435px;
+  background: #1a33b2;
+  box-shadow: 4px 4px 50px #e6eaee;
+  border-radius: 20px;
+}
+
+.card-body-active {
+  color: #fff;
+  padding: 0 24px;
+  font-family: "Lato", sans-serif;
+}
+
+.card-title-active {
+  margin-top: 28.96px;
+  margin-bottom: 2px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.card-content-active {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.card-img-container-active {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 54.92px;
+}
+
+.card-img-active {
+  width: 118px;
+  height: 118px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.slide-arrow {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  line-height: 1;
+  margin-top: -2em;
+  cursor: pointer;
+  background: #1a33b2;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-arrow:hover {
+  opacity: 0.6;
+}
+
+.slide-arrow.swiper-button-disabled {
+  display: none;
+}
+
+.slide-icons {
+  font-size: 25px;
+  color: #fff;
+}

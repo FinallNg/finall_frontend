@@ -1,13 +1,16 @@
-import Footer from "./Components/Footer/Footer"
 import './App.css';
-import Teams from "./Components/LandingPage/Team/Team"
+import LandingPage from './Components/LandingPage/LandingPage';
+
+
 
 function App() {
   return (
-  <div>
-    <Teams />
-     {/* <Footer /> */}
+    <div className="App">
+      <LandingPage />
+      
 
+     {/* <p>Finall Frontend</p> */}
+  
     </div>
   );
 }

@@ -1,0 +1,200 @@
+.section-hero {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient( 5deg, #fff, #fff, #f0edf9);
+    height: 1650px;
+    
+}
+
+.hero-container, .business, .goals, .spending {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.business, .goals, .spending {
+    height:400px;
+    margin-bottom: 20px;
+    margin: 60px 0px;
+}
+
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.boxes-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.hero-boxes, .business-boxes, .goal-boxes, .spending-boxes {
+    width: calc(100%/3);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    
+}
+
+.hero-boxes {
+    margin: 50px 10px;
+}
+
+.business-boxes, .goal-boxes, .spending-boxes {
+    margin: 0px 10px 40px 10px;
+}
+
+
+.hero-details {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+   
+
+}
+
+.hero-img {
+color: red;
+background-color: #fff;
+background: url('./images/stand1.svg');
+background-position: center;
+background-size: cover;
+}
+
+.hero-details h1 {
+    margin: 80px 0px 10px 0px;
+    width: 100%;
+    font-size: 220%;
+    display: block;
+    font-weight: 700;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.hero-h1 {
+    width: 100%;
+}
+
+.hero-h1 span {
+    color: #1A33B2;
+}
+
+.hero-p {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-p p {
+    font-size: 85%;
+    color: #555;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.hero-button {
+    width: 100%;
+    display: block;
+}
+
+
+.business-head, .goal-head, .spending-head {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.business-head h2, .goal-head h2, .spending-head h2 {
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 180%;
+    display: block;
+    font-weight: 700;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start ;
+    color:#0F1928 ;
+}
+
+.business-head span {
+    color: #1A33B2;
+}
+
+.business-sub, .goal-sub, .spending-sub {
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    text-align:start ;
+}
+
+.business-sub h3, .goal-sub h3, .spending-sub h3 {
+    font-size: 140%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color:#3F4753;
+    width: 90%;
+    margin: 0px auto;
+
+}
+
+.spending-sub h3 {
+    font-size: 80%;
+    
+}
+
+.business-button {
+    width: 90%;
+    text-align: start;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+
+}
+
+.business-img  {
+    background: url('./images/stand2.svg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.goal-img {
+    background: url('./images/sit2.svg');
+    background-position: center;
+    background-size: cover; 
+    height: 200px;
+    width: 300px;
+    border: 5px solid #000;
+    border-radius: 10px;
+}
+.spending-img-box {
+    width: 30%;
+    height: 55%;
+    margin-top: 40px;
+    margin-right: 40px;
+
+}
+
+.spending-img {
+    background: url('./images/sit1.svg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
