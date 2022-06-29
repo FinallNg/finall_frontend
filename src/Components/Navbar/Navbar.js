@@ -1,12 +1,12 @@
 import './Navbar.css'
-import logo from '../../assets/logo.png'
+{/*import logo from '../../assets/logo'*/}
 
 function Navbar() {
   return (
     <header>
         <div>
-            {/* <h2>Finall</h2> */}
-            <img src={logo} />
+             <h2>Finall</h2> 
+            {/*</img src={logo} />*/}
         </div>
 
         {/* <div className="nav-links">
