@@ -1,5 +1,5 @@
 import "./FinancialServices.css";
-import Finance from "../../../assets/finance1.png";
+import Finance from "../../../assets-svg/fin-services.svg";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 const FinancialServices = () => {

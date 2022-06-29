@@ -1,28 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
-
-.slick-slide > div {
-  margin: 0 25px;
-}
-
-.slick-list {
-  margin: 0 -10px;
-}
-
-.slick-prev,
-.slick-next {
-  font-size: 25px !important;
-}
-
-.slick-prev:before,
-.slick-next:before {
-  content: "" !important;
-}
-
-.update-btn {
-  color: #fff;
-}
+@import url("https:fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 .services {
+  position: relative;
   margin-top: 10%;
   margin-bottom: 10%;
   max-width: 1440px;
@@ -39,7 +18,7 @@
 }
 
 .card-container {
-  width: 359px;
+  max-width: 359px;
   height: 435px;
   background: #ffffff;
   box-shadow: 4px 4px 50px #e6eaee;
@@ -68,7 +47,7 @@
 .card-title {
   font-weight: 700;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 32px;
   margin-bottom: 2px;
   margin-top: 28.71px;
 }
@@ -81,7 +60,7 @@
 }
 
 .card-container-active {
-  width: 359px;
+  max-width: 359px;
   height: 435px;
   background: #1a33b2;
   box-shadow: 4px 4px 50px #e6eaee;
@@ -96,9 +75,10 @@
 
 .card-title-active {
   margin-top: 28.96px;
+  margin-bottom: 2px;
   font-weight: 700;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 32px;
 }
 
 .card-content-active {
@@ -106,7 +86,6 @@
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  margin-top: 4px;
 }
 
 .card-img-container-active {
@@ -121,4 +100,39 @@
   height: 118px;
   object-fit: cover;
   border-radius: 50%;
+  background-color: #fff;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.slide-arrow {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  line-height: 1;
+  margin-top: -2em;
+  cursor: pointer;
+  background: #1a33b2;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-arrow:hover {
+  opacity: 0.6;
+}
+
+.slide-arrow.swiper-button-disabled {
+  display: none;
+}
+
+.slide-icons {
+  font-size: 25px;
+  color: #fff;
 }
