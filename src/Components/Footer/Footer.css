@@ -1,0 +1,176 @@
+.footer-container{
+    position: absolute;  
+    width: 1850px;
+    height: 487px;
+    left: 168px; 
+    top: 0px;
+    background: #1A33B2;
+}
+.footer-image{
+    position: absolute;
+width: 137.37px;
+height: 153px;
+left: 197px;
+top: 85px;
+}
+.fi{
+    position: absolute;
+    width: 140.49px;
+    height: 48px;
+    left: 319.8px;
+    top: 118px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 48px;
+    color: #FFFFFF;
+    
+    
+
+
+}
+.footer-text{
+    position: absolute;
+width: 563px;
+height: 58px;
+left: 208.45px;
+top: 198px;
+color: #FFFFFF;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 200;
+font-size: 14px;
+line-height: 29px;
+}
+
+
+
+.footer-final{
+    position: absolute;
+width: 121.76px;
+height: 120px;
+left: 916.1px; 
+ top: 71px; 
+
+font-family: 'Lato';
+font-style: normal;
+ font-weight: 200; 
+font-size: 14px;
+ /* line-height: 30px;  */
+ color: #FFFFFF;
+}
+.footer-link{
+    position: absolute;
+    width: 186.28px;
+    height: 120px;
+    left: 1240.79px; 
+    top: 71px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+     color: #FFFFFF;
+}
+.footer-support{
+
+position: absolute;
+width: 135.29px;
+height: 90px;
+left: 1581px;
+top: 71px;
+color: #FFFFFF;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 200;
+font-size: 14px;
+/* line-height: 30px; */
+}
+
+.footer-text2{
+    position: absolute;
+width: 216px;
+height: 48px;
+left: 910px;
+top: 217px;
+color: #FFFFFF;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 36px;
+display: flex;
+align-items: center;
+}
+.footer-icon1{
+     position: absolute;
+left: 910px; 
+right: 8.33%; 
+top: 60.04%;
+bottom: 27.12%;
+color: #FFFFFF;
+}
+.footer-icon2{
+    position: absolute;
+left: 950px;
+right: 8.58%;
+top: 60.04%;
+bottom: 8.33%;
+color: #FFFFFF
+}
+.footer-icon3{
+    position: absolute;
+    left: 1000px;
+    right: 8.58%;
+    top: 60.04%;
+    bottom: 8.33%;
+    color: #FFFFFF
+}
+.footer-icon4{
+    position: absolute;
+    left: 1050px;
+    right: 8.58%;
+    top: 60.04%;
+    bottom: 8.33%;
+    color: #FFFFFF
+}
+hr{
+    position: absolute;
+width: 1653.63px;
+height: 0px;
+left: 171.67px;
+top: 357px;
+
+
+border: 1px solid #FFFFFF;
+}
+.footer-text3{
+    position: absolute;
+width: 446.45px;
+height: 30px;
+left: 771.1px;
+top: 400px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 200;
+font-size: 14px;
+line-height: 30px;
+color: #FFFFFF;
+}
+
+@media screen and (min-width:600px){
+    .footer-container{
+        flex: 1 0px;
+    }
+    
+}
+@media  (max-width:600px){
+    .footer{
+        padding: 15px;
+    }
+    .footer-container{
+        font-size: 55px;
+    }
+}
+

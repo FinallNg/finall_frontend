@@ -6,7 +6,7 @@ function Navbar() {
     <header>
         <div>
             {/* <h2>Finall</h2> */}
-            <img src={logo} />
+            <img src={logo} alt='logo' />
         </div>
 
         {/* <div className="nav-links">
