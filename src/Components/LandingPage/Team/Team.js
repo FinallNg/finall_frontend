@@ -25,7 +25,7 @@ function Team() {
         <div className="column">
           <div className="card">
             <img src={img1} className="card-img" alt="Chris Okorie"></img>
-            <div className="container">
+            <div className="container-img">
               <h2>Chris Okorie</h2>
               <p>Team Lead, FINALL</p>
             </div>
@@ -34,7 +34,7 @@ function Team() {
         <div className="column">
           <div className="card">
             <img src={img2} className="card-img"  alt="Jessica Ebeye"></img>
-            <div className="container">
+            <div className="container-img">
               <h2>Jessica Ebeye</h2>
               <p>Team lead,Product design</p>
             </div>
@@ -43,7 +43,7 @@ function Team() {
         <div className="column">
           <div className="card">
             <img src={img3} className="card-img"  alt="Fegho Emede"></img>
-            <div className="container">
+            <div className="container-img">
               <h2>Fego Emede</h2>
               <p>Team lead,Product Management</p>
             </div>
@@ -53,7 +53,7 @@ function Team() {
         <div className="column">
           <div className="card">
             <img src={img4} className="card-img" alt="Stella Igidi"></img>
-            <div className="container">
+            <div className="container-img">
               <h2>Stella Igidi</h2>
               <p>Team lead,D.M.C.C</p>
             </div>
@@ -62,7 +62,7 @@ function Team() {
         <div className="column">
           <div className="card">
             <img src={img5} className="card-img"  alt="Damilola Omotayo"></img>
-            <div className="container">
+            <div className="container-img">
               <h2>Damilola Omotayo</h2>
               <p>Team lead,Graphics</p>
             </div>
@@ -72,7 +72,7 @@ function Team() {
           <div className="card">
             
             <img src={img6} className="card-img" alt="Fahad Sarki"></img>
-            <div className="container">
+            <div className="container-img">
               <h2>Fahad Sarki</h2>
               <p>Team lead,Frontend development</p>
             </div>
@@ -81,7 +81,7 @@ function Team() {
          <div className="column">
           <div className="card">
             <img src={img7} className="card-img"  alt="Matachi Ononuju"></img>
-            <div className="container">
+            <div className="container-img">
               <h2>Matachi Ononuju</h2>
               <p>Team lead, Quality Assurance</p>
             </div>
@@ -90,7 +90,7 @@ function Team() {
          <div className="column">
           <div className="card">
             <img src={img8} className="card-img"  alt="Elozona Udoh"></img>
-            <div className="container">
+            <div className="container-img">
               <h2>Elozona Udoh</h2>
               <p>Team lead,Ms Office</p>
             </div>
@@ -99,7 +99,7 @@ function Team() {
          <div className="column">
           <div className="card">
             <img src={img9} className="card-img"  alt="Toyosi Akpan"></img>
-            <div className="container">
+            <div className="container-img">
               <h2>Toyosi Akpan</h2>
               <p>Team lead,C.R.M</p>
             </div>
