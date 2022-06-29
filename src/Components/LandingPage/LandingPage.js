@@ -1,8 +1,10 @@
 import React from 'react'
-import NewsLetter from './NewsLetter/NewsLetter'
+import NewsLetter from '../LandingPage/NewsLetter/NewsLetter'
 import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
 import Team from './Team/Team'
+import FinancialServices from "../LandingPage/FinancialServices/FinancialServices"
+import Services from "../LandingPage/Services/Services"
 
 function LandingPage() {
   return (
@@ -10,6 +12,8 @@ function LandingPage() {
         <Navbar />
         <NewsLetter />
         <Team />
+        <Services />
+        <FinancialServices />
         {/* <Footer /> */}
     </div>
   )
