@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box
+}
+
+.row{
+    display:flex;
+    margin:20px;
+    padding:20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.column{
+   width: 25%;
+    text-align: center;
+    margin: 45px 0 0 2%;
+    flex-grow: 1;
+    font-size: 18px;
+    
+}
+.team{
+    text-align: center;
+    font-size: 20px;
+}
+.container{
+    padding: 0 16px;
+}
+.card{
+    border: 2px solid grey;
+    width: 300px;
+    border-radius:15px;
+    height:400px
+}
+img{
+    border-radius: 50%;
+    border:2px solid grey;
+    background-color:grey;
+    height:40%;
+    width:50%;
+    margin-top:50px
+}
+.last-column{
+    width: 31%;
+    text-align: center;
+    margin: 45px 0 0 2%;
+    font-size: 18px;
+}
+.cards{
+    border: 2px solid grey;
+    width: 300px;
+    border-radius:15px;
+    height:400px
+}
