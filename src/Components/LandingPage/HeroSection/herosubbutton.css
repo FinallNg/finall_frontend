@@ -1,0 +1,14 @@
+.hero-sub-button button {
+    padding: 12px 20px;
+    background-color: #fff;
+    color: #1A33B2;
+    border: 1px solid #b8bfe4;
+    border-radius: 5px;
+    font-size: 70%;
+    font-weight: 500
+}
+
+.hero-sub-button button:active,
+.hero-sub-button button:hover {
+    text-decoration: underline;
+}
