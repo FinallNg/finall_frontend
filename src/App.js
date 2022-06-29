@@ -1,10 +1,12 @@
-
+import Footer from "./Components/Footer/Footer"
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-     <p>Finall Frontend</p>
+    <div>
+     
+   <Footer />
+     
     </div>
   );
 }
