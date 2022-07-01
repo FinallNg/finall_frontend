@@ -1,10 +1,11 @@
 
 import './App.css';
+import FeatureCover from './Components/LandingPage/FeatureCover/FeatureCover';
 
 function App() {
   return (
     <div className="App">
-     <p>Finall Frontend</p>
+    <FeatureCover/>
     </div>
   );
 }
