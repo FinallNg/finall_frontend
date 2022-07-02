@@ -1,8 +1,8 @@
 .footer-container{
-    position: absolute;  
-    width: 1850px;
-    height: 487px;
-    left: 168px; 
+    position: relative; 
+    width: 1353px;
+    height: 427px;    
+    /* left: 168px;  */
     top: 0px;
     background: #1A33B2;
 }
@@ -11,7 +11,7 @@
 width: 137.37px;
 height: 153px;
 left: 197px;
-top: 85px;
+top: 45px;
 }
 .fi{
     position: absolute;
@@ -21,8 +21,8 @@ top: 85px;
     top: 118px;
     font-family: 'Lato';
     font-style: normal;
-    font-weight: 200;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 40px;
     line-height: 48px;
     color: #FFFFFF;
     
@@ -39,7 +39,7 @@ top: 198px;
 color: #FFFFFF;
 font-family: 'Lato';
 font-style: normal;
-font-weight: 200;
+font-weight: 500;
 font-size: 14px;
 line-height: 29px;
 }
@@ -55,21 +55,28 @@ left: 916.1px;
 
 font-family: 'Lato';
 font-style: normal;
- font-weight: 200; 
+ font-weight: 500; 
 font-size: 14px;
- /* line-height: 30px;  */
+ line-height: 30px; 
  color: #FFFFFF;
 }
+.footer-hr2{
+    width: 0px;
+    
+}
+/* .footer-vector{
+    top: 71px;
+} */
 .footer-link{
     position: absolute;
-    width: 186.28px;
+    width: 168.28px;
     height: 120px;
-    left: 1240.79px; 
+    left: 1050.79px; 
     top: 71px;
-    
+    line-height: 30px; 
     font-family: 'Lato';
     font-style: normal;
-    font-weight: 200;
+    font-weight: 500;
     font-size: 14px;
      color: #FFFFFF;
 }
@@ -78,26 +85,30 @@ font-size: 14px;
 position: absolute;
 width: 135.29px;
 height: 90px;
-left: 1581px;
+left: 1205px;
 top: 71px;
 color: #FFFFFF;
 font-family: 'Lato';
 font-style: normal;
-font-weight: 200;
+font-weight: 500;
 font-size: 14px;
-/* line-height: 30px; */
+line-height: 30px; 
+}
+.footer-hr3{
+    top: 0px;
+    width: 0px;
 }
 
 .footer-text2{
     position: absolute;
 width: 216px;
-height: 48px;
-left: 910px;
+height: 58px;
+left: 950px;
 top: 217px;
 color: #FFFFFF;
 font-family: 'Lato';
 font-style: normal;
-font-weight: 400;
+font-weight: 500;
 font-size: 14px;
 line-height: 36px;
 display: flex;
@@ -105,15 +116,16 @@ align-items: center;
 }
 .footer-icon1{
      position: absolute;
-left: 910px; 
+left: 700px; 
 right: 8.33%; 
 top: 60.04%;
 bottom: 27.12%;
 color: #FFFFFF;
+
 }
 .footer-icon2{
     position: absolute;
-left: 950px;
+left: 800px;
 right: 8.58%;
 top: 60.04%;
 bottom: 8.33%;
@@ -121,7 +133,7 @@ color: #FFFFFF
 }
 .footer-icon3{
     position: absolute;
-    left: 1000px;
+    left: 900px;
     right: 8.58%;
     top: 60.04%;
     bottom: 8.33%;
@@ -129,48 +141,184 @@ color: #FFFFFF
 }
 .footer-icon4{
     position: absolute;
-    left: 1050px;
+    left: 1000px;
     right: 8.58%;
     top: 60.04%;
     bottom: 8.33%;
     color: #FFFFFF
 }
-hr{
+.footer-icon5{
+    color: #FFFFFF;
+    left: 1100px;
+    right: 8.58%;
+    top: 60.04%;
+    bottom: 8.33%;
+}
+.footer-hr1{
     position: absolute;
 width: 1653.63px;
 height: 0px;
-left: 171.67px;
+left: 90.67px;
 top: 357px;
-
-
 border: 1px solid #FFFFFF;
 }
 .footer-text3{
     position: absolute;
 width: 446.45px;
 height: 30px;
-left: 771.1px;
+left: 571.1px;
 top: 400px;
 font-family: 'Lato';
 font-style: normal;
-font-weight: 200;
+font-weight: 500;
 font-size: 14px;
 line-height: 30px;
 color: #FFFFFF;
 }
 
-@media screen and (min-width:600px){
+@media screen and (max-width: 600px){
     .footer-container{
-        flex: 1 0px;
+     display: block;
+     flex-direction: column;
+     align-items: center;
+      width: 438px; 
+height: 1087px; 
+/* left: -6px; */
+/* top: 72px; */
+     
     }
-    
-}
-@media  (max-width:600px){
-    .footer{
-        padding: 15px;
+    .footer-image{
+     width: 84px;
+     height: 93.56px;
+     left: 107px;
+     top: 27px
+    } 
+    .fi{
+        width: 85.91px;
+height: 29.35px;
+left: 182.09px;
+top: 108.41px;
     }
-    .footer-container{
-        font-size: 55px;
+    .footer-text{
+        width: 338px;
+        height: 96px; 
+        left: 80px;
+        top: 180px;
+        font-size: 17px;
+        line-height: 24px;
+        text-align: center;
     }
-}
+    .footer-text2{
+        width: 187px;
+height: 48px;
+left: 200px;
+top: 270px;
+font-size: 17px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+    }
+    .footer-icon1{
+     left: 0.1%;
+     right: 0%;
+     top: 29.25%;
+     bottom: 6.25%;
 
+    }
+    .footer-icon2{
+     left: 12%;
+     right: 0%;
+     top: 29.25%;
+     bottom: 6.25%;
+
+    }
+    .footer-icon3{
+        left: 25%;
+     right: 0%;
+     top: 29.25%;
+     bottom: 6.25%;
+    }
+    .footer-icon4{
+        left: 39%;
+        right: 0%;
+        top: 29.25%;
+        bottom: 6.25%;
+    }
+    .footer-final{
+        /* width: 97px;
+        height: 32px; */
+        left: 35px;
+        top: 350px;
+        font-size: 17px;
+        line-height: 32px; 
+        /* border-bottom: 1px solid #FFFFFF; */
+        /* border-width: ;
+        transform: rotate(0.18deg); */
+    }
+    .footer-hr2{
+        width: 335px;
+        height: 0px;
+        left: 20px;
+        top: 720px;
+        border: 1px solid #FFFFFF;
+        transform: rotate(0.18deg);
+    }
+    /* .footer-vector{
+         left: 20px;
+    } */
+    .footer-link{                         
+        /* width: 335px;
+        height: 0px; */
+        left: 1px;
+        top: 550px;
+        /* border: 1px solid #FFFFFF;
+        transform: rotate(0.18deg);  */
+        font-size: 17px;
+        line-height: 32px;
+    }
+    /* hr{
+        width: 335px;
+height: 0px;
+left: 20px;
+top: 550px;
+
+border: 1px solid #FFFFFF;
+transform: rotate(0.18deg);
+    } */
+    .footer-support{
+        /* width: 335px;
+        height: 0px; */
+        left: 0.5rem;
+        top: 750px;
+        /* border: 1px solid #FFFFFF; */
+        font-size: 17px;
+        line-height: 32px
+        
+    }
+    .footer-hr3{
+        width: 335px;
+        height: 0px;  
+        left: 50px;
+        top: 720px;
+        border: 1px solid #FFFFFF;
+        transform: rotate(0.18deg); 
+    }
+     .footer-hr1{
+        width: 335px;
+height: 0px;
+left: 20px;
+top: 720px;
+border: 1px solid #FFFFFF;
+ transform: rotate(0.18deg); 
+    }
+    .footer-text3{
+        width: 324px;
+height: 30px;
+left: 20px;
+top: 1000px;
+font-size: 18px;
+line-height: 30px;
+    }
+   
+}
