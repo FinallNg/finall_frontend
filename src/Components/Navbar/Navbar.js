@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom'
 import './Navbar.css'
 
 function Navbar() {
@@ -14,20 +14,19 @@ function Navbar() {
   
           <div>
               <ul>
-                <li><Link to ='/'><a href="r" className='active'>Home</a></Link></li>
-                <li><Link to ='/about'>About</Link></li>
-                <li><Link to ='/services'>Services</Link></li>
-                <li><Link to ='/pricing'>Pricing</Link></li>
-                <li><Link to ='/contact'>Contact Us</Link></li> 
+                <li><NavLink exact activeClassName="active" to ='/'>Home</NavLink></li>
+                <li><NavLink exact activeClassName="active" to ='/about'>About</NavLink></li>
+                <li><NavLink exact activeClassName="active" to ='/services'>Services</NavLink></li>
+                <li><NavLink exact activeClassName="active" to ='/pricing'>Pricing</NavLink></li>
+                <li><NavLink exact activeClassName="active" to ='/contact'>Contact Us</NavLink></li> 
               </ul>
   
           </div>
   
           <div>
-              <a href='#' className='cta'>Login</a>
-              {/* <Link to='/login' className='cta'><a href='w'>Login</a></Link> */}
-              {/* <button className='cta'><Link to='/signup'>Get Started</Link></button> */}
-              <button className='cta'>Get Started</button>
+              <Link className='cta' to='/login'> Login</Link>
+
+              <button className='cta'><Link to='/signup'>Get Started</Link></button>
           </div>
       </header>
     )
