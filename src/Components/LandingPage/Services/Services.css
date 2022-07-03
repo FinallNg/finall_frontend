@@ -2,8 +2,6 @@
 
 .services {
   position: relative;
-  margin-top: 10%;
-  margin-bottom: 10%;
   max-width: 1440px;
   overflow: hidden;
 }

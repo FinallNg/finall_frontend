@@ -20,7 +20,7 @@
 }
 
 .financial-services .container {
-  margin-top: 40vh; /** To be removed: For the purpose of spacing the top**/
+  margin-top: 30vh; /** To be removed: For the purpose of spacing the top**/
   display: flex;
   width: 100%;
   background-color: #151515;
