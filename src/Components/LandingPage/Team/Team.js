@@ -10,8 +10,8 @@ import img7 from "../../../assets/img7.png";
 import img8 from "../../../assets/img8.png";
 import img10 from "../../../assets/img10.png";
 import img9 from "../../../assets/img9.jpg"
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+// import Carousel from "react-multi-carousel";
+// import "react-multi-carousel/lib/styles.css";
 
 
 function Team() {

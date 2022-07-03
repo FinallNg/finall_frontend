@@ -1,0 +1,84 @@
+.feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 50vh;
+    padding: 0 30rem 0 20rem;
+    font-family: 'Lato';
+}
+
+.header{
+    display: flex;
+    position: relative;
+    flex: 1;
+    gap: 5rem;
+    left: -200px;
+    top: -40px;
+}
+
+.header :nth-of-type(1){
+    color: var(--finall2);
+    font-family: 'Lato';
+    width: 849.03px;
+    height: 68px;
+    top: 200px;
+    left: -12rem;
+    font-style: normal;
+    align-items: center;
+    position: absolute;
+    font-weight: bolder;
+    size: 42px;
+    font-size: 2rem;
+    display: flex;
+}
+
+
+.header :nth-of-type(2){
+    color: var(--finall3);
+    font-family: "Lato";
+    width: 849.03px;
+    height: 68px;
+    top: 200px;
+    left: 0.2rem;
+    font-style: normal;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    font-weight: bold;
+    font-size: 2rem;
+    size: 42px;
+}
+
+.header :nth-of-type(3){
+    color: var(--finall2);
+    font-family: "Lato";
+    width: 849.03px;
+    height: 68px;
+    top: 200px;
+    left: 15.5rem;
+    font-style: normal;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+
+.content{
+    color: white;
+    font-size: 16px;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.content > *{
+    position: absolute;
+}
+
+

@@ -59,6 +59,13 @@ button.cta {
     cursor: pointer;
 }
 
+button a {
+    text-decoration: none;
+    color: #fff;
+    /* color: #1A33B2; */
+    font-weight: bold;
+}
+
 
 @media (min-width: 768px) {
     header {
