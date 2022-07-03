@@ -1,5 +1,5 @@
 import React from 'react'
-import './HeroSection.css'
+import './herosection.css'
 import HeroSectionButton from './HeroSectionButton'
 import HeroSubButton from './HeroSubButton'
 
