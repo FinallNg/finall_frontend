@@ -1,73 +1,35 @@
+import React from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
+import { NavLink, Link } from 'react-router-dom'
+import './Navbar.css'
 
 function Navbar() {
-  return (
-    <header>
-        <div>
-            {/* <h2>Finall</h2> */}
-            <img src={logo} alt='logo' />
-        </div>
+    return (
+      <header>
+          <div>
+              {/* <h2>Finall</h2> */}
+              <img src={logo} alt='logo' />
+          </div>
+  
+          <div>
+              <ul>
+                <li><NavLink exact activeClassName="active" to ='/'>Home</NavLink></li>
+                <li><NavLink exact activeClassName="active" to ='/about'>About</NavLink></li>
+                <li><NavLink exact activeClassName="active" to ='/services'>Services</NavLink></li>
+                <li><NavLink exact activeClassName="active" to ='/pricing'>Pricing</NavLink></li>
+                <li><NavLink exact activeClassName="active" to ='/contact'>Contact Us</NavLink></li> 
+              </ul>
+  
+          </div>
+  
+          <div>
+              <Link className='cta' to='/login'> Login</Link>
 
-        {/* <div className="nav-links">
-            <ul>
-               <Link to='/'> 
-                    <li>Home</li> 
-                </Link>
-
-                <Link to="/about">
-                    <li>
-                        About Us
-                    </li>
-                </Link>
-
-                <Link to="/contact">
-                    <li>
-                        Contact Us
-                    </li>
-                </Link>
-                
-                
-            </ul> 
-        </div> */}
-
-        {/* <input type="checkbox" /> */}
-
-
-        <div>
-            <ul>
-                <li>
-                    <a className='active' href='#'>Home</a>
-                </li>
-
-                <li>
-                    <a href='#'>About</a>
-                </li>
-
-                <li>
-                    <a href='#'>Services</a>
-                </li>
-
-                <li>
-                    <a href='#'>Pricing</a>
-                </li>
-
-                <li>
-                    <a href='#'>Contact Us</a>
-                </li>
-            </ul>
-
-        </div>
-
-        <div>
-            {/* <button>Login</button> */}
-
-            <a href='#' className='cta'>Login</a>
-
-            <button className='cta'>Get Started</button>
-        </div>
-    </header>
-  )
-}
-
-export default Navbar
+              <button className='cta'><Link to='/signup'>Get Started</Link></button>
+          </div>
+      </header>
+    )
+  }
+  
+  export default Navbar
