@@ -9,7 +9,7 @@
 }
 
 .services h2 {
-  color: #1a33b2;
+  color: var(--finall2);
   font-size: 50px;
   font-weight: 600;
   line-height: 60px;
@@ -33,13 +33,16 @@
 }
 
 .card-img {
-  width: 152x;
-  height: 152px;
+  width: 152px !important;
+  height: 152px !important;
   object-fit: cover;
+  border-radius: 0;
+  border: none;
+  margin-top: 0;
 }
 
 .card-body {
-  color: #1a33b2;
+  color: var(--finall2);
   padding: 0 24px;
   font-family: "Lato", sans-serif;
 }
@@ -62,7 +65,7 @@
 .card-container-active {
   max-width: 359px;
   height: 435px;
-  background: #1a33b2;
+  background: var(--finall2);
   box-shadow: 4px 4px 50px #e6eaee;
   border-radius: 20px;
 }
@@ -115,7 +118,7 @@
   line-height: 1;
   margin-top: -2em;
   cursor: pointer;
-  background: #1a33b2;
+  background: var(--finall2);
   width: 72px;
   height: 72px;
   border-radius: 50%;
@@ -135,4 +138,52 @@
 .slide-icons {
   font-size: 25px;
   color: #fff;
+}
+
+@media screen and (max-width: 640px) {
+  .card-container,
+  .card-container-active {
+    height: 401.82px;
+  }
+
+  .card-img,
+  .card-img-active {
+    width: 82.26px !important;
+    height: 88.36px !important;
+  }
+
+  .card-title,
+  .card-title-active {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .card-img-container,
+  .card-img-container-active {
+    padding-top: 41.09px;
+    padding-bottom: 21.66px;
+  }
+
+  .card-title,
+  .card-title-active {
+    margin-bottom: 10px;
+  }
+
+  .slide-arrow {
+    width: 42.55px;
+    height: 42.55px;
+    background: #f5faff;
+  }
+
+  .slide-icons {
+    color: #0b1f8e;
+  }
+
+  .prev {
+    left: 24.56px !important;
+  }
+
+  .next {
+    right: 24.56px !important;
+  }
 }
