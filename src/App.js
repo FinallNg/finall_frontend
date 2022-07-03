@@ -1,16 +1,17 @@
 import './App.css';
 import LandingPage from './Components/LandingPage/LandingPage';
-
+import Test from "./test"
 
 
 function App() {
   return (
     <div className="App">
-      <LandingPage />
+       <LandingPage />
+      {/* <Test /> */}
       
 
-     {/* <p>Finall Frontend</p> */}
-  
+    {/* <p>Finall Frontend</p> */}
+
     </div>
   );
 }
