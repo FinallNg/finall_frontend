@@ -8,7 +8,11 @@
     padding:20px;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
+    }
+@media(max-width:500px){
+    .row{
+        display:block;
+    }
 }
 .column{
    width: 25%;
@@ -25,12 +29,17 @@
 .container{
     padding: 0 16px;
 }
+
 .card{
     border: 2px solid grey;
     width: 300px;
     border-radius:15px;
     height:400px;
-    
+}
+@media(max-width:500px){
+    .card{
+        margin-left:-14px;
+    }
 }
 .card-img{
     border-radius: 50%;
@@ -49,5 +58,10 @@
     border: 2px solid grey;
     width: 300px;
     border-radius:15px;
-    height:400px
+   height:400px
+}
+@media(max-width:500px){
+    .cards{
+        margin-left: -14px;
+    }
 }
