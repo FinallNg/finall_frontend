@@ -14,7 +14,7 @@ const Pricing = () => {
           <PricingButton1 />
         </div>
         <div className='price'><h5>Free</h5></div>
-        <div className='price-desc'><h6>3 months trail</h6></div>
+        <div className='price-desc'><h6>3 months trial</h6></div>
         <div className='pricing-para1'><p>Free Plan for all users</p></div>
         <div className='pricing-para2'><p>Maximum of 2 accounts</p></div>
         <div className='pricing-button2'>
@@ -47,7 +47,7 @@ const Pricing = () => {
           <h5><span>$25/</span>month</h5>
         </div>
         <div className='price-desc'><h6>Small teams with up to 10 users</h6></div>
-        <div className='pricing-para1'><p>Everything in Professional</p></div>
+        <div className='pricing-para1'><p>Everything in standard</p></div>
         <div className='pricing-para1'><p>Share team workspace with upto 10 users</p></div>
         <div className='pricing-para1'><p>Custom storage plans</p></div>
         <div className='pricing-para1'><p>Custom branding</p></div>
