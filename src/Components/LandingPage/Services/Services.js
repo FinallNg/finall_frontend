@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 
-import "./Services.css";
+// import "./Services.css";
 
 import Image1 from "../../../assets-svg/services-3.svg";
 import Image2 from "../../../assets-svg/services-2.svg";
