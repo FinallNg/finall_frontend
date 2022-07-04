@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroSubButton from '../HeroSection/HeroSubButton'
-import './spendinghabit.css'
+import './SpendingHabit.css'
 
 const SpendingHabit = () => {
   return (
