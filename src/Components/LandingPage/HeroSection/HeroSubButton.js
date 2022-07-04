@@ -1,5 +1,5 @@
 import React from 'react'
-import './HeroSubButton.css'
+import './herosubbutton.css'
 
 const HeroSubButton = () => {
   return (
