@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
 .footer-container{
     position: relative; 
-    width: 1353px;
+    width: 1349px;
     height: 427px;    
     /* left: 168px;  */
     top: 0px;
@@ -155,10 +157,10 @@ color: #FFFFFF
     bottom: 8.33%;
 }
 .footer-hr1{
-    position: absolute;
-width: 1653.63px;
+    position: relative;
+width: 1126px;
 height: 0px;
-left: 90.67px;
+left: 120px;
 top: 357px;
 border: 1px solid #FFFFFF;
 }
