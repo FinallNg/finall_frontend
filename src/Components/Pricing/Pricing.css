@@ -4,7 +4,6 @@
     justify-content: center;
     align-items: center;
     margin: 80px 0px;
-    border: 1px solid blue;
 }
 
 .pricing-box {
@@ -72,7 +71,9 @@
 
 .pricebutton1 button:active,
 .pricebutton1 button:hover {
-    border: 2px solid rgb(131, 180, 182);;
+    border: 2px solid rgb(131, 180, 182);
+    text-decoration: underline;
+    text-decoration-color:rgb(131, 180, 182) ;
 }
 
 .price h5 {
@@ -130,7 +131,6 @@
     text-decoration-color: #668088;
 
 }
-
 
 
 
