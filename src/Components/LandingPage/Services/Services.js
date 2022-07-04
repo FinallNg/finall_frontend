@@ -60,7 +60,7 @@ const Services = () => {
       <Swiper
         modules={[Navigation, Autoplay, A11y]}
         spaceBetween={25}
-        slidesPerView={3.5}
+        slidesPerView={1.2}
         loop={true}
         lazy={true}
         onInit={(swiper) => {
@@ -75,12 +75,12 @@ const Services = () => {
         }}
         breakpoints={{
           320: {
-            slidesPerView: 2,
+            slidesPerView: 1.2,
             spaceBetween: 10,
           },
           640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
+            slidesPerView: 2.5,
+            spaceBetween: 33,
           },
           768: {
             slidesPerView: 2.5,
