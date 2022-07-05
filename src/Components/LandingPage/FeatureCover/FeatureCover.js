@@ -12,9 +12,9 @@ const FeatureCover = () => {
   return (
     <div className='feature'>
     <div className='header'>
-      <span>We have your </span>
-      <span> Business Account </span>
-      <span> covered too </span>
+      <span>We have your  </span>
+      <span>  Business Account </span>
+      <span>  covered too </span>
     </div>
 
 

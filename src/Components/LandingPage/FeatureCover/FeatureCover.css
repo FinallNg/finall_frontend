@@ -4,18 +4,24 @@
     justify-content: center;
     flex-direction: column;
     position: relative;
-    height: 50vh;
-    padding: 0 30rem 0 20rem;
+    height: 90vh;
+    padding: 20px;
     font-family: 'Lato';
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-bottom: 5rem;
 }
 
 .header{
     display: flex;
     position: relative;
     flex: 1;
-    gap: 5rem;
     left: -200px;
-    top: -40px;
+    top: -100px;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    font-size: 18px;
+    
 }
 
 .header :nth-of-type(1){
@@ -41,7 +47,7 @@
     width: 849.03px;
     height: 68px;
     top: 200px;
-    left: 0.2rem;
+    left: 0.7rem;
     font-style: normal;
     align-items: center;
     position: absolute;
@@ -57,7 +63,7 @@
     width: 849.03px;
     height: 68px;
     top: 200px;
-    left: 15.5rem;
+    left: 17rem;
     font-style: normal;
     align-items: center;
     position: absolute;
@@ -69,16 +75,16 @@
 
 
 .content{
-    color: white;
     font-size: 16px;
     align-items: center;
-    gap: 15px;
-    margin-top: 25px;
+    margin-top: 10px;
     position: relative;
+    top: -250px;
+    left: -75px;
 }
 
 .content > *{
-    position: absolute;
+    position:absolute;
 }
 
 
