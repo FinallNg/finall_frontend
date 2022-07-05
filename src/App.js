@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
-// import FeatureCover from "./Components/LandingPage/FeatureCover/FeatureCover";
 import ContactUs from "./Components/ContactUsPage/ContactUs";
 import LandingPage from "./Components/LandingPage/LandingPage";
 import Login from "./Components/Login/Login";
