@@ -10,6 +10,8 @@ import AboutUs from './Components/AboutUs/AboutUs';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import Services from './Components/Services/Services';
+import Help from './Components/Dashboard/Help/Help';
+
 
 
 function App() {
@@ -27,7 +29,10 @@ function App() {
           <Route exact path='/signup' element={<SignUp />} />
         </Routes>
         <Footer />
+        {/* <Help /> */}
+        
       </BrowserRouter>
+      
       
     </div>
   );
