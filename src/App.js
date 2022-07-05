@@ -27,7 +27,7 @@ function App() {
           <Route exact path="/contact" element={<ContactUs />} />
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/signup" element={<SignUp />} />
-          <Routes exact path="./dashboard" element={<Dashboard/>} /> 
+          <Routes exact path="/dashboard" element={<Dashboard/>} /> 
         </Routes>
         <Footer />
       </BrowserRouter>
