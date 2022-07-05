@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
-import FeatureCover from "./Components/LandingPage/FeatureCover/FeatureCover";
+// import FeatureCover from "./Components/LandingPage/FeatureCover/FeatureCover";
 import ContactUs from "./Components/ContactUsPage/ContactUs";
 import LandingPage from "./Components/LandingPage/LandingPage";
 import Login from "./Components/Login/Login";
@@ -27,7 +27,7 @@ function App() {
           <Route exact path="/contact" element={<ContactUs />} />
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/signup" element={<SignUp />} />
-          <Routes exact path="/dashboard" element={<Dashboard/>} /> 
+          <Route exact path="/dashboard" element={<Dashboard/>} /> 
         </Routes>
         <Footer />
       </BrowserRouter>
