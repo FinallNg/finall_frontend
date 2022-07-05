@@ -5,7 +5,9 @@ import NewsLetter from './NewsLetter/NewsLetter'
 import Team from './Team/Team'
 import FinancialServices from "../LandingPage/FinancialServices/FinancialServices"
 import Services from "../LandingPage/Services/Services"
-// import FeatureCover from './FeatureCover/FeatureCover'
+import FeatureCover from './FeatureCover/FeatureCover'
+
+
 
 
 function LandingPage() {
@@ -16,7 +18,7 @@ function LandingPage() {
         <SpendingHabit />
         <FinancialServices />
         <Team />
-        {/* <FeatureCover/> */}
+        <FeatureCover />
         <NewsLetter />
     </div>
   )
