@@ -11,41 +11,45 @@
     background: rgba(255, 255, 255, 0.26);
     border: 5px solid var(--white);
     border-radius: 20px;
-    padding: 0px 10px 2px 26px;
+    padding: 0px 3px 2px 3px;
     font-weight: bold;
 }
 
 
 .wrangler   span:nth-of-type(1) {
     color: #0F1928;
+    position: absolute;
+    width: 149px;
     font-size: 18px;
     align-items: center;
     top:71px;
     left: -20px;
+    flex-direction: column;
 }
 
 .wrangler span:nth-of-type(2){
     color: #6F757E;
     position: absolute;
-    width: 233px;
+    width: 200px;
     height: 45px;
-    left: -50px;
+    left: -52px;
     top: 120px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px;
     display: flex;
     align-items: center;
     text-align: center;
+    flex-direction: column;
 }
 
 .wrangler > img{
     position: absolute;
     left:18%;
     height:50px;
-    width: 50px;
+    width: 60px;
     transform: scale(1.5);
     align-items: center;
 }
