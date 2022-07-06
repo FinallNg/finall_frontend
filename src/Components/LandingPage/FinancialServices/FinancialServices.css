@@ -15,19 +15,16 @@
   overflow: hidden;
 }
 
-.container {
-  padding: 0 0;
-}
-
 .financial-services .container {
   margin-top: 30vh; /** To be removed: For the purpose of spacing the top**/
   display: flex;
   width: 100%;
   background-color: #151515;
   height: 156px;
+  padding: 0 0;
 }
 
-.col-left {
+.financial-services .col-left {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -36,7 +33,7 @@
   margin-top: 13px;
 }
 
-.row-1 h3 {
+.financial-services .row-1 h3 {
   color: var(--white);
   font-family: var(--font-lato);
   font-weight: 700;
@@ -45,16 +42,16 @@
   text-align: center;
 }
 
-.row-2 {
+.financial-services .row-2 {
   margin-top: 13px;
   display: flex;
 }
 
-.btn-wrapper {
+.financial-services .btn-wrapper {
   margin-right: 5px;
 }
 
-.btn-wrapper button {
+.financial-services .btn-wrapper button {
   background-color: var(--finall2);
   border-radius: 8px;
   font-weight: 700;
@@ -70,7 +67,7 @@
   line-height: 16px;
 }
 
-.row-2 a {
+.financial-services .row-2 a {
   color: #cfe6fc;
   display: flex;
   align-items: center;
@@ -82,32 +79,32 @@
   line-height: 16px;
 }
 
-.row-2 a span {
+.financial-services .row-2 a span {
   font-family: var(--font-lato);
   margin-right: 12px;
 }
 
-.arrow-icon {
+.financial-services .arrow-icon {
   position: relative;
   top: 1px;
   height: 8px;
   width: 8px;
 }
 
-.col-right {
+.financial-services .col-right {
   width: 50%;
   display: flex;
   justify-content: space-evenly;
 }
 
-.col-right .img-container {
+.financial-services .col-right .img-container {
   width: 174px;
   height: 176px;
   position: relative;
-  bottom: 40px;
+  bottom: 50px;
 }
 
-.col-right img {
+.financial-services .col-right img {
   width: 100%;
   display: block;
 }
@@ -119,51 +116,51 @@
     position: relative;
   }
 
-  .row-1 {
+  .financial-services .row-1 {
     width: 552px;
   }
 
-  .row-1 h3 {
+  .financial-services .row-1 h3 {
     font-size: 42px;
     line-height: 52px;
     text-align: left;
   }
 
-  .col-left {
+  .financial-services .col-left {
     margin-left: 56px;
     z-index: 100;
   }
 
-  .row-2 {
+  .financial-services .row-2 {
     margin-top: 40px;
   }
 
-  .btn-wrapper {
+  .financial-services .btn-wrapper {
     margin-right: 32px;
   }
 
-  .btn-wrapper button {
+  .financial-services .btn-wrapper button {
     padding: 20px 32px;
     font-size: 18px;
     line-height: 28px;
   }
 
-  .row-2 a {
+  .financial-services .row-2 a {
     font-size: 18px;
     line-height: 24px;
   }
 
-  .row-2 a span {
+  .financial-services .row-2 a span {
     margin-right: 14px;
   }
 
-  .arrow-icon {
+  .financial-services .arrow-icon {
     width: 12px;
     height: 12.01px;
     top: 2px;
   }
 
-  .col-right .img-container {
+  .financial-services .col-right .img-container {
     position: absolute;
     z-index: 50;
     width: 456px;
@@ -174,19 +171,19 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .row-1 {
+  .financial-services .row-1 {
     width: 652px;
   }
 
-  .col-left {
+  .financial-services .col-left {
     margin-left: 156px;
   }
 
-  .col-right .img-container {
+  .financial-services .col-right .img-container {
     right: 120px;
   }
 
-  .col-right .img-container {
+  .financial-services .col-right .img-container {
     width: 556px;
     height: 654px;
   }

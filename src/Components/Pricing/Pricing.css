@@ -3,8 +3,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin: 80px 0px;
-    border: 1px solid blue;
+    margin: 0px 0px 90px 0px;
 }
 
 .pricing-box {
@@ -40,7 +39,7 @@
 }
 
 
-.pricing-button1 {
+.pricing-button1, .pricing-button5 {
     width: 100%;
     display: flex;
     align-items: center;
@@ -49,17 +48,7 @@
     margin-top: 50px;
 }
 
-
-.pricebutton1 {
-    
-
-}
-
-.pricebutton1 a {
-
-}
- 
-.pricebutton1 button {
+.pricebutton1 button, .pricing-button5 button {
     width: 95.59px;
     height: 41.36px;
     background-color: #E0ECFB; 
@@ -70,9 +59,18 @@
     letter-spacing: 1px;
 }
 
+.pricing-button5 button:active,
+.pricing-button5 button:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(131, 180, 182);
+    border: 2px solid rgb(131, 180, 182);
+}
+
 .pricebutton1 button:active,
 .pricebutton1 button:hover {
-    border: 2px solid rgb(131, 180, 182);;
+    border: 2px solid rgb(131, 180, 182);
+    text-decoration: underline;
+    text-decoration-color:rgb(131, 180, 182) ;
 }
 
 .price h5 {
@@ -81,12 +79,38 @@
     color: #0B1F8E;
 }
 
+.price h5:active,
+.price h5:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(131, 180, 182);
+}
+
 .price-desc h6 {
     color: #4D69FF;
     font-size: 80%;
     letter-spacing: 1px;
     word-spacing: 1px;
     margin-bottom: 15px;
+}
+
+.price-desc h6:active,
+.price-desc h6:hover,
+.pricing-para1:active,
+.pricing-para1:hover,
+.pricing-para2:active,
+.pricing-para2:hover,
+.standard-cost h5:active,
+.standard-cost h5:hover,
+.price-desc2:active,
+.price-desc2:hover,
+.price-desc2b:active,
+.price-desc2b:hover,
+.standard-para1:active,
+.standard-para1:hover,
+.standard-cost2 h5:active,
+.standard-cost2 h5:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(131, 180, 182);
 }
 
 
@@ -99,6 +123,8 @@
     margin-bottom: 15px;
 }
 
+
+
 .pricing-para2 {
     color: #0B1F8E;
     font-size: 75%;
@@ -109,10 +135,6 @@
 }
 
 
-.pricingbutton2 {
-
-}
-
 .pricingbutton2 button {
     padding: 10px;
     background-color:#1A33B2 ;
@@ -122,7 +144,9 @@
     border: none;
     border-radius: 5px;
     font-size: 70%;
+    margin-top: 40px;
 }
+
 
 .pricingbutton2 button:active,
 .pricingbutton2 button:hover {
@@ -132,23 +156,96 @@
 }
 
 
+.pricing-button3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 41.36px;
+    margin-top: 50px;
+}
 
 
+.pricing-button3 button {
+    width: 95.59px;
+    height: 41.36px;
+    background-color: #E6F5ED; 
+    border: none;
+    border-radius: 5px;
+    color: #4D69FF;
+    font-size: 70%;
+    letter-spacing: 1px;
+}
+
+.pricing-button3 button:active,
+.pricing-button3 button:hover {
+    text-decoration: underline;
+    text-decoration-color: #668088;
+
+}
 
 
+.standard-cost h5 {
+    margin: 30px 0px 15px 0px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.standard-cost h5 span {
+    font-size: 120%;
+}
+
+.price-desc2, .price-desc2b {
+    color: #fff;
+    font-size: 90%;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.standard-para1 {
+    color: #fff;
+    font-size: 70%;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.standard-para1 p span {
+    font-size: 120%;
+}
+
+.pricing-button4 button {
+    padding: 10px;
+    background-color: #E6F5ED;
+    color: #1A33B2;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+    font-size: 70%;
+    margin-top: 30px;
+}
+
+.pricing-button4 button:active,
+.pricing-button4 button:hover {
+    text-decoration: underline;
+    text-decoration-color: #668088;
+
+}
+
+.standard-cost2 h5 {
+    margin: 30px 0px 15px 0px;
+    letter-spacing: 1px;
+    color: #23AC00;
+}
+
+.standard-cost2 h5 span {
+    font-size: 120%;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.pricing-button6 {
+    margin-top: -25px;
+}

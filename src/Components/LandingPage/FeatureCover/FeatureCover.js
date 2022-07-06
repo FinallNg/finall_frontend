@@ -12,9 +12,9 @@ const FeatureCover = () => {
   return (
     <div className='feature'>
     <div className='header'>
-      <span>We have your </span>
-      <span> Business Account </span>
-      <span> covered too </span>
+      <span>We have your  </span>
+      <span>  Business Account </span>
+      <span>  covered too </span>
     </div>
 
 
@@ -48,7 +48,7 @@ const FeatureCover = () => {
 
 
 
-      <div style={{top:'8rem',left:'-16rem'}}>
+      <div style={{top:'10rem',left:'-16rem'}}>
        <Card
        icon = {Save}
        heading ={'Track debts'}
@@ -57,7 +57,7 @@ const FeatureCover = () => {
        </div>
 
 
-      <div style={{left:'-2rem',top:'8rem'}}>
+      <div style={{left:'-2rem',top:'10rem'}}>
        <Card
        icon = {Saved}
        heading ={'Pay yourself'}
@@ -66,7 +66,7 @@ const FeatureCover = () => {
        </div>
 
 
-      <div style={{left:'14rem',top:'8rem'}}>
+      <div style={{left:'14rem',top:'10rem'}}>
        <Card
        icon = {Chart}
        heading = {'Measure growth'}
