@@ -1,11 +1,11 @@
 import React from 'react'
-import Down from '../../assets/down.png'
-import Dollar from '../../assets/dollar.png'
-import Piggy from '../../assets/piggy.png'
-import Organize from '../../assets/organize.png'
-import Caution from '../../assets/caution.png'
-import Brief from '../../assets/brief.png'
-import Card from '../Card/Card'
+import Down from '../../../assets/down.png'
+import Dollar from '../../../assets/dollar.png'
+import Piggy from '../../../assets/piggy.png'
+import Organize from '../../../assets/organize.png'
+import Caution from '../../../assets/caution.png'
+import Brief from '../../../assets/brief.png'
+import Card from '../../Card/Card'
 import './Overview.css'
 
 const Overview = () => {
