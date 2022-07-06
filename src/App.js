@@ -12,6 +12,7 @@ import AboutUs from "./Components/AboutUs/AboutUs";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import Services from "./Components/Services/Services";
+import NewTeam from "./Components/LandingPage/Team/NewTeam";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<LandingPage />} />
+          {/* <Route exact path="/" element={<LandingPage />} /> */}
+          <Route exact path="/" element={<NewTeam />} />
           <Route exact path="/about" element={<AboutUs />} />
           <Route exact path="/services" element={<Services />} />
           <Route exact path="/pricing" element={<Pricing />} />
