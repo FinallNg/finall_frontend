@@ -10,7 +10,7 @@ import Image4 from "../../../assets-svg/services-4.svg";
 import Image5 from "../../../assets-svg/services-5.svg";
 
 // Swiper Core and required modules
-import SwiperCore, { A11y, Autoplay, Navigation } from "swiper";
+import SwiperCore, { A11y, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Swiper styles
@@ -58,20 +58,15 @@ const Services = () => {
   return (
     <div className="services">
       <Swiper
-        modules={[Navigation, Autoplay, A11y]}
+        modules={[Navigation, A11y]}
         spaceBetween={25}
         slidesPerView={1.2}
         loop={true}
-        lazy={true}
         onInit={(swiper) => {
           swiper.params.navigation.prevEl = prevRef.current;
           swiper.params.navigation.nextEl = nextRef.current;
           swiper.navigation.init();
           swiper.navigation.update();
-        }}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
         }}
         breakpoints={{
           320: {
