@@ -102,7 +102,7 @@ const SignUp = () => {
             </div>
             <div className="terms">
               <p>
-                By creating an accout you agree to the{" "}
+                By creating an account you agree to the{" "}
                 <a href className="terms-link">
                   terms of use
                 </a>{" "}
@@ -119,7 +119,7 @@ const SignUp = () => {
         </div>
 
         <div className="alt-login-container">
-          <span>Already have an acount? </span>
+          <span>Already have an account? </span>
           <span>
             <a href="/login">Log in</a>
           </span>
