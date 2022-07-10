@@ -20,7 +20,7 @@ const Logout = () => {
                   <p className='logout-text2'>Log out</p>
                 </div>
                 <div className='logout-box3'>
-                  <p className='logout-text2'>Cancel</p>
+                  <p className='logout-text3'>Cancel</p>
                 </div>
              </div>
 

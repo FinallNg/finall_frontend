@@ -1,4 +1,4 @@
-.feature{
+.features{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,11 +8,11 @@
     padding: 20px;
     font-family: 'Lato';
     flex-wrap: wrap;
-    margin: 20px;
+    margin: 40px;
     margin-bottom: 5rem;
 }
 
-.header{
+.headers{
     display: flex;
     position: relative;
     flex: 1;
@@ -24,7 +24,7 @@
     
 }
 
-.header :nth-of-type(1){
+.headers :nth-of-type(1){
     color: var(--finall2);
     font-family: 'Lato';
     width: 849.03px;
@@ -41,13 +41,13 @@
 }
 
 
-.header :nth-of-type(2){
+.headers :nth-of-type(2){
     color: var(--finall3);
     font-family: "Lato";
     width: 849.03px;
     height: 68px;
     top: 200px;
-    left: 0.7rem;
+    left: 21.1rem;
     font-style: normal;
     align-items: center;
     position: absolute;
@@ -57,24 +57,8 @@
     size: 42px;
 }
 
-.header :nth-of-type(3){
-    color: var(--finall2);
-    font-family: "Lato";
-    width: 849.03px;
-    height: 68px;
-    top: 200px;
-    left: 17rem;
-    font-style: normal;
-    align-items: center;
-    position: absolute;
-    display: flex;
-    font-weight: bold;
-    font-size: 2rem;
-}
 
-
-
-.content{
+.contents{
     font-size: 16px;
     align-items: center;
     margin-top: 10px;
@@ -83,8 +67,9 @@
     left: -75px;
 }
 
-.content > *{
+.contents > *{
     position:absolute;
+    gap: 2rem;
 }
 
 

@@ -8,7 +8,7 @@ import Logout from './Logout/Logout';
 import Overview from './Overview/Overview';
 import Settings from './Settings/Settings';
 import Sidebar from './Sidebar/Sidebar';
-import Transactions from './Transactions/Transactions';
+import Transactions from './Transactions/Transactions'
 const Dashboard = () => {
   return (
     <div>
