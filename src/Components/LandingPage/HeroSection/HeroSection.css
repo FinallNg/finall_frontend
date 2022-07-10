@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     background: linear-gradient( 5deg, #fff, #fff, #f0edf9);
-    height: 1650px;
+    height: 1440px;
     
 }
 
@@ -22,10 +22,13 @@
 
 .business, .goals, .spending {
     height:400px;
-    margin-bottom: 20px;
     margin: 60px 0px;
 }
 
+.spending {
+    margin-top: 120px;
+    margin-bottom: -150px;
+}
 
 .hero-container {
     display: flex;

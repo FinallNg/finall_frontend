@@ -10,8 +10,12 @@ import img7 from "../../../assets/img7.png";
 import img8 from "../../../assets/img8.png";
 import img10 from "../../../assets/img10.png";
 import img9 from "../../../assets/img9.jpg"
+// import Carousel from "react-multi-carousel";
+// import "react-multi-carousel/lib/styles.css";
+
 
 function Team() {
+  
   return (
     <>
       <div className="team">
@@ -21,7 +25,7 @@ function Team() {
           you
         </p>
       </div>
-      <div className="row">
+  <div className="row">
         <div className="column">
           <div className="card">
             <img src={img1} className="card-img" alt="Chris Okorie"></img>
