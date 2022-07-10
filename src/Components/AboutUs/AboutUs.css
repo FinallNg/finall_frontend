@@ -6,40 +6,182 @@
     padding: 0;
 }
 
-.AboutUs {
-    position: relative;
+.section-about {
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    margin: 20px;
+    width: 100%;
+    background: linear-gradient( 5deg, #fff, #fff, #f0edf9);
+    height: 1440px;
+    
+}
+
+.about-container, .aboutus, .gains {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
 
 }
 
-.AboutUs-header {
-    position: relative;
-    margin: 10px;
-    padding: 10px;
+.aboutus, .gains {
+    height:400px;
+    margin: 60px 0px;
+}
+
+
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.aboutt-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.about-boxes, .aboutus-boxes, .gain-boxes {
+    width: calc(100%/3);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    
+}
+
+.about-boxes {
+    margin: 50px 10px;
+}
+
+.aboutus-boxes, .gain-boxes {
+    margin: 0px 10px 40px 10px;
+}
+
+
+.about-details {
+    display: flex;
+    align-items: flex-start;
     text-align: left;
+   
+
 }
 
-.AboutUs-mid {
-    position: relative;
-    margin: 10px;
-    padding: 10px;
-    text-align: left;
+.about-img {
+color: red;
+background-color: #fff;
+background: url('../../assets/about1.svg');
+background-position: center;
+background-size: cover;
 }
 
-.AboutUs-low {
-    position: relative;
-    margin: 10px;
-    padding: 10px;
-    text-align: left;
+.about-details h1 {
+    margin: 80px 0px 10px 0px;
+    width: 100%;
+    font-size: 220%;
+    display: block;
+    font-weight: 700;
+    word-spacing: 2px;
+    letter-spacing: 1px;
 }
 
-.AboutUs p {
-    font-family: 'Lato';
+.about-h1 {
+    width: 100%;
 }
 
-.AboutUs h1, h2, h3 {
-    font-family: 'Lato';
+.about-h1 span {
+    color: #1A33B2;
+}
+
+.about-p {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.about-p p {
+    font-size: 85%;
+    color: #555;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.about-button {
+    width: 100%;
+    display: block;
+}
+
+
+.aboutus-head, .gain-head {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.aboutus-head h2, .gain-head h2 {
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 180%;
+    display: block;
+    font-weight: 700;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start ;
+    color:#0F1928 ;
+}
+
+.aboutus-head span {
+    color: #1A33B2;
+}
+
+.aboutus-sub, .gain-sub {
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    text-align:start ;
+}
+
+.aboutus-sub h3, .gain-sub h3 {
+    font-size: 140%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color:#3F4753;
+    width: 90%;
+    margin: 0px auto;
+
+}
+
+
+
+.aboutus-button {
+    width: 90%;
+    text-align: start;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+
+}
+
+.aboutus-img  {
+    background: url('../../assets/about2.svg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.gain-img {
+    background: url('../../assets/about3.svg');
+    background-position: center;
+    background-size: cover; 
+    height: 200px;
+    width: 300px;
+    border: 5px solid #000;
+    border-radius: 10px;
 }
