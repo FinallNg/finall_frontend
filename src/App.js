@@ -12,8 +12,8 @@ import AboutUs from "./Components/AboutUs/AboutUs";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import Services from "./Components/Services/Services";
-import Logout from "./Components/Dashboard/Logout/Logout"
-import Help from "./Components/Dashboard/Help/Help"
+// import Logout from "./Components/Dashboard/Logout/Logout"
+
 function App() {
   return (
     <div className="App">
@@ -29,8 +29,8 @@ function App() {
           <Route exact path="/signup" element={<SignUp />} />
         </Routes>
         <Footer />
-        <Logout />
-        <Help />
+        {/* <Logout /> */}
+      
       </BrowserRouter>
     </div>
   );

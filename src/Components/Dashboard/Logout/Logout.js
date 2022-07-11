@@ -4,6 +4,8 @@ import bell from '../../../assets/bell.png'
 import email from '../../../assets/email.png'
 import Ellipse from '../../../assets/Ellipse.png'
 const Logout = () => {
+  //  localStorage.clear();
+  //  window.location.reload();
   return (
     <div className='logout-container'>
         {/* <div className='logout-image'>
