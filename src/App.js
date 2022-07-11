@@ -11,6 +11,9 @@ import AboutUs from "./Components/AboutUs/AboutUs";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import Services from "./Components/Services/Services";
+
+// import Logout from "./Components/Dashboard/Logout/Logout"
+
 import Overview from "./Components/Dashboard/Overview/Overview";
 import Transactions from "./Components/Dashboard/Transactions/Transactions";
 import CardsBanks from "./Components/Dashboard/CardsBanks/CardsBanks";
@@ -20,6 +23,7 @@ import Settings from "./Components/Dashboard/Settings/Settings";
 import Help from "./Components/Dashboard/Help/Help";
 import Logout from "./Components/Dashboard/Logout/Logout";
 // import Sidebar from "./Components/Dashboard/Sidebar/Sidebar";
+
 
 function App() {
   return (
@@ -45,6 +49,8 @@ function App() {
           <Route exact path='/logout' element={<Logout />} />
         </Routes>
         <Footer />
+        {/* <Logout /> */}
+      
       </BrowserRouter>
     </div>
   );

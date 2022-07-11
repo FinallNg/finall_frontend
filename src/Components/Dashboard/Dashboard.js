@@ -14,6 +14,7 @@ const Dashboard = () => {
     <div>
         <BrowserRouter>
         <Sidebar />
+        
         <Routes>
           <Route exact path='/overview' element={ <Overview />} />
           <Route exact path='/transactions' element={ <Transactions/>} />
@@ -24,6 +25,7 @@ const Dashboard = () => {
           <Route exact path='/help' element={<Help />} />
           <Route exact path='/logout' element={<Logout />} />
         </Routes>
+        
       </BrowserRouter>
     </div>
   )
