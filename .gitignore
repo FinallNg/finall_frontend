@@ -27,3 +27,5 @@ yarn-error.log*
 /src/Components/LandingPage/Team/NewTeam.js
 
 /src/Components/LandingPage/Team/NewTeam.css
+
+/src/NewApp.js
