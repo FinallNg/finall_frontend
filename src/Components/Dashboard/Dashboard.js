@@ -9,22 +9,14 @@ import Overview from './Overview/Overview';
 import Settings from './Settings/Settings';
 import Sidebar from './Sidebar/Sidebar';
 import Transactions from './Transactions/Transactions'
-
 const Dashboard = () => {
   return (
     <div>
-        <Overview />
-        <Transactions />
-        <CardsBanks />
-        <Invoices />
-        <Goals />
-        <Settings />
-        <Help />
-        <Logout />
-        {/* <BrowserRouter>
+        <BrowserRouter>
         <Sidebar />
+        
         <Routes>
-          <Route exact path='/' element={ <Overview />} />
+          <Route exact path='/overview' element={ <Overview />} />
           <Route exact path='/transactions' element={ <Transactions/>} />
           <Route exact path='/cards' element={<CardsBanks />} />
           <Route exact path='/invoices' element={<Invoices />} />
@@ -33,7 +25,8 @@ const Dashboard = () => {
           <Route exact path='/help' element={<Help />} />
           <Route exact path='/logout' element={<Logout />} />
         </Routes>
-      </BrowserRouter> */}
+        
+      </BrowserRouter>
     </div>
   )
 }

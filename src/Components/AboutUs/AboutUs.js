@@ -1,26 +1,103 @@
 import React from 'react'
 import './AboutUs.css';
+
+
 const AboutUs = () => {
   return (
-    <div className='AboutUs'>
-      <div className='AboutUs-header'>
-        <h1>About Us</h1>
-        <p>Finall</p>
+    <div className='about-page'>
+      <div className='about-h1'>
+        <h1>Finall is a fintech platform that allows users <span>import financial data from different</span> platforms to create a financial dashboard.</h1>
       </div>
-      
-      <div className='AboutUs-mid' >
-        <h2>Financial Technology At Your Finger Tips</h2>
-        <p>We are a fintech startup that is building a platform that will let users import financial data from different platforms and create a financial dashboard</p>
-      </div>
-      
-      <div className='AboutUs-low'>
-        <h3>Staying Ahead Of The Curve</h3>
-        <p>Why FINALL? It is difficult to go a day without reading troubling news on the financial discrepancy, inflation, recession, and other heartbreaking economic turmoil. Uncertainty is pervasive, and it's natural to be concerned. </p>
-        <p>This is why we started FINALL to partner with you through the boom times as well as the rough patches to enable you make smart decisions.</p>
-        <p>With FINALL, you can manage your finances in one place with ease. How cool is that? And don't worry, your information is safe with us. Let's get started.</p>
-      </div>
-      
+      <div className='about-container'>
+        <div className='aboutt-container'> 
+          <div className='about-boxes about-details'>
+            <div className='about-h1'>
+            </div>
+            <div className='about-p'>
+            <h3>
+              A Financial Dashboard is where you import all your financial data and you get to see all the details of your financial data at a glance. 
+            </h3>
+            <br/>
+            <h3>
+              The objective of Finall is to give you access to all your financial data on one platform with ease.
+            </h3>
+            </div>
+              
+            
+          </div>
+        
+          <div className='about-boxes about-img'>
+            
+          </div>
+        </div>
+
+
+        <div className='aboutus'>
+          <div className='aboutus-boxes aboutus-img'>
+          
+          </div>
+          <div className='aboutus-boxes aboutus-details'>
+            <div className= 'aboutus-head'>
+            </div>
+            <div className='aboutus-sub'>
+              <h3>
+                Finall is a fintech platform built on the basic concepts of integrity, security, stability and trust. 
+              </h3> <br/>
+              <h3>
+                 Be rest assured that your financial data is safe with us.
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <div className='gains'>
+        <div className='gain-boxes gain-img'>
+          
+          </div>
+          <div className='gain-boxes gain-details'>
+            <div className= 'gain-head'>
+            </div>
+            <div className='gain-sub'>
+            <h3>
+              Gain easy access to all your financial data in one platform, make better financial decisions.
+            </h3>
+            <br/>
+            <h3>
+              Stay Ahead of the curve with Finall!
+            </h3>
+            </div>
+          </div>
+        </ div>
+
+        </div>
+      <div className='aboutus'>
+          <div className='aboutus-boxes aboutus-details'>
+            <div className= 'aboutus-head'>
+              <h2>Our <span>Team</span></h2>
+            </div>
+            <div className='aboutus-sub'>
+            <h3>
+                Our team of young and smart experts is motivated by the mission to make your life easy by helping you keep track of your financial transactions to make better decisions.
+            </h3>
+            </div>
+          </div>
+        </div>
+
+        <div className='aboutus'>
+          <div className='aboutus-boxes aboutus-details'>
+            <div className= 'aboutus-head'>
+              <h2>Our <span>Mission</span></h2>
+            </div>
+            <div className='aboutus-sub'>
+              <h3>
+                To help people stay ahead of the curve with ease by managing their financial lifestyle.
+              </h3>
+            </div>
+          </div>
+        </div>
+
     </div>
+    
   )
 }
 
