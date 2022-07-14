@@ -24,6 +24,7 @@ const Dashboard = () => {
           <Route exact path='/settings' element={ <Settings />} />
           <Route exact path='/help' element={<Help />} />
           <Route exact path='/logout' element={<Logout />} />
+          <Route exact path='Overview' element={<Overview />} /> 
         </Routes>
         
       </BrowserRouter>

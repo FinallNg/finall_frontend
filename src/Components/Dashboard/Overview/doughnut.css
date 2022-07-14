@@ -1,0 +1,67 @@
+.doughnut{
+    border: 0.911773px solid #E7E8F2;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 9px #888888;
+    width: 367px;
+    border-radius: 15px;
+    height: 278px;
+    box-shadow: darkgrey;
+    background-color: transparent;
+    font-family: "DM Sans", sans-serif;
+    margin-right:167px
+}
+.doughnut img{
+    margin-right: 180px;
+    padding: 23px 0px 0px 19px
+}
+.doughnut h3{
+    margin: 12px 111px -6px 9px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+.doughnut-amount1{
+   margin:-203px 0px 41px 214px;
+   text-align: left;
+   
+}
+.doughnut-amount1 h4{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.doughnut-amount1 span{
+    color: #01058A;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.106373px
+}
+.doughnut-amount2{
+    margin:-10px 0px 41px 215px;
+    text-align: left;
+}
+.doughnut-amount2 h4{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.doughnut-amount2 span{
+    color: #93B5EC;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.106373px
+}
