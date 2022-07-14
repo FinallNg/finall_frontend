@@ -23,7 +23,6 @@ import Logout from './Components/Dashboard/Logout/Logout';
 import Overview from './Components/Dashboard/Overview/Overview';
 import Settings from './Components/Dashboard/Settings/Settings';
 import Sidebar from './Components/Dashboard/Sidebar/Sidebar';
-import NewSidebar from './Components/Dashboard/Sidebar/NewSidebar';
 import Transactions from './Components/Dashboard/Transactions/Transactions'
 
 
