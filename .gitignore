@@ -28,4 +28,10 @@ yarn-error.log*
 
 /src/Components/LandingPage/Team/NewTeam.css
 
-/src/NewApp.js
+# /src/NewApp.js
+
+# /src/NewApp.css
+
+/src/Components/Dashboard/Sidebar/NewSidebar.js
+
+/src/Components/Dashboard/Sidebar/NewSidebar.css
