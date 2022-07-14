@@ -22,6 +22,7 @@ function LandingPage() {
         <Overview />
         <FeatureCover />
         <NewsLetter />
+        <Overview   />
     </div>
   )
 }

@@ -23,3 +23,15 @@ yarn-debug.log*
 yarn-error.log*
 
 /src/Components/LandingPage/NewsLetter/TestNewsLetter.js
+
+/src/Components/LandingPage/Team/NewTeam.js
+
+/src/Components/LandingPage/Team/NewTeam.css
+
+# /src/NewApp.js
+
+# /src/NewApp.css
+
+/src/Components/Dashboard/Sidebar/NewSidebar.js
+
+/src/Components/Dashboard/Sidebar/NewSidebar.css
