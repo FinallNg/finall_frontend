@@ -1,0 +1,214 @@
+/* .logout-image1{
+    position: relative;
+    left: 27.67%;
+right: 16.67%;
+top: 62.33%;
+bottom: 8.54%;
+}
+.logout-image2{
+    position: relative;
+    left: 32.67%;
+right: 16.67%;
+top: 45.67%;
+bottom: 8.54%;
+}
+.logout-image3{
+    position: relative;
+     width: 92px;
+height: 92px; 
+top: 1.67%;
+left: 39.67%;
+
+} */
+.logout-box{
+    position: relative;
+    width: 649px;
+height: 317px;
+top: 87px;
+background: #FFFFFF;;
+box-shadow: 4px 4px 50px #E6EAEE;
+border-radius: 20px;
+left: 350px;
+}
+.logout-tag{
+    /* width: 352px;
+height: 36px; */
+left: 156px;
+top: 111px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 180px;
+color: #33343D;
+}
+ .logout-text{
+     /* width: 306px;
+    height: 20px;   */
+    left: 172px;
+    top: 100px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 60px; 
+    color: #807D9B;
+}
+.logout-box4{
+    display: flex;
+}
+.logout-box2{
+    width: 324px;
+height: 81px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+border: 1px solid #CFD1D4;
+border-radius: 0px 0px 0px 16px;
+
+}
+.logout-text2{
+    /* width: 67px;
+height: 24px; */
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 64px;
+/* display: flex; */
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+/* flex: none;
+order: 0;
+flex-grow: 0; */
+}
+.logout-text3{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 64px;
+/* display: flex; */
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+}
+.logout-box3{
+    width: 324px;
+height: 81px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+border: 1px solid #CFD1D4;
+border-radius: 0px 0px 16px 0px;
+}
+@media screen and (max-width: 600px){
+    .logout-container{
+        width: 455px;
+        height: 811px;
+        left: 0px;
+        top: 0px;
+        background: #000000;
+        opacity: 0.5;
+    }
+    .logout-box{
+        width: 304px;
+        height: 232px;
+        left: 29px;
+        top: 289px;
+        background: #FFFFFF;
+        box-shadow: 0.795069px 0.795069px 3.97535px rgba(26, 51, 178, 0.25);
+        border-radius: 6.36055px;
+    }
+    .logout-tag{
+        /* width: 174px;
+        height: 22px; */
+        left: 65px;
+        top: 61px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 92px;
+        color: #33343D;
+    }
+    .logout-text{
+        /* width: 245px;
+        height: 16px; */
+        left: 30px;
+        top: 100px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #807D9B;
+    }
+    .logout-box4{
+        
+        padding: 25px;
+        
+    }
+    .logout-box2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8.11416px 16.2283px;
+        gap: 4.06px;
+
+        width: 100px;
+        height: 40px;
+        left: 38px;
+        top: 152px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #1A33B2;
+         border-radius: 5px;
+    }
+    .logout-text2{
+        font-family: 'Lato';
+font-style: normal;
+font-weight: 200;
+font-size: 18px;
+line-height: 32px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+    }
+    .logout-box3{
+        display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8.11px 16.23px;
+gap: 4.06px;
+width: 100px;
+height: 40px;
+left: 160px;
+top: 152px;
+background: #F5FAFF;
+box-shadow: 0px 4px 4px rgba(217, 217, 217, 0.37);
+border-radius: 8px;
+
+    }
+.logout-text3{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 200;
+font-size: 18px;
+line-height: 32px;
+display: flex;
+align-items: center;
+text-align: center;
+margin: 15px;
+padding: 15px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+}
