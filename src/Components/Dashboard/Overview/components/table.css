@@ -1,0 +1,34 @@
+.Tabledata {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    }
+    
+    table {
+    border: 0.911773px solid #E7E8F2;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 9px #888888;
+    width: 656px;
+    border-radius: 15px;
+    height: 278px;
+    box-shadow: darkgrey;
+    background-color: transparent;
+    font-family: "DM Sans", sans-serif;
+    margin-left:125px
+    }
+    
+    th {
+        text-align: left;
+        padding-left: 39px;
+        color: #C7C7C7
+    }
+    td:nth-child(2), td:nth-child(3){
+        color: #C7C7C7;
+    }
+    td {
+    text-align: left;
+    padding-left: 37px;
+    }
+  
