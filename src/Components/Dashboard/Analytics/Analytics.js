@@ -3,6 +3,7 @@ import Acquisition from './Acquisition'
 import {AgePieChart, ageData} from './AgePieChart'
 import './Analytics.css'
 import DataKeys from './DataKeys'
+import MetricsTemplate from './MetricsTemplate'
 import {RegionPieChart, regionData} from './RegionPieChart'
 import {SexPieChart, sexData} from './SexPieChart'
 
@@ -14,7 +15,7 @@ const Analytics = () => {
     setCurrentMetric(newMetric)
   }
 
-  console.log(currentMetric)
+//   console.log(currentMetric)
   return (
     <div className="analytics">
         <div className="first">
@@ -81,7 +82,7 @@ const Analytics = () => {
         </div>
 
         <div className="second">
-            {/* <div className='multiple-metrics'>
+            <div className='multiple-metrics'>
                 <select 
                     onChange={(event) => changeMetric(event.target.value)}
                     value={currentMetric}
@@ -91,7 +92,11 @@ const Analytics = () => {
                     <option value="cr">Chun Rate</option>
                 </select>
 
-            </div> */}
+                <MetricsTemplate 
+                    type={currentMetric}
+                />
+
+            </div>
         </div>
     </div>
   )

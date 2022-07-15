@@ -163,11 +163,22 @@
     padding: 1.5rem 1rem;
 }
 
+.analytics .multiple-metrics select {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
 
 
 @media (max-width: 800px) {
     .analytics {
         flex-direction: column;
+        padding: 5px 10px;
     }
 
     .analytics .first, .analytics .second {
