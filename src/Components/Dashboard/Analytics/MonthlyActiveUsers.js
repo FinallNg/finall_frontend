@@ -65,6 +65,7 @@ const data = [
 ];
 
 export default function MonthlyActiveUsers() {
+
   return (
     <div style={{ width: '100%', height: 300}}>
       <ResponsiveContainer width="100%" height="100%">
@@ -86,10 +87,8 @@ export default function MonthlyActiveUsers() {
                 }} />
       <YAxis dataKey="month" type="category" />
       <Tooltip />
-      <Legend />
-      {/* <Area dataKey="amt" fill="#8884d8" stroke="#8884d8" /> */}
+      {/* <Legend /> */}
       <Bar dataKey="customers" barSize={20} fill="#01058A" />
-      {/* <Line dataKey="uv" stroke="#ff7300" /> */}
     </ComposedChart>
     </ResponsiveContainer>
       </div>
