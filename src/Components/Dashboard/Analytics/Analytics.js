@@ -4,8 +4,10 @@ import {AgePieChart, ageData} from './AgePieChart'
 import './Analytics.css'
 import DataKeys from './DataKeys'
 import MetricsTemplate from './MetricsTemplate'
+import MonthlyActiveUsers from './MonthlyActiveUsers'
 import {RegionPieChart, regionData} from './RegionPieChart'
 import {SexPieChart, sexData} from './SexPieChart'
+import ViralCoeff from './ViralCoeff'
 
 const Analytics = () => {
     const [currentMetric, setCurrentMetric] = useState('ccr')
@@ -96,6 +98,16 @@ const Analytics = () => {
                     type={currentMetric}
                 />
 
+            </div>
+
+            <div className='monthly-active-users'>
+                <h3>Monthly Active Users</h3>
+                <MonthlyActiveUsers />
+            </div>
+
+            <div className='viral-coeff'>
+                <h3>Viral Coefficient</h3>
+                <ViralCoeff />
             </div>
         </div>
     </div>
