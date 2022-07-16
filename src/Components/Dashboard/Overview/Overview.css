@@ -1,3 +1,6 @@
+.OverviewBox{
+    margin: 25px 5px 6px 5px;
+}
 .first-box{
     display:flex;
     justify-content: center;
@@ -23,7 +26,7 @@
     letter-spacing: 0.0911773px;
     position: relative;
     top:27px;
-    left: -30%;
+    left: 4%;
     }
 .category-text.h5{
     padding:12px;
@@ -38,13 +41,13 @@
     margin-right: -15px;
 }
 .small.mt-2{
-    margin-top: -1px;
-    margin-left: -2px;
+    margin-top: 1px;
+    margin-left: 127px;
     color: green;
 }
 .small.mt-20{
     margin-top: 1px;
-    margin-left: -28px;
+    margin-left: 92px;
     color:red
 }
 .up-arrow{
@@ -71,7 +74,7 @@
     display: flex;
 }
 .lastly p{
-    margin: 19px 5px 0px -61px;
+    margin: 19px 5px 0px 14px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;

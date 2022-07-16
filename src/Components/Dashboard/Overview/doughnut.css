@@ -8,7 +8,9 @@
     box-shadow: darkgrey;
     background-color: transparent;
     font-family: "DM Sans", sans-serif;
-    margin-right:167px
+    margin-right:167px;
+    position:relative;
+    left:33px;
 }
 .doughnut img{
     margin-right: 180px;
@@ -23,7 +25,7 @@
     line-height: 29px;
 }
 .doughnut-amount1{
-   margin:-203px 0px 41px 214px;
+   margin:-203px 0px 41px 247px;
    text-align: left;
    
 }
@@ -45,7 +47,7 @@
     letter-spacing: 0.106373px
 }
 .doughnut-amount2{
-    margin:-10px 0px 41px 215px;
+    margin:-10px 0px 41px 246px;
     text-align: left;
 }
 .doughnut-amount2 h4{
