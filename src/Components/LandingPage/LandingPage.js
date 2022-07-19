@@ -7,6 +7,7 @@ import FinancialServices from "../LandingPage/FinancialServices/FinancialService
 import Services from "../LandingPage/Services/Services"
 import FeatureCover from './FeatureCover/FeatureCover'
 import Overview from './Overview/Overview'
+import Dashboard from '../Dashboard/Dashboard'
 
 
 
@@ -22,7 +23,9 @@ function LandingPage() {
         <Overview />
         <FeatureCover />
         <NewsLetter />
-        <Overview   />
+
+
+
     </div>
   )
 }

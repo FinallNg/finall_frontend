@@ -11,6 +11,7 @@ import AboutUs from "./Components/AboutUs/AboutUs";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import Services from "./Components/Services/Services";
+import Dashboard from "./Components/Dashboard/Dashboard"
 
 // import Logout from "./Components/Dashboard/Logout/Logout"
 
@@ -52,6 +53,7 @@ function App() {
         {/* <Logout /> */}
       
       </BrowserRouter>
+    
     </div>
   );
 }

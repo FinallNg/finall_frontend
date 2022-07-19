@@ -57,6 +57,7 @@
     color: #4D69FF;
     font-size: 65%;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 
 .pricing-button5 button:active,
@@ -111,6 +112,7 @@
 .standard-cost2 h5:hover {
     text-decoration: underline;
     text-decoration-color: rgb(131, 180, 182);
+    
 }
 
 
@@ -145,6 +147,7 @@
     border-radius: 5px;
     font-size: 70%;
     margin-top: 40px;
+    cursor: pointer;
 }
 
 
@@ -163,6 +166,7 @@
     justify-content: center;
     height: 41.36px;
     margin-top: 50px;
+    
 }
 
 
@@ -175,6 +179,7 @@
     color: #4D69FF;
     font-size: 70%;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 
 .pricing-button3 button:active,
@@ -226,6 +231,7 @@
     border-radius: 5px;
     font-size: 70%;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 .pricing-button4 button:active,
