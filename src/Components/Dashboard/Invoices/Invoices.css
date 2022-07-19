@@ -2,12 +2,15 @@
     display: flex;
     width: 100%;
     height: 120vh;
+    
+    
 }
 
 
 .invoices2 {
-    width: 10%;
-    margin: 30px 40px 30px 20px;
+    width: 80%;
+    margin: 30px auto 30px auto;
+    padding: 0px 20px;
     display: flex;
     flex-direction: column;
 }
