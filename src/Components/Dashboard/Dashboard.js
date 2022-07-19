@@ -14,8 +14,9 @@ const Dashboard = () => {
     <div>
         <BrowserRouter>
         <Sidebar />
+        
         <Routes>
-          <Route exact path='/' element={ <Overview />} />
+          <Route exact path='/overview' element={ <Overview />} />
           <Route exact path='/transactions' element={ <Transactions/>} />
           <Route exact path='/cards' element={<CardsBanks />} />
           <Route exact path='/invoices' element={<Invoices />} />
@@ -23,7 +24,9 @@ const Dashboard = () => {
           <Route exact path='/settings' element={ <Settings />} />
           <Route exact path='/help' element={<Help />} />
           <Route exact path='/logout' element={<Logout />} />
+          <Route exact path='Overview' element={<Overview />} /> 
         </Routes>
+        
       </BrowserRouter>
     </div>
   )

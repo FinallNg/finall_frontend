@@ -3,10 +3,35 @@ import "../Login/Login.css";
 import Door from "../../assets/door.png";
 import {FcGoogle}from "react-icons/fc";
 import {FaFacebookF} from "react-icons/fa"
-function Login(){ 
+import axios from "axios";
+import { useForm } from "react-hook-form";
+
+function Login(props){ 
+  // const history = useHistory()
+  const { register, formState: { errors } } = useForm();
+
+  function handleSubmit(values, actions) {
+    console.log(values);
+      axios
+      .post("https://finall-app.herokuapp.com/api/v1/users/login", values, {headers:{"Content-Type": "application/json"}})
+      .then(res => {
+      localStorage.setItem("token", res.data.token);
+      values.resetForm();
+        // history.push(`/`);
+      })
+      .catch(err => {
+        console.log(err);
+        })
+        .finally(() => {
+          console.log("login sucessful")
+        });
+    }
   return (
     <div className="Login">
-    <form className="form">
+    <form className="form"
+    onSubmit={handleSubmit}
+    initialValues={initialState}
+    >
       <div className="input-group">
         <h1 className='form-title'>Login</h1>
         <div className='button-class'>
@@ -18,13 +43,30 @@ function Login(){
       <div className="login-line">
         Or
       </div>
-        <label htmlFor="username">UserName</label>
-        <input type="username" name="username" placeholder="Example@gmail.com" />
+        <label>Email</label>
+        <input 
+        type="email"  
+        name='email'
+        {...register("email",
+        {
+            required: true,
+            pattern: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+        })}
+        placeholder="Example@gmail.com" />
       </div>
+      {errors.email && <p>Please check the Email</p>}
       <div className="input-group">
-        <label htmlFor="password">Create password</label>
-        <input type="password" name="password" placeholder="**********" />
+        <label>Create password</label>
+        <input 
+        type="password" 
+        name='password'
+        {...register("password", {
+        required: true,
+        pattern: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}$/
+                        })} 
+        placeholder="**********" />
       </div>
+      {errors.password && <p>Please check the Password</p>}
       <div className="form-actions">
                   <br />
                   <div className="form-check">
@@ -34,7 +76,7 @@ function Login(){
                       id="rememberPassword"
                       name="checkbox"
                     />
-                         <label className="form-check-label" for="rememberPassword">
+                         <label className="form-check-label">
                       Remember me
                     </label>
                     </div>
@@ -51,5 +93,8 @@ function Login(){
   </div>
   )
 }
-
+const initialState = {
+  email: "",
+  password: ""
+};
 export default Login

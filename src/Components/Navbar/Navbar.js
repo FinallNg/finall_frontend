@@ -16,7 +16,7 @@ function Navbar() {
               <ul>
                 <li><NavLink exact activeClassName="active" to ='/'>Home</NavLink></li>
                 <li><NavLink exact activeClassName="active" to ='/about'>About</NavLink></li>
-                <li><NavLink exact activeClassName="active" to ='/services'>Services</NavLink></li>
+                {/* <li><NavLink exact activeClassName="active" to ='/services'>Services</NavLink></li> */}
                 <li><NavLink exact activeClassName="active" to ='/pricing'>Pricing</NavLink></li>
                 <li><NavLink exact activeClassName="active" to ='/contact'>Contact Us</NavLink></li> 
               </ul>
