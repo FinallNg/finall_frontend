@@ -12,6 +12,7 @@ import AboutUs from "./Components/AboutUs/AboutUs";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import Services from "./Components/Services/Services";
+import Dashboard from "./Components/Dashboard/Dashboard"
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
+    
     </div>
   );
 }
