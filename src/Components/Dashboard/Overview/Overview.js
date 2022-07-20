@@ -2,7 +2,7 @@ import React from 'react'
 import { CounterWidget, ExpenseWidget, SavingsWidget } from './widgets';
 import "../Overview/Overview.css";
 import MiniCalendar from './Minicalendar';
-import {BarChart, Bar, XAxis, YAxis, CartesianGrid, Legend} from 'recharts';
+import {ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Legend} from 'recharts';
 import { data } from './data';
 import Tabledata from './components/Tabledata';
 import Doughnut from './doughnut';
@@ -28,9 +28,12 @@ export default function Overview(){
           percentage = {1.5}
         />
       </div>
+
       <div className='second-box'>
+      <div style={{ width: '60%', height: 275 }}>
+        <ResponsiveContainer>
           <BarChart className='bar'
-           width={649} height={275} data={data}>
+           width={500} height={275} data={data}>
            <CartesianGrid strokeDasharray="3 3" />
            <XAxis dataKey="name" />
            <YAxis />
@@ -38,9 +41,12 @@ export default function Overview(){
            <Bar dataKey="arrival" fill="#01058A" />
            <Bar dataKey="spending" fill="#1AA8E9" />
           </BarChart>
-          <MiniCalendar
+         </ResponsiveContainer>
+        </div> 
+        <MiniCalendar
            selectRange={false}
           />
+        
       </div>
       <div className='last-box'>
         <Tabledata />

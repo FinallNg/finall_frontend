@@ -15,6 +15,7 @@ import Transactions from './Components/Dashboard/Transactions/Transactions'
 import Analytics from "./Components/Dashboard/Analytics/Analytics";
 
 
+
 function NewApp() {
   return (
     <div className="NewApp">
