@@ -1,0 +1,486 @@
+.invoices {
+    display: flex;
+    width: 100%;
+    height: 120vh;
+    
+    
+}
+
+
+.invoices2 {
+    width: 80%;
+    margin: 30px auto 30px auto;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.invoices2-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+}
+
+.invoices2-content1-box, .invoices2-content2-box {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 95%;
+    margin: 0px auto;
+}
+
+.invoices2-box-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    height: 7vh;
+    cursor: pointer;
+}
+
+.invoices2-box-details:hover,
+.invoices2-box-details:active {
+    text-decoration: underline;
+    text-decoration-color: #CFE6FC;
+    border: 1px solid #CFE6FC;
+}
+
+.invoices2-box-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 80%;
+}
+
+.invoices .first {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color:#404040 ;
+}
+
+.invoices .second {
+    color:#C7C7C7;;
+}
+
+.invoices2-box-icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+}
+
+.invoices2-box-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.invoices2-box-right {
+    display: flex;
+}
+
+.invoices2-head2 {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.invoices2-h5 h5 {
+    color: #1A33B2;
+} 
+
+.invoices2-head1 h2 {
+    color: #33343D;
+    letter-spacing: 1px;
+}
+
+.invoices2-icon {
+    margin-top: px;
+    width: 15px;
+    height: 15px;
+    margin-left: 3px;
+    color: #1A33B2;
+}
+
+.invoices2-items {
+    display: flex;
+    width: 100%;
+
+}
+
+.invoices2-content {
+    display: flex;
+    margin: 10px 0px;
+   
+}
+
+.invoices2-content1 {
+    width: 70%;
+    margin-right: 20px;
+    height: 48vh;
+    border: 1px solid rgb(236, 233, 233);
+    box-shadow: 2px 2px 5px rgb(186, 183, 183);
+}
+
+
+
+.invoices2-content2 {
+    border: 1px solid rgb(236, 233, 233);
+    box-shadow: 2px 2px 5px rgb(186, 183, 183);
+    height: 48vh;
+    width:30% ;
+}
+
+.invoices2-content1:hover,
+.invoices2-content1:hover,
+.invoices2-content2:hover,
+.invoices2-content2:hover {
+    border: 2px solid #CFE6FC;
+}
+
+.invoice2-content-middle {
+    color: #0F1928;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+
+
+.invoices form {
+    border-bottom: 2px solid #CFE6FC;
+    width: 90%;
+    padding: 5px 0px ;
+    margin: 0px auto 15px 0px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.invoices input {
+    color: #1A33B2;
+    border: none;
+    padding-left: 30px;
+    cursor: pointer;
+    height: 3vh;
+}
+
+.invoices input:hover,
+.invoices input:active {
+    border: 1px solid rgb(224, 221, 221);
+    border-radius: 5px;
+    text-decoration: underline;
+    text-decoration-color: #CFE6FC;
+    height: 3vh;
+    
+}
+
+ 
+.content2-box-h {
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px 0px 15px 0px;
+    justify-items: center;
+
+
+    
+}
+
+.content2-box-h h3 {
+    font-size: 95%;
+    font-weight: 500;
+    color: #0F1928;
+    word-spacing: 1px;
+}
+
+.content2-box-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.box-details-1, .box-details-2 {
+    display: flex;
+    align-items: center;
+}
+
+.details-1-icon {
+    margin-right:10px;
+    margin-top: -8px;
+    width: 11px;
+    height: 11px;
+}
+
+
+.details-1-i {
+    width: 100%;
+    height: 100%;
+}
+
+.details-1-h h4 {
+    color: #0F1928;
+    font-size: 75%;
+}
+
+.details2-percentage-bar {
+    border: 1px solid rgb(200, 198, 198);
+    width: 90%;
+    height: 10px;
+    margin-top: 5px;
+    border-radius: 50px;
+    background-color: #F5FAFF;
+}
+
+.details2-price-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    color: #0F1928;
+    font-size: 80%;
+}
+
+.invoices .second-box {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.invoice-no-box {
+    
+    width: 100%;
+    margin-bottom: 10px;
+    
+    border-radius: 5px;
+    background-color: #1A33B2;
+    height: 14vh;
+}
+
+.items-desc-box {
+    width: 100%;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #CFE6FC;
+    height: 25vh;
+}
+
+.invoice-no-content, .items-desc-content  {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 10px auto;
+    height: 80%;
+
+}
+
+.invoice-no-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.invoice-no-h1 h6 {
+    font-size: 80%;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.invoice-no-h2 {
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+
+}
+
+.invoice-no-img {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+.invoice-no-img img {
+    width: 100%;
+    height: 100%
+}
+
+.invoice-no-h5  {
+    display: flex;
+    align-items: flex-start;
+    width: 75px;
+}
+
+.invoice-no-h5 h5 {
+    font-size: 75%;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.items-desc-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px;
+    color: #0F1928;
+}
+
+.items-desc-details1 {
+    display: flex;
+    align-items: center;
+}
+
+
+.items-desc-details1-icon {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+   
+    
+}
+
+.items-desc-details1 p {
+    font-weight: 500;
+    color: #0F1928;
+}
+
+
+.items-desc-details1-p {
+    width: 130px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+.sub-details {
+    font-size: 80%;
+    color: #0F1928;
+
+
+}
+
+.shift {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 60px;
+    margin-right: 0px;
+    
+}
+
+
+.total-amt-box {
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-end;
+    width: 90%;
+    
+}
+
+.total-amt-h4 {
+    margin-right: 10px;
+
+}
+.total-amt-h4 h4 {
+    color: #0F1928;
+}
+
+.invoices spin {
+    color: #0F1928;
+
+}
+
+
+.second-box2 {
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.second-box2-items {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    padding: 5px 0px;
+    width: 100%;
+}
+
+
+.second-box2-items:nth-child(3) {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    background-color: #CFE6;
+    width: 50%;
+    
+}
+
+.button-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px auto;
+
+}
+
+
+.box2-items-button {
+    border: 1px solid #1A33B2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0px 5px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.box2-items-button a button {
+    padding: 2px;
+    color: #1A33B2;
+    border: none;
+    background-color: #FFFFFF;
+    font-size: 68%;
+    font-weight: 600;
+    display: flex;
+    cursor: pointer;
+
+}
+
+
+.box2-items-button p {
+    margin-left: 5px;
+    text-decoration: none;
+    
+}
+
+.send-invoice-btn {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1A33B2;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+
+.send-invoice-btn p {
+    color: #FFFFFF;
+    font-size: 80%;
+}
+
+.send-invoice-btn p:hover,
+.send-invoice-btn p:hover {
+    text-decoration: underline;
+    text-decoration-color: #1A33B2;
+}
+
+
+
+
+

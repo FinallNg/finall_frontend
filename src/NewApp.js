@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./App.css";
+// import "./App.css";
 import "./NewApp.css"
 
 import CardsBanks from './Components/Dashboard/CardsBanks/CardsBanks';
@@ -13,6 +13,7 @@ import Settings from './Components/Dashboard/Settings/Settings';
 import Sidebar from './Components/Dashboard/Sidebar/Sidebar';
 import Transactions from './Components/Dashboard/Transactions/Transactions'
 import Analytics from "./Components/Dashboard/Analytics/Analytics";
+
 
 
 function NewApp() {
