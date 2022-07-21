@@ -1,12 +1,13 @@
 .Tabledata {
-    width: 100%;
-    height: 100vh;
+    width: 60%;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: flex-start;
     }
     
     table {
+        padding: 10px;
     border: 0.911773px solid #E7E8F2;
     background: #FFFFFF;
     box-shadow: 5px 10px 9px #888888;
@@ -16,12 +17,12 @@
     box-shadow: darkgrey;
     background-color: transparent;
     font-family: "DM Sans", sans-serif;
-    margin-left:125px
+    /* margin-left:125px */
     }
     
     th {
         text-align: left;
-        padding-left: 39px;
+        padding-left: 15px;
         color: #C7C7C7
     }
     td:nth-child(2), td:nth-child(3){
@@ -29,6 +30,6 @@
     }
     td {
     text-align: left;
-    padding-left: 37px;
+    padding-left: 15px;
     }
   

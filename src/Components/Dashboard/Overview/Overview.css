@@ -1,20 +1,28 @@
 .OverviewBox{
-    margin: 25px 5px 6px 5px;
+    /* margin: 25px 5px 6px 5px; */
+    padding: 15px 50px;
+    width: 100%;
+}
+
+.OverviewBox > div {
+    margin-bottom: 30px;
 }
 .first-box{
     display:flex;
-    justify-content: center;
-    gap:30px;
+    justify-content: space-between;
+    gap: 15px;
 }
+
 .shadow-sm{
     border: 0.911773px solid #E7E8F2;
     background: #FFFFFF;
     box-shadow: 5px 10px 9px #888888;
-    width: 328px;
+    /* width: 328px; */
     border-radius: 15px;
     height: 154px;
     box-shadow: darkgrey;
 }
+
 .category-text{
     /* position: absolute; */
     font-family: 'Poppins';
@@ -58,9 +66,8 @@
 }
 .second-box{
     display:flex;
-    justify-content: center;
-    gap:30px;
-    padding:23px;
+    justify-content: space-between;
+    gap: 15px;
 }
 .bar{
     border: 0.911773px solid #E7E8F2;
@@ -71,7 +78,9 @@
     margin-left: -7px;
 }
 .last-box{
-    display: flex;
+    display:flex;
+    justify-content: space-between;
+    gap: 15px;
 }
 .lastly p{
     margin: 19px 5px 0px 14px;
@@ -82,4 +91,31 @@
     line-height: 19px;
     letter-spacing: 0.0911773px;
     color: #807D9B;
+}
+
+@media (max-width: 700px) {
+    .OverviewBox {
+        padding: 15px;
+    }
+
+    .first-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .second-box, .last-box {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Tabledata, .doughnut {
+        margin: 0px auto;
+    }
+
+    .doughnut {
+        padding: 0;
+    }
+
+    .second-box > div {
+        margin: 0px auto;
+    }
 }

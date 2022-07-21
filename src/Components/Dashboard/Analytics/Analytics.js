@@ -43,7 +43,7 @@ const Analytics = () => {
                 <p>10457</p>
             </div>
 
-            <div className="acquisition-cost">
+             <div className="acquisition-cost">
                 <h3>Customer Acquisition Cost</h3>
                 <Acquisition />
             </div>
@@ -80,7 +80,7 @@ const Analytics = () => {
                         data={regionData}
                     />
                 </div>
-            </div>
+            </div> 
         </div>
 
         <div className="second">
@@ -109,7 +109,7 @@ const Analytics = () => {
                 <h3>Viral Coefficient</h3>
                 <ViralCoeff />
             </div>
-        </div>
+        </div> 
     </div>
   )
 }

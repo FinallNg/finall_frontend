@@ -54,13 +54,13 @@
     font-size: 80%;
 }
 
-.first {
+.invoices .first {
     margin-top: 5px;
     margin-bottom: 5px;
     color:#404040 ;
 }
 
-.second {
+.invoices .second {
     color:#C7C7C7;;
 }
 
@@ -148,7 +148,7 @@
 
 
 
-form {
+.invoices form {
     border-bottom: 2px solid #CFE6FC;
     width: 90%;
     padding: 5px 0px ;
@@ -157,7 +157,7 @@ form {
     justify-content: flex-start;
 }
 
-input {
+.invoices input {
     color: #1A33B2;
     border: none;
     padding-left: 30px;
@@ -165,8 +165,8 @@ input {
     height: 3vh;
 }
 
-input:hover,
-input:active {
+.invoices input:hover,
+.invoices input:active {
     border: 1px solid rgb(224, 221, 221);
     border-radius: 5px;
     text-decoration: underline;
@@ -240,7 +240,7 @@ input:active {
     font-size: 80%;
 }
 
-.second-box {
+.invoices .second-box {
     display: flex;
     align-items: flex-start;
 }
@@ -384,7 +384,7 @@ input:active {
     color: #0F1928;
 }
 
-spin {
+.invoices spin {
     color: #0F1928;
 
 }
