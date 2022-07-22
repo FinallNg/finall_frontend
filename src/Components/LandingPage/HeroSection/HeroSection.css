@@ -112,6 +112,15 @@ background-size: cover;
     display: block;
 }
 
+.spending {
+    background-color: rgb(247, 247, 247);
+    margin-bottom: -200px;
+    margin-top: 80px;
+}
+
+.spending-boxes {
+    padding-top: 20px;
+}
 
 .business-head, .goal-head, .spending-head {
     width: 100%;
@@ -163,7 +172,7 @@ background-size: cover;
     text-align: start;
     margin-right: auto;
     margin-left: auto;
-    background-color: #fff;
+    background-color: rgb(247, 247, 247);
 
 }
 

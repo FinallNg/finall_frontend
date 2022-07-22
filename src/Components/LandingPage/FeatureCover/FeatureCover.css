@@ -3,34 +3,32 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    position: relative;
-    height: 90vh;
     padding: 20px;
+    height: 90vh;
     font-family: 'Lato';
     flex-wrap: wrap;
     margin: 20px;
-    margin-bottom: 5rem;
+    margin-bottom: 15rem;
 }
 
 .header{
     display: flex;
     position: relative;
     flex: 1;
-    left: -200px;
+    left: -80px;
     top: -100px;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-grow: 1;
     font-size: 18px;
-    
 }
 
 .header :nth-of-type(1){
     color: var(--finall2);
     font-family: 'Lato';
-    width: 849.03px;
+    width: 900.03px;
     height: 68px;
     top: 200px;
-    left: -12rem;
+    left: -13rem;
     font-style: normal;
     align-items: center;
     position: absolute;
@@ -38,13 +36,16 @@
     size: 42px;
     font-size: 2rem;
     display: flex;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    
 }
 
 
 .header :nth-of-type(2){
     color: var(--finall3);
     font-family: "Lato";
-    width: 849.03px;
+    width: 300px;
     height: 68px;
     top: 200px;
     left: 0.7rem;
@@ -55,6 +56,8 @@
     font-weight: bold;
     font-size: 2rem;
     size: 42px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
 }
 
 .header :nth-of-type(3){
@@ -63,7 +66,7 @@
     width: 849.03px;
     height: 68px;
     top: 200px;
-    left: 17rem;
+    left: 18rem;
     font-style: normal;
     align-items: center;
     position: absolute;
@@ -81,6 +84,7 @@
     position: relative;
     top: -250px;
     left: -75px;
+
 }
 
 .content > *{

@@ -19,8 +19,8 @@ const Overview = () => {
 
     {/* bottom side */}
     <div className="contents" >
-      <div style ={{left:'-16rem',top:'-4rem'}}>
-      <Card
+      <div style ={{left:'-20rem',top:'-4rem'}}>
+      <Card 
       icon = {Organize}
       heading = {'Organize transactions'}
       detail = {"Sort your transactions the way you want to view them"}
@@ -37,7 +37,7 @@ const Overview = () => {
        </div>
 
 
-      <div style = {{left:'14rem', top:'-4rem'}}>
+      <div style = {{left:'16rem', top:'-4rem'}}>
        <Card
        icon = {Brief}
        heading ={'View all spending history'}
@@ -47,7 +47,7 @@ const Overview = () => {
 
 
 
-      <div style={{top:'10rem',left:'-16rem'}}>
+      <div style={{top:'12rem',left:'-20rem'}}>
        <Card
        icon = {Piggy}
        heading ={'Savings'}
@@ -56,7 +56,7 @@ const Overview = () => {
        </div>
 
 
-      <div style={{left:'-2rem',top:'10rem'}}>
+      <div style={{left:'-2rem',top:'12rem'}}>
        <Card
        icon = {Caution}
        heading ={'Balance warning'}
@@ -65,7 +65,7 @@ const Overview = () => {
        </div>
 
 
-      <div style={{left:'14rem',top:'10rem'}}>
+      <div style={{left:'16rem',top:'12rem'}}>
        <Card
        icon = {Dollar}
        heading = {'Budgeting'}
