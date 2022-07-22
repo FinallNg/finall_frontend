@@ -19,12 +19,10 @@ function LandingPage() {
         <Services />
         <SpendingHabit />
         <FinancialServices />
-        <Team />
         <Overview />
         <FeatureCover />
+        <Team />
         <NewsLetter />
-
-
 
     </div>
   )

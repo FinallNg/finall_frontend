@@ -11,6 +11,7 @@
     align-items: center;
     padding: 20px;
     gap: 25px;
+    background-color: rgb(247, 247, 247);
 }
 
 .newsletter > div {
@@ -19,18 +20,29 @@
 }
 
 .newsletter h2 {
-    font-weight: 600;
-    font-size: 27px;
+    font-weight: 400;
+    font-size: 1rem;
     color: #0F1928;
-    /* margin-bottom: 50px; */
+    margin-top: 40px;
+    
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 50px; 
 }
 
-.newsletter p {
+.newsletter p {    
+    margin-top: 60px;
+}
+
+.newsletter div p {
     font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
     line-height: 35px;
     color: #0F1928;
     font-weight: 400;
 }
+
 
 .newsletter label {
     display: block;
@@ -38,6 +50,8 @@
     color: #27303E;
     padding-left: 10px;
     text-align: left;
+    letter-spacing: 1px;
+    word-spacing: 1px;
 }
 
 .newsletter input {
@@ -51,6 +65,7 @@
     padding: 16px;
     font-size: 16px;
     color: #0F1928;
+    letter-spacing: 1px;
 }
 
 .newsletter input[type="email"] {
@@ -73,6 +88,7 @@
     outline: none;
     border: none;
     cursor: pointer;
+    letter-spacing: 1px;
 
 }
 

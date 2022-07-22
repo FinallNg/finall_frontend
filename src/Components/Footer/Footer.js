@@ -11,56 +11,67 @@ const Footer = () => {
   return (
     <footer>
         <div className='footer-container'>
-          <div className='footer-logo'>
-            <div className="footer-image"><img src={ogo3} alt="logo"/></div> 
+          <div className='footer-logo-container'>
+            <div className="footer-image">
+              <img src={ogo3} alt="logo"/>
+              </div> 
              <p className="fi">FINALL</p>
-              <p className="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing <br/> elit. Nunc sodales lacus eu turpis congue,</p> 
+            <div className='footer-logo-para'>
+              <p className="footer-text">A financial startup that is building a platform that will let users import there financial data from different platforms and creat a financial dashboard</p>
+            </div>
+            <div className='footer-logo-social'>
+              <p>
+                Follow us on
+              </p>
+              <div className='footer-icons-box'>
+                <div className="footer-icon"> <FaTwitter /> </div>
+                <div className="footer-icon"><FaLinkedinIn /> </div>
+                <div className="footer-icon"><FaFacebook /> </div>
+                <div className="footer-icon"><FaInstagram /> </div>
+              </div>
+            </div>
+               
           </div>
           <div className="footer-pages">
-            <div className="footer-final">
-              <h4><a>Other Pages</a></h4>
-              <a>About <br/></a>
-              <a>Services <br/></a>
-              <a>Contact <br/></a>
-              <a>Account</a>
-              {/* <div className="footer-vector"><img src={Vector} alt="logo"/></div>  */}
-              <div className='footer-hr2'><hr /></div>
-               
+            <div className="footer-pages-box">
+              <h4>Pages</h4>
+              <a href=''>About</a>
+              <a href=''>Services </a>
+              <a href=''>Contact Us</a>
+              <a href=''>Account</a>
+            
             </div>
 
-            <div className="footer-link">
-              <h4><a>Quick Links</a></h4>
-              <a>Privacy Policy <br/></a>
-              <a>Terms of Service <br/></a>
-              <a>Credit <br/></a>
-              <a>Security</a>
-
-              {/* <div className="footer-vector2"><img src={Vector} alt="logo"/></div>  */}
+            <div className="footer-pages-box">
+              <h4>Quick Links</h4>
+              <a href=''>Privacy Policy</a>
+              <a href=''>
+                Terms Of Service
+              </a>
+              <a href=''>
+                Credits
+              </a>
+              <a href=''>
+                Security
+              </a>
+            
             </div>
 
             <div className="footer-support">
-              <h4><a>Support</a></h4>
-              <a>FAQs <br/></a>
-              <a>Help center <br/></a>
-              <a>Accesibility</a>
-              {/* <div className="footer-vector3"><img src={Vector} alt="logo"/></div>  */}
-              <div className='footer-hr3'><hr /></div>
+            <div className="footer-pages-box">
+              <h4>Pages</h4>
+              <a href=''>FAQs</a>
+              <a href=''>Help Center </a>
+              <a href=''>Accessibility</a>      
             </div>
-           
           </div>
-          
-             <p className="footer-text2">Follow us on</p>
-          
-             <div className="footer-icon1"> <FaTwitter /> </div>
-             <div className="footer-icon2"><FaLinkedinIn /> </div>
-             <div className="footer-icon3"><FaFacebook /> </div>
-             <div className="footer-icon4"><FaInstagram /> </div>
-              {/* <div className="footer-icon5"><FaAngleDown/> </div>  */}
-             <div className='footer-hr1'><hr /></div>
-
-             <p className="footer-text3">Copywright 2022 Finall.All right reserved</p>
+           
+        </div>     
              
-        </div>
+      </div>
+      <div className='footer-copywrite'>
+        <p>Copyright 2022 Finall.All right reserved</p>
+      </div>
 
     </footer>
   )
