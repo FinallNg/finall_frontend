@@ -1,14 +1,12 @@
 import React from 'react'
+import "../Transactions/Transactions.css"
 
 const Transactions = () => {
   return (
     <div>
-      <div>
-        <h2><b>Transaction history</b></h2>
-        </div>
-        
     <div>
     <table className="transaction-h1">
+         <h2><b>Transaction history</b></h2>
         <tr className="tbrow">
             <th className="tbhead">Receiver</th>
             <th className="tbhead">Type</th>

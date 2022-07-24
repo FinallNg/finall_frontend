@@ -1,27 +1,30 @@
 .transaction-h1 {
-       
     border: 0.911773px solid #E7E8F2;
     background: #FFFFFF;
     box-shadow: 5px 10px 9px #888888;
-    width: 98%;
+    width: 72%;
     height: 100%;
     border-radius: 15px;
     box-shadow: darkgrey;
     background-color: transparent;
     font-family: "DM Sans", sans-serif;
     padding: 4%;
+    position: absolute;
+    left:245px;
+    top: 87px;
     }
 
     .tbhead:nth-child(1), .tbhead:nth-child(2), .tbhead:nth-child(3), .tbhead:nth-child(4) {
         text-align: center;
+        color: #C7C7C7;
         
-        color: #C7C7C7
     }
     .tbdata:nth-child(2), .tbdata:nth-child(3){
         color: #C7C7C7;
     }
     .tbdata {
-    text-align: center;
-    
-    }
-  
+    text-align: center
+     }
+     .transaction-h1 h2{
+        margin:-34px -25px 15px -39px
+     }
