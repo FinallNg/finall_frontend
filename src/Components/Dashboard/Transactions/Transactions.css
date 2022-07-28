@@ -13,11 +13,22 @@
     left:245px;
     top: 87px;
     }
-
+    @media (max-width: 500px){
+        .transaction-h1{
+            position: relative;
+            left: 1px;
+            width: 9%;
+        }
+    }
     .tbhead:nth-child(1), .tbhead:nth-child(2), .tbhead:nth-child(3), .tbhead:nth-child(4) {
         text-align: center;
         color: #C7C7C7;
         
+    }
+    @media (max-width: 500px){
+        .tbhead:nth-child(1), .tbhead:nth-child(2), .tbhead:nth-child(3), .tbhead:nth-child(4){
+            text-align: left;
+        }
     }
     .tbdata:nth-child(2), .tbdata:nth-child(3){
         color: #C7C7C7;
@@ -28,3 +39,12 @@
      .transaction-h1 h2{
         margin:-34px -25px 15px -39px
      }
+     @media (max-width: 500px){
+        .transaction-h1 h2{
+            margin: -63px;
+            position: relative;
+            top: 48%;
+            left: 74%;
+    }
+        
+        }
