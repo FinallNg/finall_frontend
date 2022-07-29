@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import "./App.css";
-import "./NewApp.css"
+import "./App.css";
+// import "./NewApp.css"
 
 import CardsBanks from './Components/Dashboard/CardsBanks/CardsBanks';
 import Goals from './Components/Dashboard/Goals/Goals';
@@ -13,6 +13,7 @@ import Settings from './Components/Dashboard/Settings/Settings';
 import Sidebar from './Components/Dashboard/Sidebar/Sidebar';
 import Transactions from './Components/Dashboard/Transactions/Transactions'
 import Analytics from "./Components/Dashboard/Analytics/Analytics";
+import ConnectBank from "./Components/Dashboard/ConnectBank/ConnectBank";
 
 
 
@@ -32,6 +33,7 @@ function NewApp() {
           <Route exact path='/settings' element={ <Settings />} />
           <Route exact path='/help' element={<Help />} />
           <Route exact path='/logout' element={<Logout />} />
+          <Route exact path='/connectbank' element={<ConnectBank/>} />
         </Routes>
       </BrowserRouter>
     </div>
