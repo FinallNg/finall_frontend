@@ -113,47 +113,6 @@
   outline: none;
 }
 
-.sign-up .dropdown {
-  width: 100%;
-  outline: none;
-}
-
-.sign-up .select-header {
-  margin-bottom: 0.8em;
-  background: #f5faff;
-  padding: 16px;
-  border-radius: 5px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.sign-up .select-icon {
-  font-size: 20px;
-  color: #3d3d3d;
-  margin-right: 12px;
-}
-
-.sign-up .select-list-container {
-  padding: 0;
-  margin: 0;
-  background: #f5faff;
-  color: #3f4753;
-  text-align: left;
-  font-size: 1rem;
-  font-weight: 400;
-  border-radius: 5px;
-}
-
-.select-list {
-  padding: 16px;
-}
-
-.sign-up .list-item {
-  margin-bottom: 15px;
-  padding-bottom: 0.2em;
-  border-bottom: 0.5px solid rgba(63, 71, 83, 0.1);
-}
-
 .sign-up .password-container {
   position: relative;
 }

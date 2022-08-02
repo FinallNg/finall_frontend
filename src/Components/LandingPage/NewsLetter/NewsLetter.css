@@ -11,7 +11,7 @@
     align-items: center;
     padding: 20px;
     gap: 25px;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(250, 250, 250);
 }
 
 .newsletter > div {
@@ -19,15 +19,15 @@
     width: 100%;
 }
 
-.newsletter h2 {
-    font-weight: 400;
-    font-size: 1rem;
+.newsletter h3 {
+    font-weight: 600;
     color: #0F1928;
-    margin-top: 40px;
-    
+    margin-top: 60px;
     letter-spacing: 1px;
     word-spacing: 1px;
     margin-bottom: 50px; 
+    font-size: 180%;
+    width: 100%;
 }
 
 .newsletter p {    
