@@ -37,8 +37,8 @@ function Login(props){
         <div className='login-content-box'>
           <h2 className='login-head'>Login</h2>
           <div className='button-class'>
-            <button><FcGoogle className='google-icon'></FcGoogle>Google</button>
-            <button><FaFacebookF className='facebook-icon'></FaFacebookF>Facebook</button>
+            <button><a href='' target='_blank'><FcGoogle className='google-icon'></FcGoogle>Google</a></button>
+            <button><a href='' target='_blank'><FaFacebookF className='facebook-icon'></FaFacebookF>Facebook</a></button>
           </div>
           <div className="login-line">
             <div></div>

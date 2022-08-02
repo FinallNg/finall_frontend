@@ -68,7 +68,12 @@
   background-color:#F1F8FF ;
 }
 
-.google-icon, .facebook-icon {
+.button-class button a {
+  color: #1A33B2;
+  font-size: 80%;
+}
+
+.google-icon , .facebook-icon {
   font-size:13px;
   margin-right: 10px;
   font-family: 'Open Sans', sans-serif;
