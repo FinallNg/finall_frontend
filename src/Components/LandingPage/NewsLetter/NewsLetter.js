@@ -113,7 +113,7 @@ function NewsLetter() {
 
         <div>
             <p>
-                Subscribe to our newsletter to get weekly and monthly updates on newly added features and better ways to monitor you finances.
+                Subscribe to our newsletter to get weekly and monthly updates on newly added features and better ways to monitor your finances.
             </p>
         </div>
 
