@@ -13,6 +13,11 @@
     gap: 25px;
 }
 
+.contactus-head {
+    width: 100%;
+    margin: 20px auto;
+}
+
 .contactus form {
     width: 100%;
     display: flex;
@@ -29,9 +34,9 @@
     width: 100%;
 }
 
-.contactus h2 {
+.contactus h3 {
     font-weight: 600;
-    font-size: 27px;
+    font-size: 180%;
     color: #1A33B2;
 }
 
@@ -47,13 +52,14 @@
     display: block;
     width: 100%;
     margin: 12px 0px 30px;
-    /* background-color: #CFD1D4; */
+    background-color: #F1F8FF;
     border: 1px solid #9FA3A9;
     outline: none;
     border-radius: 5px;
     padding: 16px;
     font-size: 16px;
     color: #0F1928;
+
 }
 
 .contactus textarea {

@@ -109,7 +109,7 @@ const CustomForm = ({ status, message, onValidated }) => {
 function NewsLetter() {
   return (
     <div className="newsletter">
-        <h2>Subscribe to our Newsletter</h2>
+        <h3>Subscribe to our Newsletter</h3>
 
         <div>
             <p>

@@ -32,7 +32,9 @@ function ContactUs() {
 
   return (
     <div className="contactus">
-        <h2>Contact Us</h2>
+        <div className='contactus-head'>
+            <h3>Contact Us</h3>
+        </div>
 
         <form onSubmit={handleSubmit}>
         <div>
