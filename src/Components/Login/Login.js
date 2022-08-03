@@ -83,11 +83,11 @@ function Login(props){
           </div>
         </form>
         <div className='form-login-btn'>
-          <button><a href=''> Login</a></button>
+          <button><a href='/Dashboard'> Login</a></button>
         </div>
         <div className='form-new'>
           <p>Don’t have account yet?</p>
-          <a href=''>New Account</a>
+          <a href='/SignUp'>New Account</a>
         </div>
 
 
