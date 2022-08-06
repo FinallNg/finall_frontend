@@ -5,6 +5,8 @@ import {FcGoogle}from "react-icons/fc";
 import {FaFacebookF} from "react-icons/fa"
 import axios from "axios";
 import { useForm } from "react-hook-form";
+import { AiFillEyeInvisible } from 'react-icons/ai';
+import { MdOutlineVisibility } from 'react-icons/md';
 
 function Login(props){ 
   // const history = useHistory()
@@ -25,6 +27,8 @@ function Login(props){
         .finally(() => {
           console.log("login sucessful")
         });
+        
+        
     }
   return (
     <div className="Login">
@@ -83,80 +87,17 @@ function Login(props){
           </div>
         </form>
         <div className='form-login-btn'>
-          <button><a href=''> Login</a></button>
+          <button><a href='/Dashboard'> Login</a></button>
         </div>
         <div className='form-new'>
           <p>Don’t have account yet?</p>
-          <a href=''>New Account</a>
+          <a href='/SignUp'>New Account</a>
         </div>
-
-
-
-
-
-
-
-
 
 
         </div>
       </div>
-    {/*
-      <form className="form"
-        onSubmit={handleSubmit}
-        initialValues={initialState}
-      >
-        <div className="input-group">
-          <
-          
-          
-          <label>Email</label>
-          <input 
-          type="email"  
-          name='email'
-          {...register("email",
-          {
-              required: true,
-              pattern: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-          })}
-          placeholder="Example@gmail.com" />
-        </div>
-        {errors.email && <p>Please check the Email</p>}
-        <div className="input-group">
-          <label>Create password</label>
-          <input 
-          type="password" 
-          name='password'
-          {...register("password", {
-          required: true,
-          pattern: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}$/
-                          })} 
-          placeholder="**********" />
-        </div>
-        {errors.password && <p>Please check the Password</p>}
-        <div className="form-actions">
-                    <br />
-                    <div className="form-check">
-                      <input
-                        type="checkbox"
-                        className="form-check-input"
-                        id="rememberPassword"
-                        name="checkbox"
-                      />
-                          <label className="form-check-label">
-                        Remember me
-                      </label>
-                      </div>
-                    </div>
-                    <button className="primary">Submit</button>
-        <div className='Account'><span>Don’t have account yet?</span><p>New Account</p></div>
-        <h4>forgot password?</h4>
-      </form>
-      <div className='login-left'>
-        <div className='login-img'>
-          <img src={Door} alt="Door" />
-        </div>
-         </div> */}
+    
     </div>
   
   )

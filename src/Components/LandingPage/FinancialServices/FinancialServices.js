@@ -12,9 +12,9 @@ const FinancialServices = () => {
           </div>
           <div className="row-2">
             <div className="btn-wrapper">
-              <button>Get Started</button>
+              <button><a href="/SignUp">Get Started</a></button>
             </div>
-            <a href="/">
+            <a href="/Services">
               <span>Our Services</span>
               <AiOutlineArrowRight className="arrow-icon" />
             </a>

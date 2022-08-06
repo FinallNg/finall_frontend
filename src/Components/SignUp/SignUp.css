@@ -1,347 +1,82 @@
 @import url("https:fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
+.sign-up {
+  display: flex;
+  width: 100%;
+  height: 150vh;  
+  margin-top: 50px;
+  background-color: rgb(252, 251, 251);
+}
+
+.sign-up .form-extender {
+  width: 60%;
+}
+
 .sign-up .img-container {
   display: flex;
+  height: 60%;
   justify-content: center;
-  margin-bottom: 60px;
-  margin-top: 51px;
-}
-
-.sign-up .signup-options-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-bottom: 26px;
-}
-
-.sign-up .signup-text-container {
-  margin-bottom: 12px;
-}
-
-.sign-up .signup-text-container p {
-  font-family: "Lato";
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--finall2);
-}
-
-.sign-up .signup-options-container div:nth-child(2) {
-  display: flex;
-  justify-content: center;
-}
-
-.sign-up .google-signup-container {
-  margin-right: 124px;
-}
-
-.sign-up .google-signup-container span:nth-child(2),
-.sign-up .facebook-signup-container span:nth-child(2) {
-  font-family: "Lato";
-  font-weight: 400;
-  font-size: 10.9686px;
-  line-height: 13px;
-  color: #030229;
-  margin-left: 4px;
-}
-
-.sign-up .google-signup-container,
-.sign-up .facebook-signup-container {
-  display: flex;
-  align-items: center;
-}
-
-.sign-up .divider {
-  margin-bottom: 18px;
-  position: relative;
-}
-
-.sign-up .divider p {
-  font-family: "Lato";
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 14px;
-  color: #030229;
-}
-
-.sign-up .divider p::before,
-.sign-up .divider p::after {
-  content: "";
-  position: absolute;
-  width: 76.58px;
-  height: 0px;
-  top: 6px;
-  opacity: 0.1;
-  border: 0.507135px solid #030229;
-}
-
-.sign-up .divider p::before {
-  right: 60px;
-}
-
-.sign-up .divider p::after {
-  left: 60px;
-}
-
-.sign-up .form-container {
-  padding: 0 16px;
-  margin-bottom: 36px;
-}
-
-.sign-up .form-input-container {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 16px;
-}
-
-.sign-up .form-input-container label {
-  text-align: left;
-  margin-bottom: 12px;
-  font-family: "Lato";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  color: #3f4753;
-}
-
-.sign-up .form-input-container input {
-  padding: 16px;
-  background: #f5faff;
-  border: 1px solid #f5faff;
-  border-radius: 5px;
-  width: 100%;
-  outline: none;
-}
-
-.sign-up .password-container {
-  position: relative;
+  margin-top: 150px;
+  width: 40%;
 }
 
 .sign-up .password-icon {
-  position: absolute;
-  right: 16px;
-  top: 17px;
-  color: #6f757e;
+  margin-top: -27px;
+  margin-left: 350px;
+  color: blue;
   cursor: pointer;
-}
-
-.sign-up ::placeholder,
-.sign-up .select-header span:first-child {
-  font-family: "Lato";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  color: #6f757e;
 }
 
 .sign-up .terms {
-  margin-bottom: 26px;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 30px;
 }
 
-.sign-up .terms p {
-  font-family: "Lato";
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  color: #3f4753;
+.sign-up .terms P {
+  font-size: 75%;
+  letter-spacing: 1px;
+  word-spacing: 1px;
 }
 
-.sign-up .terms-link {
+.sign-up .terms a {
+  margin: 0px 4px;
   text-decoration: none;
-  color: var(--finall2);
+  color: #1A33B2;
 }
 
 .sign-up .btn-container {
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .sign-up .btn-container button {
-  width: 100px;
-  height: 40px;
+  width: 30%;
+  padding: 8px;
+  background-color: #1A33B2;
   border: none;
-  outline: none;
   border-radius: 5px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    #1a33b2;
-  font-family: "Lato";
-  font-weight: 700;
-  font-size: 14px;
-  text-align: center;
-  color: #ffffff;
-  cursor: pointer;
+}
+
+.sign-up .btn-container button a {
+  color: #fff;
 }
 
 .sign-up .alt-login-container {
-  margin-bottom: 49px;
+  display: flex;
+  justify-content: center;
+  font-size: 65%;
 }
 
-.sign-up .alt-login-container span {
-  font-family: "Lato";
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  color: #3f4753;
+.sign-up .alt-login-container p {
+  margin-right: 5px;
+  letter-spacing: 1px;
 }
 
-.sign-up .alt-login-container span:nth-child(2) a {
+.sign-up .alt-login-container a {
+  letter-spacing: 1px;
   text-decoration: none;
-  color: var(--finall2);
+  color: #1A33B2;
+  font-weight: 700;
 }
 
-@media screen and (min-width: 768px) {
-  .sign-up {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    margin-top: 89px;
-  }
-
-  .sign-up .col-1 {
-    margin-left: 81px;
-    width: 50%;
-    margin-right: 10px;
-  }
-
-  .sign-up .col-2 {
-    margin-right: 81px;
-    width: 50%;
-  }
-
-  .sign-up .img-container {
-    width: 277px;
-    height: 277px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
-
-  .sign-up .img-container img {
-    width: 100%;
-  }
-
-  .sign-up .signup-text-container p {
-    font-size: 40px;
-    line-height: 22px;
-  }
-
-  .sign-up .signup-text-container {
-    margin-bottom: 32px;
-  }
-
-  .sign-up .google-signup-container {
-    margin-right: 15px;
-    width: 100%;
-  }
-
-  .sign-up .facebook-signup-container {
-    width: 100%;
-  }
-
-  .sign-up .google-signup-container span:nth-child(2),
-  .sign-up .facebook-signup-container span:nth-child(2) {
-    width: 100%;
-    height: 50px;
-    padding: 1.2em 0;
-    background: #f1f8ff;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-  }
-
-  .sign-up .google-signup-container,
-  .sign-up .facebook-signup-container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .sign-up .google-signup-container span:first-child,
-  .sign-up .facebook-signup-container span:first-child {
-    margin-bottom: 54px;
-  }
-
-  .sign-up .divider p {
-    font-size: 16px;
-    line-height: 19px;
-  }
-
-  .sign-up .divider p::before {
-    width: 120px;
-    right: 0px;
-    top: 10px;
-  }
-
-  .sign-up .divider p::after {
-    width: 120px;
-    left: 0px;
-    top: 10px;
-  }
-
-  .sign-up .form-input-container {
-    margin-bottom: 40px;
-  }
-
-  .sign-up ::placeholder {
-    color: #9fa3a9;
-  }
-
-  .sign-up .terms p {
-    font-size: 12px;
-    line-height: 24px;
-  }
-
-  .sign-up .btn-container button {
-    width: 152px;
-    height: 64px;
-    border-radius: 8px;
-    font-size: 16px;
-  }
-
-  .sign-up .terms {
-    margin-bottom: 40px;
-  }
-
-  .sign-up .form-container {
-    padding: 0px 0px;
-    margin-bottom: 24px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .sign-up .col-1 {
-    margin-left: 100px;
-  }
-
-  .sign-up .col-2 {
-    margin-right: 100px;
-  }
-
-  .sign-up .img-container {
-    width: 377px;
-    height: 377px;
-  }
-
-  .sign-up .divider p::before {
-    width: 80px;
-  }
-
-  .sign-up .divider p::after {
-    width: 80px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .sign-up .col-1 {
-    margin-left: 161px;
-  }
-
-  .sign-up .col-2 {
-    margin-right: 161px;
-  }
-
-  .sign-up .img-container {
-    width: 477px;
-    height: 477px;
-  }
-}
