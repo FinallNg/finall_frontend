@@ -21,7 +21,7 @@ function LandingPage() {
         <FinancialServices />
         <Overview />
         <FeatureCover />
-        <Team />
+        {/*<Team />*/}
         <NewsLetter />
 
     </div>

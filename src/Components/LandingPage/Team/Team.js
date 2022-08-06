@@ -18,13 +18,13 @@ function Team() {
   
   return (
     <>
-      <div className="team">
+      {/*<div className="team">
         <h1>Our Team</h1>
-        <p>
+        <h4>
           We have gathered excellent minds capable of delivering our services to
           you
-        </p>
-      </div>
+        </h4>
+  </div>*/}
   <div className="row">
         <div className="column">
           <div className="card">
@@ -109,10 +109,10 @@ function Team() {
             </div>
           </div>
         </div>
-         <div className="last-column">
-          <div className="cards">
+         <div className="column">
+          <div className="card">
             <img src={img10} className="card-img"  alt="Kanife Happiness"></img>
-            <div className="last-container">
+            <div className="container-img">
               <h2>Kevin Happiness</h2>
               <p>Team lead,Data Analysis</p>
             </div>

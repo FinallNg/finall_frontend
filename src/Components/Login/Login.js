@@ -5,6 +5,8 @@ import {FcGoogle}from "react-icons/fc";
 import {FaFacebookF} from "react-icons/fa"
 import axios from "axios";
 import { useForm } from "react-hook-form";
+import { AiFillEyeInvisible } from 'react-icons/ai';
+import { MdOutlineVisibility } from 'react-icons/md';
 
 function Login(props){ 
   // const history = useHistory()
@@ -25,6 +27,8 @@ function Login(props){
         .finally(() => {
           console.log("login sucessful")
         });
+        
+        
     }
   return (
     <div className="Login">
