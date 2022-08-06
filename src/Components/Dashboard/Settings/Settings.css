@@ -1,0 +1,15 @@
+.Accounts{
+    display:flex;
+    height: 70vh;
+    margin-top: 0.3rem;
+}
+
+.shadow > *{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+} 
+
+.shadow > select:nth-of-type(1){
+    top: 33rem;
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import './LinkAccount.css'
 import MonoConnect from '@mono.co/connect.js';
 
 const LinkAccount = () => {
@@ -17,9 +18,9 @@ const LinkAccount = () => {
       }, [])
 
   return (
-    <div>
+    <div className = 'apibutton'>
       <button onClick={() => monoConnect.open()}>
-        Link account with Mono
+        Connect your bank accounts
       </button>
     </div>
   )

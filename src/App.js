@@ -23,7 +23,6 @@ import Goals from "./Components/Dashboard/Goals/Goals";
 import Settings from "./Components/Dashboard/Settings/Settings";
 import Help from "./Components/Dashboard/Help/Help";
 import Logout from "./Components/Dashboard/Logout/Logout";
-import ConnectBank from "./Components/Dashboard/ConnectBank/ConnectBank";
 // import Sidebar from "./Components/Dashboard/Sidebar/Sidebar";
 
 
@@ -49,7 +48,6 @@ function App() {
           <Route exact path='/settings' element={ <Settings />} />
           <Route exact path='/help' element={<Help />} />
           <Route exact path='/logout' element={<Logout />} />
-          <Route exact path='/connectbank' element={<ConnectBank />} />
 
         </Routes>
         <Footer />
