@@ -1,173 +1,210 @@
 .Login {
-    background: #fff;
     border-radius: 4px;
-    max-width: 615px;
-    padding-bottom: 66px;
-    padding-top: 283px;
-    text-align: center;
-    width: 90%;
-    margin-bottom: -277px;
-    margin-top:110px;
-  }
-  .Login > .logo {
-    max-width: 90%;
-  }
-  .Login > .form {
-    margin-bottom: 98px;
-    margin-top: 41px;
-    position: relative;
-    left:756px;
-  }
-  
-  .input-group {
-    margin-bottom: 26px;
-  }
-  .input-group:nth-last-child(-n + 2) {
-    margin-bottom: 50px;
-  }
-  .input-group > label,
-  .input-group > input {
-    font-family: 'Roboto', sans-serif;
-    max-width: 420px;
-    text-align: left;
-    width: 80%;
-  }
-  .input-group > label {
-    display: inline-block;
-    margin-bottom: 5px;
-  }
-  .input-group > input {
-    background: #F1F8FF;
-    border-radius: 5px;
-    border: 1px solid #e5e5e5;
-    color: #676767;
-    font-size: 16px;
-    outline: 0;
-    padding: 0 15px;
-    transition: all 0.3s;
-    width: 478px;
-    height: 54px;
-  }
-  .input-group > input:focus {
-    background: #fff;
-    border-color: #c4c4c4;
-  }
-  .input-group > input::placeholder {
-    color: #c4c4c4;
-    font-size: 16px;
-  }
-  
-  .Login button {
-    border-radius: 5px;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    max-width: 420px;
-    outline: 0;
-    padding: 10px 0;
-    transition: background 0.3s;
-    width: 80%;
-  }
-  button.primary {
-    background:  #1A33B2;;
-    width:192px;
-    height:64px;
-    border-radius:8px;
-    font-size:12px;
-    position:absolute;
-    top:272px;
-    left:220px;
-  }
-  .button-class{
+    width: 100%;
+    height: 100vh;
+
     display: flex;
-    gap: 16px;
-    width: 428px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    left: 95px;
-    bottom: 305px;
+    margin-top: 50px;
   }
-  .button-class button{
-    background-color: #F1F8FF;
-    color:#030229;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px
-      }
-  .form-title{
-    color:#1A33B2;
-    position: absolute;
-    bottom: 469px;
-    left: 267px;
-  }
-  .form-check-label{
-    padding: 3px;
-    position: absolute;
-    top: 182px;
-    left: 123px
-    }
-  .form-check-input{
-    padding: 3px;
-    position: absolute;
-    top: 187px;
-    left: 108px
-  }
-.login-line
-{
-  display: table;
-  text-align: center;
-  position: absolute;
-  left: 150px;
-  bottom: 252px
-}
-.login-line:before, .login-line:after{ 
-  content:'';
-  display:table-cell; 
-  width:151px;
-  border-top:2px solid #B6B6B4;;
-  -webkit-transform:scaleY(0.3);
-  transform:scaleY(0.3);
-}
-.Account{
-  display:flex;
-  gap:8px;
-  font-size: 12px;
-  position: absolute;
-  right: 190px;
-  top: 358px;
+
+
+.login-img {
+  width: 50%;
+
 }
 
-.Account p{
-  color:#3e38b4
+.login-img div {
+  width: 80%;
+  margin: 150px auto 50px auto;
+
 }
-.login-left {
-  position: relative;
-  bottom: 433px;
-  left: 100px;
+
+.login-img div img {
+  width: 100%;
+  
 }
-.Login h4{
-  font-size: 12px;
-  color:#3e38b4;
-  position: absolute;
-  right: 110px;
-  top: 183px;
+
+.login-content {
+  width: 50%;
 }
-.google-icon{
-    font-size:50px;
-    position: relative;
-    bottom: 90px;
-    left: 93px;
+
+.login-content-box {
+  width: 50%;
+  height: 90%;
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
 }
+
+.login-head {
+  margin: 50px 0px;
+
+}
+
+.login-head {
+  color: #1A33B2;
+  font-size: 140%;
+  letter-spacing: 1px;
+}
+
+.button-class{
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.button-class button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  background-color:#F1F8FF ;
+}
+
+.button-class button a {
+  color: #1A33B2;
+  font-size: 80%;
+}
+
+.google-icon , .facebook-icon {
+  font-size:13px;
+  margin-right: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
 .facebook-icon{
-  font-size: 35px;
-  position: relative;
-  bottom: 81px;
-  left: 93px;
   color: steelblue;
 }
+
+.login-line {
+  letter-spacing: 1px;
+  font-size: 90%;
+  font-weight: 700;
+  display: flex;
+  width: 70%;
+  margin: 15px auto 30px auto;
+}
+
+
+.login-line div {
+  border-bottom: 1px solid rgb(226, 225, 225);
+  width: 80%;
+  margin-bottom: 15px;
+}
+
+.login-line span {
+  margin: -11px 10px 0px 10px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  align-items: flex-start;
+  
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  font-size: 90%;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-weight: 500;
+}
+
+.input-group input {
+  padding: 10px;
+  width: 100%;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  border: none;
+  background-color: #F1F8FF ;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: -35px 0px 40px 0px;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  
+}
+
+.form-check input {
+  height: 11px;
+  width: 11px;
+  margin-right: 5px;
+
+}
+
+.form-check label {
+  font-size: 75%;
+  letter-spacing: 1px;
+}
+
+.form-password-reset {
+  align-items: center;
+  
+}
+
+.form-password-reset a {
+  font-size: 60%;
+  font-weight: 400;
+  letter-spacing: px;
+  text-decoration: none;
+  color: #1A33B2;
+}
+
+.form-login-btn {
+  width: 30%;
+  margin: 20px auto;
+}
+
+.form-login-btn button {
+  padding: 11px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #1A33B2;
+  color: #fff;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 80%;
+}
+
+.form-new {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.form-new p {
+font-size: 60%;
+margin-right: 10px;
+letter-spacing: 1px;
+}
+
+.form-new a {
+  font-size: 60%;
+  color: #1A33B2;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+
+
