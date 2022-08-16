@@ -1,0 +1,13 @@
+.team-grid-container {
+    display: none;
+}
+    @media (min-width: 769px) {
+        .team-grid-container{
+            display:flex;
+            margin:20px;
+            padding:20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap:10px;
+    }
+}

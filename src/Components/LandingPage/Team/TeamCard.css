@@ -1,0 +1,24 @@
+    .Teamcard-container {
+        max-width: 179px;
+        border-radius: 5px;
+        border: 0.5px solid #373737;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Teamcard-details {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Teamcard-img-wrapper {
+        height: 70%;
+    }
+        img {
+            border-radius: 50%;
+            border:2px solid grey;
+            height:84%;
+            width:79%;
+            margin-top:20px;  
+        }
