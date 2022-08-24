@@ -1,7 +1,8 @@
 import React from 'react'
 import NewsLetter from '../LandingPage/NewsLetter/NewsLetter';
+import Team from '../LandingPage/Team/Team';
 import './AboutUs.css' ;
-
+import TeamGrid from '../LandingPage/Team/TeamGrid';
 
 const AboutUs = () => {
   return (
@@ -68,7 +69,8 @@ const AboutUs = () => {
               Our team of young and smart experts is motivated by the mission to make your life easy by helping you keep track of your financial transactions to make better decisions.
             </h3>
           </div>
-
+          <Team />
+          <TeamGrid />
           <div className='aboutus-team-head'>
             <h2>Our <span>Mission</span></h2>
           </div>
@@ -80,10 +82,10 @@ const AboutUs = () => {
       
         </div>
         
-
+        <NewsLetter />
       </div>
       
-      <NewsLetter />
+
 
     </div>
   )

@@ -1,4 +1,4 @@
-*{
+/* *{
     box-sizing: border-box;
 }
 
@@ -7,7 +7,7 @@
     margin:20px;
     padding:20px;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-bottom: 60px;
     }
 
@@ -17,7 +17,7 @@
     }
 }
 .column{
-   width: 25%;
+   width: 15%;
     text-align: center;
     margin: 45px 0 0 2%;
     flex-grow: 1;
@@ -38,26 +38,28 @@
     letter-spacing: 1px;
 }
 
-.team p {
+.team h4 {
     color: #0F1928;
     word-spacing: 1px;
     letter-spacing: 1px;
+    font-weight: 500;
 }
 
 
 .container{
     padding: 0 16px;
+
 }
 
 .card{
     border: 2px solid grey;
-    width: 300px;
+    width: 200px;
     border-radius:15px;
-    height:400px;
+    height:250px;
 }
 
 .container-img h2, .last-container h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
     margin: 10px 0px;
     letter-spacing: 1px;
@@ -67,6 +69,8 @@
 .container-img p, .last-container p {
     letter-spacing: 1px;
     word-spacing: 1px;
+    font-size: 0.8rem;
+    font-weight: 400;
 } 
 
 @media(max-width:500px){
@@ -79,7 +83,8 @@
     border:2px solid grey;
     height:40%;
     width:50%;
-    margin-top:50px
+    margin-top:20px;
+    
 }
 .last-column{
     width: 31%;
@@ -96,5 +101,11 @@
 @media(max-width:500px){
     .cards{
         margin-left: -14px;
+    }
+} */
+
+    @media(min-width: 769px) {
+        .slider-container.react-multi-carousel-list {
+            display: none;
     }
 }
