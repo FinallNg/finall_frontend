@@ -84,6 +84,7 @@
     position: relative;
     top: -250px;
     left: -75px;
+    flex-wrap: wrap;
 
 }
 

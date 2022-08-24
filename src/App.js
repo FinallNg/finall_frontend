@@ -20,7 +20,6 @@ import Transactions from "./Components/Dashboard/Transactions/Transactions";
 import CardsBanks from "./Components/Dashboard/CardsBanks/CardsBanks";
 import Invoices from "./Components/Dashboard/Invoices/Invoices";
 import Goals from "./Components/Dashboard/Goals/Goals";
-import Settings from "./Components/Dashboard/Settings/Settings";
 import Help from "./Components/Dashboard/Help/Help";
 import Logout from "./Components/Dashboard/Logout/Logout";
 // import Sidebar from "./Components/Dashboard/Sidebar/Sidebar";
@@ -33,6 +32,7 @@ function App() {
         <Navbar />
          {/* <Sidebar /> */}
         <Routes>
+          
           <Route exact path="/" element={<LandingPage />} />
           <Route exact path="/about" element={<AboutUs />} />
           <Route exact path="/services" element={<Services />} />
@@ -45,7 +45,6 @@ function App() {
           <Route exact path='/cards' element={<CardsBanks />} />
           <Route exact path='/invoices' element={<Invoices />} />
           <Route exact path='/goals' element={<Goals />} />
-          <Route exact path='/settings' element={ <Settings />} />
           <Route exact path='/help' element={<Help />} />
           <Route exact path='/logout' element={<Logout />} />
 

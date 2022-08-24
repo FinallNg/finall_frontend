@@ -20,6 +20,10 @@
     position: absolute;
 }
 
+.slap > img{
+    cursor: pointer;
+}
+
 .slap > :nth-of-type(1){
     transform: scale(0.8);
     left: 66rem;
