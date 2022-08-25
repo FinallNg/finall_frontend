@@ -73,7 +73,7 @@ const Transactions = () => {
                     <td className="tbdata">{transaction.narration}</td>
                     <td className="tbdata">{transaction.type}</td>
                     <td className="tbdata">{formatDate(transaction.date)}</td>
-                    <td className="tbdata">{transaction.amount}</td>
+                    <td className="tbdata">${transaction.amount}</td>
                   </tr>
                 ))}
             </tbody>

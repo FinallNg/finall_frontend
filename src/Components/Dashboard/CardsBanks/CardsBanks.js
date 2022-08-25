@@ -1,4 +1,5 @@
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
+import axios from "axios";
 
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 
@@ -13,12 +14,26 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const CardsBanks = () => {
+  const [balance, setBalance] = useState("");
+  const url = `https://finall-app.herokuapp.com/api/v1/users/62b208fab5e09b628baa2429/accounts/totalBalance`;
+
   const prevRef = useRef(null);
   const nextRef = useRef(null);
 
   SwiperCore.use([Navigation]);
 
   const bankCards = [{ src: CardOne }, { src: CardTwo }];
+
+  useEffect(() => {
+    axios
+      .get(url)
+      .then((res) => {
+        setBalance(res.data);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }, [url]);
 
   return (
     <div className="cards-banks">
@@ -53,7 +68,7 @@ const CardsBanks = () => {
       </div>
       <div className="card-balance">
         <p>Your balance</p>
-        <p>$96,355.00</p>
+        <p>${balance && balance.totalBalance}</p>
       </div>
       <div className="card-info">
         <p className="title">Card Info</p>
