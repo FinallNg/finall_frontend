@@ -19,7 +19,7 @@ const Overview = () => {
 
     {/* bottom side */}
     <div className="contents" >
-      <div style ={{left:'-20rem',top:'-4rem'}}>
+      <div style ={{left:'-20rem',top:'-4rem' }}>
       <Card 
       icon = {Organize}
       heading = {'Organize transactions'}

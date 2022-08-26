@@ -56,6 +56,7 @@
     font-weight: bold;
     font-size: 2rem;
     size: 42px;
+
 }
 
 
@@ -66,18 +67,53 @@
     position: relative;
     top: -250px;
     left: -75px;
-    
+
 }
 
 
 .contents >  *{
     position:absolute;
     gap: 2rem;
+    
+} 
 
+.contents-card-details {
 
 }
 
+@media screen and ( max-width:1200px) {
+    .features {
+        height: 120vh;
+    }
 
-.contents-card-details {
-    border: 1px solid red;
+    .headers :nth-of-type(1) {
+        margin-top: -20px;
+
+    }
+
+    .headers :nth-of-type(2) {
+        margin-top: -20px;
+    
+    }
+}
+
+@media screen and ( max-width:1023px) {
+
+    .headers span {
+        display: flex;
+        justify-content: center;
+        margin-left: -100px;
+    }
+
+    .headers :nth-of-type(1) {
+        margin-top: -20px;
+        font-size: 22px;
+
+    }
+
+    .headers :nth-of-type(2) {
+        margin-top: -20px;
+        font-size: 22px;
+        margin-left:-380px;
+    }
 }

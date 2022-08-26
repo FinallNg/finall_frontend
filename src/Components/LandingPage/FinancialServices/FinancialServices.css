@@ -21,6 +21,7 @@
   width: 100%;
   background-color: #151515;
   height: 156px;
+  
 }
 
 .financial-services .col-left {
@@ -35,6 +36,8 @@
 .financial-services .row-1 {
   width: 100%;
   margin-left: -80px;
+
+
   
 }
 
@@ -106,6 +109,7 @@
   width: 50%;
   display: flex;
   justify-content: space-evenly;
+
 }
 
 .financial-services .col-right .img-container {
@@ -119,6 +123,7 @@
   width: 100%;
   display: block;
 }
+
 
 @media screen and (min-width: 640px) {
   .financial-services .container {
@@ -181,21 +186,68 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .financial-services .row-1 {
-    width: 652px;
+    width: 100%;
+    margin-left: -80px;
+    width: 625px;
   }
+  
+  .financial-services .row-1 h3 {
+  
+    font-weight: 700;
+    font-size: 20px;
+    width: 110%;
+  }
+
 
   .financial-services .col-left {
-    margin-left: 156px;
+    margin-left: 150px;
   }
 
   .financial-services .col-right .img-container {
-    right: 120px;
+    right: 50px;
   }
 
-  .financial-services .col-right .img-container {
-    width: 556px;
-    height: 654px;
+
+  .financial-services .row-2 {
+    margin-top: 60px;
+
+    
   }
+
+  .financial-services .btn-wrapper {
+    margin-right: 32px;
+    width: 175px;
+    height: 65px;
+
+  }
+
+  
+  .financial-services .btn-wrapper button a {
+
+    font-size: 16px;
+
+  }
+
+.row-2 a span {
+  font-size: 16px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+

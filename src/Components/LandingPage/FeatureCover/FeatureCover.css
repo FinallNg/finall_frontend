@@ -20,6 +20,7 @@
     justify-content: center;
     flex-grow: 1;
     font-size: 18px;
+   
 }
 
 .header :nth-of-type(1){
@@ -58,6 +59,7 @@
     size: 42px;
     word-spacing: 1px;
     letter-spacing: 1px;
+
 }
 
 .header :nth-of-type(3){
@@ -92,3 +94,36 @@
 }
 
 
+@media screen and (max-width: 1200px) {
+    .feature {
+        height: 115vh;
+    }
+
+
+}
+
+@media screen and (max-width: 1023px) {
+    .header span {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    .header :nth-of-type(1){
+        font-size: 20px;
+        margin-left: 50px;
+
+
+    }
+    .header :nth-of-type(2){
+        font-size: 20px;
+        margin-left: -20px;
+    }
+    .header :nth-of-type(3){
+        font-size: 20px;
+        margin-left: -105px;
+
+    }
+
+
+}
