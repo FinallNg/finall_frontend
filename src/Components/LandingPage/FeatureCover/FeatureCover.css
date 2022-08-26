@@ -1,4 +1,4 @@
-.feature{
+.feature-feature{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,7 +11,7 @@
     margin-bottom: 15rem;
 }
 
-.header{
+.feature-header{
     display: flex;
     position: relative;
     flex: 1;
@@ -20,9 +20,10 @@
     justify-content: center;
     flex-grow: 1;
     font-size: 18px;
+   
 }
 
-.header :nth-of-type(1){
+.feature-header :nth-of-type(1){
     color: var(--finall2);
     font-family: 'Lato';
     width: 900.03px;
@@ -42,7 +43,7 @@
 }
 
 
-.header :nth-of-type(2){
+.feature-header :nth-of-type(2){
     color: var(--finall3);
     font-family: "Lato";
     width: 300px;
@@ -58,9 +59,10 @@
     size: 42px;
     word-spacing: 1px;
     letter-spacing: 1px;
+
 }
 
-.header :nth-of-type(3){
+.feature-header :nth-of-type(3){
     color: var(--finall2);
     font-family: "Lato";
     width: 849.03px;
@@ -77,7 +79,7 @@
 
 
 
-.content{
+.feature-content{
     font-size: 16px;
     align-items: center;
     margin-top: 10px;
@@ -87,8 +89,41 @@
 
 }
 
-.content > *{
+.feature-content > *{
     position:absolute;
 }
 
 
+@media screen and (max-width: 1200px) {
+    .feature-feature {
+        height: 115vh;
+    }
+
+
+}
+
+@media screen and (max-width: 1023px) {
+    .feature-header span {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    .feature-header :nth-of-type(1){
+        font-size: 20px;
+        margin-left: 50px;
+
+
+    }
+    .feature-header :nth-of-type(2){
+        font-size: 20px;
+        margin-left: -20px;
+    }
+    .feature-header :nth-of-type(3){
+        font-size: 20px;
+        margin-left: -105px;
+
+    }
+
+
+}

@@ -122,6 +122,7 @@ letter-spacing: 1px;
     margin-top: 55px;
     margin-left: 20px;
     width: 50%;
+    
 }
 
 .footer-pages-box {
@@ -131,6 +132,7 @@ letter-spacing: 1px;
     margin-right: 60px;
     align-items: flex-start;
     width: 90%;
+    
     
 }
 
@@ -164,3 +166,45 @@ letter-spacing: 1px;
 }
 
 
+@media screen and (max-width:1200px){
+    .footer-pages {
+        width: 40%;
+        
+    }
+}
+
+@media screen and (max-width:1023px){
+    .footer-pages {
+        width: 35%;
+    
+    }
+
+    .footer-logo-container {
+        width: 35%;
+        height: 25vh;
+
+    }
+    .footer-image{
+        top: 25px;
+    }
+
+    .footer-logo-para  {
+        margin-bottom: 20px;
+        margin-top: 150px;
+
+
+    }
+    
+    .fi{
+    
+        top: 60px;
+        font-size: 25px;
+        left: 90px;
+        line-height: 25px;
+    }
+
+
+
+
+
+}

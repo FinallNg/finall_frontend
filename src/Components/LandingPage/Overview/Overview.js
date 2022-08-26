@@ -10,16 +10,16 @@ import './Overview.css'
 
 const Overview = () => {
   return (
-    <div className='features'>
-    <div className='headers'>
+    <div className='over-features'>
+    <div className='over-headers'>
       <span>Our features you would love for your</span>
       <span>  Personal Account </span>
     </div>
 
 
     {/* bottom side */}
-    <div className="contents" >
-      <div style ={{left:'-20rem',top:'-4rem'}}>
+    <div className="over-contents" >
+      <div style ={{left:'-20rem',top:'-4rem' }}>
       <Card 
       icon = {Organize}
       heading = {'Organize transactions'}
