@@ -1,50 +1,112 @@
-.transaction-h1 {
-    border: 0.911773px solid #E7E8F2;
-    background: #FFFFFF;
-    box-shadow: 5px 10px 9px #888888;
-    width: 72%;
-    height: 100%;
-    border-radius: 15px;
-    box-shadow: darkgrey;
-    background-color: transparent;
-    font-family: "DM Sans", sans-serif;
-    padding: 4%;
-    position: absolute;
-    left:245px;
-    top: 87px;
-    }
-    @media (max-width: 500px){
-        .transaction-h1{
-            position: relative;
-            left: 1px;
-            width: 9%;
-        }
-    }
-    .tbhead:nth-child(1), .tbhead:nth-child(2), .tbhead:nth-child(3), .tbhead:nth-child(4) {
-        text-align: center;
-        color: #C7C7C7;
-        
-    }
-    @media (max-width: 500px){
-        .tbhead:nth-child(1), .tbhead:nth-child(2), .tbhead:nth-child(3), .tbhead:nth-child(4){
-            text-align: left;
-        }
-    }
-    .tbdata:nth-child(2), .tbdata:nth-child(3){
-        color: #C7C7C7;
-    }
-    .tbdata {
-    text-align: center
-     }
-     .transaction-h1 h2{
-        margin:-34px -25px 15px -39px
-     }
-     @media (max-width: 500px){
-        .transaction-h1 h2{
-            margin: -63px;
-            position: relative;
-            top: 48%;
-            left: 74%;
-    }
-        
-        }
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100&display=swap");
+
+.transactions .transaction-table {
+  border: none;
+  box-shadow: none;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.transactions-container {
+  font-family: "Lato", sans-serif;
+  padding: 0 1em;
+}
+
+.transactions {
+  border: 0.911773px solid #e7e8f2;
+  box-shadow: 2px 2px 10px rgba(26, 51, 178, 0.25);
+  border-radius: 16px;
+  width: 90%;
+  height: 100%;
+  background-color: var(--white);
+  margin: 0 auto;
+  margin-block: 2em;
+  padding: 2em;
+}
+
+.transactions .tbhead,
+.transactions .tbdata:nth-child(1),
+.transactions .tbdata:nth-child(4) {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.transactions .tbhead {
+  text-align: left;
+  color: #aeaeae;
+  padding-bottom: 2em;
+}
+
+.transactions .tbdata:nth-child(2) {
+  text-transform: capitalize;
+}
+
+.transactions .tbdata:nth-child(2),
+.transactions .tbdata:nth-child(3) {
+  color: #c7c7c7;
+}
+
+.transactions .tbdata:nth-child(1),
+.transactions.tbdata:nth-child(4) {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #404040;
+}
+
+.transactions .tbdata:nth-child(4),
+.transactions .tbhead:nth-child(4) {
+  text-align: right !important;
+}
+
+.transactions .tbhead:nth-child(2),
+.transactions .tbhead:nth-child(3) {
+  text-align: center !important;
+}
+
+.transactions .tbdata {
+  text-align: left;
+  padding: 0 2em;
+  padding-bottom: 1em;
+}
+
+.transactions h2 {
+  text-align: left;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.transactions .transactions-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.transactions-btn-container button {
+  background-color: transparent;
+  padding: 0.5em;
+  color: var(--finall2);
+  border: 1px solid gray;
+  margin: 0 0.2em;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.transactions .transactions-btn-container button:nth-of-type(2) {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.transactions .table-responsive {
+  overflow-x: auto;
+}
+
+@media screen and (max-width: 640px) {
+  .transactions {
+    width: 100%;
+  }
+}
