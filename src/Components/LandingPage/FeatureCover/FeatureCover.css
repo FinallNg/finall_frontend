@@ -13,26 +13,19 @@
 
 .feature-header{
     display: flex;
-    position: relative;
-    flex: 1;
-    left: -80px;
-    top: -100px;
-    justify-content: center;
-    flex-grow: 1;
-    font-size: 18px;
+    font-size: 18px; 
    
 }
 
 .feature-header :nth-of-type(1){
     color: var(--finall2);
     font-family: 'Lato';
-    width: 900.03px;
     height: 68px;
-    top: 200px;
+    margin-top: -160px;
     left: -13rem;
     font-style: normal;
     align-items: center;
-    position: absolute;
+
     font-weight: bolder;
     size: 42px;
     font-size: 2rem;
@@ -46,13 +39,11 @@
 .feature-header :nth-of-type(2){
     color: var(--finall3);
     font-family: "Lato";
-    width: 300px;
     height: 68px;
-    top: 200px;
     left: 0.7rem;
     font-style: normal;
     align-items: center;
-    position: absolute;
+    margin: -160px 10px 0px 10px;
     display: flex;
     font-weight: bold;
     font-size: 2rem;
@@ -65,13 +56,11 @@
 .feature-header :nth-of-type(3){
     color: var(--finall2);
     font-family: "Lato";
-    width: 849.03px;
     height: 68px;
-    top: 200px;
+    margin-top: -160px;
     left: 18rem;
     font-style: normal;
     align-items: center;
-    position: absolute;
     display: flex;
     font-weight: bold;
     font-size: 2rem;
@@ -84,7 +73,7 @@
     align-items: center;
     margin-top: 10px;
     position: relative;
-    top: -250px;
+    margin-bottom: -100px;
     left: -75px;
 
 }
