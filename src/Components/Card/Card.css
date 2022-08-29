@@ -104,8 +104,17 @@
 }
 
 @media screen and ( max-width:1200px) {
+    .card-wrangler {
+        
+    }
+
+    .card-wrangler-content {
+        height: 220px;
+        margin-top: 85px;
+    }
+
     .card-wrangler-content-image {
-        margin-top: 230px;
+        margin-top:0px;
 
     }
 

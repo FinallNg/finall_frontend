@@ -175,7 +175,8 @@ letter-spacing: 1px;
 
 @media screen and (max-width:1023px){
     .footer-pages {
-        width: 35%;
+        width: 30%;
+        text-align:left;
     
     }
 

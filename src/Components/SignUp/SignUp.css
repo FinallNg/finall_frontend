@@ -79,4 +79,19 @@
   color: #1A33B2;
   font-weight: 700;
 }
+@media screen and (max-width:1200px){
+  .sign-up {
+    height: 190vh;  
+  }
+  .input-group {
+    width: 110%;
+  }
+  
+}
 
+@media screen and (max-width:1023px){
+  .sign-up {
+    height: 190vh;  
+
+  }
+}

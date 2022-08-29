@@ -206,5 +206,12 @@ letter-spacing: 1px;
   text-decoration: none;
 }
 
+@media screen and (max-width:1200px) {
+  .Login {
+    height: 120vh;
+  }
+}
 
-
+@media screen and (max-width:1023px) {
+  
+}
