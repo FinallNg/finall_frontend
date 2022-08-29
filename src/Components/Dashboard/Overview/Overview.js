@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react"
-import { CounterWidget, ExpenseWidget, SavingsWidget } from './widgets';
+import { ExpenseWidget, SavingsWidget } from './widgets';
 import "../Overview/Overview.css";
 import MiniCalendar from './Minicalendar';
 import {ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Legend} from 'recharts';
@@ -8,7 +8,7 @@ import Tabledata from './components/Tabledata';
 import Doughnut from './doughnut';
 import axios from 'axios';
 import { Card } from '@themesberg/react-bootstrap';
-import { BiUpArrowAlt, BiDownArrowAlt} from"react-icons/bi"
+import { BiUpArrowAlt} from"react-icons/bi"
 import { NavItem } from "react-bootstrap";
 
 export default function Overview(){
