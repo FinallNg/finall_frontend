@@ -20,11 +20,9 @@ useEffect(() => {
     axios
         .get('https://finall-app.herokuapp.com/api/v1/users/62b208fab5e09b628baa2429/accounts/totalBalance')
         .then((res) => {
-      console.log(res);
       setTitle(res.data)
     })
     .catch((err) => {
-      console.log(err);
     });
 };
   return (
