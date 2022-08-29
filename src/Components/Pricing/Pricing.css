@@ -13,9 +13,6 @@
     background-color:#F5FAFF;
     display: flex;
     flex-direction: column;
-
-
-    
 }
 .pricing-box:active,
 .pricing-box:hover {
@@ -254,4 +251,12 @@
 
 .pricing-button6 {
     margin-top: -25px;
+}
+
+
+@media screen and (max-width:1023px){
+    .pricing-box {
+        padding: 0px 5px;
+        height: 422.4px;    
+    }
 }

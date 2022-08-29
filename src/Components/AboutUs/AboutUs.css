@@ -9,7 +9,7 @@
 .about-page {
     width: 100%;
     background: linear-gradient( 5deg, #fff, #fff, rgb(250, 250, 250));
-    height: 3070px;
+    height: 2980px;
     border: 1px solid rgb(254, 254, 254);
 }
 
@@ -17,6 +17,7 @@
     width: 85%;
     margin: 60px auto 0px auto;
     height: 100%;
+
 }
 
 .about-h1 {
@@ -231,3 +232,18 @@
     border: 5px solid #000;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 1200px) {
+    .about-page {
+        height: 2780px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .about-page {
+        height: 3090px;
+        border: 1px solid red;
+    }
+}
+
+
