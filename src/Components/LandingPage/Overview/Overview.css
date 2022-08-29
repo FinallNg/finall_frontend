@@ -42,7 +42,7 @@
 }
 
 
-.headers :nth-of-type(2){
+.headerss :nth-of-type(2){
     color: var(--finall3);
     font-family: "Lato";
     width: 900.03px;
