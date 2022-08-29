@@ -4,6 +4,22 @@
     margin: 0;
 }
 
+@media screen and (max-width: 1200px) {
+    header {
+    
+
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+    header {
+        font-size: 75%;
+
+    }
+
+}
+
 
 @media (min-width: 801px) {
     header {

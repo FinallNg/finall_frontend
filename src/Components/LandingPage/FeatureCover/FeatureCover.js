@@ -10,8 +10,8 @@ import "./FeatureCover.css"
 
 const FeatureCover = () => {
   return (
-    <div className='feature'>
-    <div className='header'>
+    <div className='feature-feature'>
+    <div className='feature-header'>
       <span>We have your  </span>
       <span>  Business Account </span>
       <span>  covered too </span>
@@ -19,7 +19,7 @@ const FeatureCover = () => {
 
 
     {/* bottom side */}
-    <div className="content" >
+    <div className="feature-content" >
       <div style ={{left:'-18rem',top:'-4rem'}}>
       <Card
       icon = {Split}
