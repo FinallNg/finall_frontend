@@ -85,6 +85,7 @@ background-size: cover;
     font-weight: 700;
     word-spacing: 2px;
     letter-spacing: 1px;
+    
 }
 
 .hero-h1 {
@@ -210,3 +211,86 @@ background-size: cover;
 }
 
 
+@media screen and (max-width: 1023px) {
+    .hero-details h1 {
+        font-size: 200%;
+        font-weight: 600;
+    }
+
+    .hero-img {
+        
+        height: 60vh;
+        width: 60vh;
+        margin-top: 100px;
+    }
+
+    .business-img {
+        
+        height: 60vh;
+        width: 60vh;
+    
+    }
+
+    .business-head {
+        font-size: 90%;
+        font-weight:lighter;
+        width: 115%;
+    }
+
+    .business-sub {
+        font-size: 70%;
+    }
+
+    .business {
+        height: 350px;
+        margin: 10px 0px;
+    }
+
+    .goals {
+        margin: -10px 0px;
+        
+    }
+    .goal-boxes {
+        height: 300px;
+    }
+
+    .goal-img {
+        height: 60vh;
+        width: 60vh; 
+    
+    }
+
+    .goal-details {
+        margin-top: 50px;
+    }
+
+    .goal-head {
+        font-size: 80%;
+        font-weight: 300;
+        width: 115%;
+    }
+
+    .goal-sub {
+        font-size: 70%;
+    }
+
+    .spending-head {
+        font-size: 75%;
+        width: 110%;
+        text-align: center;
+        margin-bottom: 5px;
+        
+    }
+
+    .spending-img {
+        height: 60vh;
+        width: 60vh;
+    }
+
+    .spending-details {
+        margin-top: 60px;
+    }
+
+
+
+}
