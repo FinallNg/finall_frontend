@@ -40,7 +40,7 @@ useEffect(() => {
               
             <div className="small mt-2">
               <span>
-                +%
+                +2.5%
                 <BiUpArrowAlt className="up-arrow"/>
               </span>
             </div>
