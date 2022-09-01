@@ -242,7 +242,6 @@
 @media screen and (max-width: 1023px) {
     .about-page {
         height: 3090px;
-        border: 1px solid red;
     }
 }
 

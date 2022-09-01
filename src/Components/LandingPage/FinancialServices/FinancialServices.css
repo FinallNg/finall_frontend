@@ -237,7 +237,23 @@
 }
 
 
+@media screen and (max-width: 767px) {
 
+  .finance-row-2 {
+
+  width: 70%;
+    
+  }
+
+  .finance-btn-wrapper {
+
+    margin-left: -170px;
+  }
+
+
+
+
+}
 
 
 
