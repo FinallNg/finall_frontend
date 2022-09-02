@@ -291,6 +291,59 @@ background-size: cover;
         margin-top: 60px;
     }
 
+}
+
+@media screen and (max-width: 767px){
+
+    .hero-details {
+        width: 50%;
+    }
+    .hero-h1 {
+        margin-bottom: 20px;
+
+     }
+
+     .hero-h1 h1 {
+        font-size: 150%;
+        line-height: 40px;
+     }
+
+     .business-boxes {
+        width: 50%;
+     }
+
+     .business-head {
+        width: 100%;
+        margin-top: 20px;
+
+     }
+     .business-head h2 {
+        font-size: 135%;
+     }
+
+     .goal-boxes {
+        width: 50%;
+
+     }
+     .goal-head  h2{
+        font-size: 150%;
+     }
+
+     .goal-img {
+        width: 40%;
+     }
+
+     .spending-boxes {
+        
+        width: 50%;
+     }
+     .spending-img-box {
+        margin-right: -20px;
+     }
+
+     .spending-img {
+        margin: 0px auto;
+     }
 
 
 }

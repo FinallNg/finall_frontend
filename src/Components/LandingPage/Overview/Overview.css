@@ -115,3 +115,23 @@
 
     
 }
+
+@media screen and ( max-width:767px) {
+    .over-features {
+        height: 150vh;
+
+    }
+    .over-headers :nth-of-type(1) {
+        margin-top: -300px;
+}
+
+    .over-headers :nth-of-type(2) {
+    margin-top: -300px;
+}
+
+
+    .over-contents {
+        margin-right: -80px;
+
+    }
+}

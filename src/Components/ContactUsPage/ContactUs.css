@@ -82,7 +82,7 @@
 
 }
 
-@media (min-width: 768px) {
+@media screen and (max-width: 767px) {
     .contactus {
         flex-direction: row;
         flex-wrap: wrap;
@@ -97,10 +97,11 @@
         padding: 25px 100px;
     }
 
-    .contactus h2 {
-        flex: 1 0 100%;
-        font-size: 48px;
-        margin-bottom: 25px;
+    .contactus h3 {
+
+        font-size: 120%;
+        margin-top: 20px;
+        margin-bottom: 5px;
     }
 
     .contactus form > div {
@@ -109,6 +110,14 @@
 
     .contactus form > div:last-of-type {
         width: 100%;
+    }
+
+    .contactus form label {
+        font-size: 90%;
+    }
+
+    .contactus form input {
+        font-size: 80%;
     }
 }
     
