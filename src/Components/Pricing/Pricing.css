@@ -13,9 +13,6 @@
     background-color:#F5FAFF;
     display: flex;
     flex-direction: column;
-
-
-    
 }
 .pricing-box:active,
 .pricing-box:hover {
@@ -254,4 +251,42 @@
 
 .pricing-button6 {
     margin-top: -25px;
+}
+
+
+@media screen and (max-width:1023px){
+    .pricing-box {
+        padding: 0px 5px;
+        height: 422.4px;    
+    }
+}
+
+@media screen and (max-width:767px){
+    .pricing-box {
+        height: 522.4px;  
+        padding: 0px 60px;
+    
+    }
+
+    .pricing-box:last-child {
+        margin-right: 200px;
+    }
+    
+    .pricing-box:first-child {
+        margin-right: 25px;
+    }
+    
+    
+    .pricing-box:nth-child(2) {
+        margin-right: 25px;
+
+    }
+
+    .price-desc, .pricing-para1, .price-desc2, .price-desc2b, .standard-para1 {
+        width: 150%;
+        margin-left: -20px;
+    
+    }
+
+    
 }

@@ -24,7 +24,8 @@ const AboutUs = () => {
             </div>
           </div>
           <div className='about-content-middle'>
-            <h3>We also help you with your budgeting plan tailored to suit your lifestyle. It keeps track of every financial activity on your accounts and helps you stay within budget and achieve your goals.</h3></div>
+            <h3>We also help you with your budgeting plan tailored to suit your lifestyle. It keeps track of every financial activity on your accounts and helps you stay within budget and achieve your goals.</h3>
+          </div>
           <div className='about-container-box'>
             <div className='about-container-front'>
               <div className='about-container-img2'>

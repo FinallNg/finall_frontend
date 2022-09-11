@@ -17,7 +17,7 @@
     border: 0.911773px solid #E7E8F2;
     background: #FFFFFF;
     box-shadow: 5px 10px 9px #888888;
-    /* width: 328px; */
+    width: 328px;
     border-radius: 15px;
     height: 154px;
     box-shadow: darkgrey;
@@ -28,7 +28,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 14.5884px;
+    font-size: 23px;
     line-height: 22px;
     color: #33343D;
     letter-spacing: 0.0911773px;

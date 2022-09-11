@@ -175,7 +175,8 @@ letter-spacing: 1px;
 
 @media screen and (max-width:1023px){
     .footer-pages {
-        width: 35%;
+        width: 30%;
+        text-align:left;
     
     }
 
@@ -203,8 +204,37 @@ letter-spacing: 1px;
         line-height: 25px;
     }
 
+}
 
+@media screen and (max-width:767px) {
+   .footer-logo-container{
+        width: 30%;
+   }
 
+   .footer-image {
+    width: 60.37px;
+    height: 60px;
+    top: 55px;
+    margin-left: 50px;
+    }
+   
+    .fi{
+    
+        top: 70px;
+        font-size: 20px;
+        left: 40px;
+    }
 
+   .footer-pages {
+        width: 20%;
+   }
+
+   .footer-pages-box h4 {
+        font-size: 80%;
+   }
+
+   .footer-pages-box a {
+    font-size: 60%;
+    }
 
 }
