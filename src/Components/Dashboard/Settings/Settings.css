@@ -1,8 +1,8 @@
 .Accounts{
     display:flex;
-    height: 70vh;
+    height: 65vh;
     margin-top: 0.3rem;
-    flex-wrap: wrap;
+    width:32vh;
 }
 
 .shadow{
@@ -26,6 +26,11 @@
     cursor: pointer;
     background-color: aliceblue;
     border-radius: 34px;
+}
+
+
+.shadow >option{
+    border: transparent;
 }
 
 .settings1{
@@ -59,15 +64,15 @@
 
 .finall-pic > img:nth-of-type(2){
     position: absolute;
-    transform: scale(0.7);
+    transform: scale(0.9);
     right: -47rem;
 }
 
 .finall-pic > img:nth-of-type(3){
     position: absolute;
-    transform: scale(0.8);
-    right: -43.8rem;
-    top: 1.5rem;
+    transform: scale(0.9);
+    right: -44.7rem;
+    top: 1rem;
 }
 
 .finall-pic > span:nth-of-type(1){
@@ -84,7 +89,97 @@
 
 .user-data {
     position: relative;
-    top: 6rem;
-    left: 3rem;
+    display: flex;
+}
 
+
+.user-input >label{
+    color: var(--gray);
+}
+
+
+.upload{
+    display: flex;
+    position: relative;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.upload{
+    width: 130px;
+    height: 130px;
+    border: 0.9px solid black;
+    background-position: center;
+    border-radius: 200px;
+    background-size: cover;
+    left: 1rem;
+    bottom: 1rem;
+}
+
+.upload button{
+    left: 14rem;
+}
+
+.payment{
+    display: flex;
+    position:relative;
+    left: 33rem;
+    bottom: -11rem;
+
+}
+
+.payment > button{
+    background-color: var(--finall2);
+    height: 2rem;
+    width: 10rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+    color: white;
+    border-color: transparent;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.confirm{
+    display: flex;
+    position: relative;
+    top: 19rem;
+}
+
+
+.confirm > button{
+    background-color: var(--finall2);
+    height: 2rem;
+    width: 10rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+    color: white;
+    border-color: transparent;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+.payment > :hover{
+    background-color: white;
+    border: 2px solid var(--finall2);
+    color: var(--finall2);
+    cursor:pointer;
+}
+
+
+.delete{
+    display: flex;
+    position: relative;
+    top: 17rem;
+    right: -30rem;
+}
+
+.delete{
+    text-decoration: underline;
+    font-weight: bold;
+    font:larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
 }

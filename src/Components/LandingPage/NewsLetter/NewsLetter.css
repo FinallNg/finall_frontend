@@ -138,4 +138,12 @@
         padding: 20px 32px;
     }
 }
-    
+    @media screen and (max-width:1023px){
+        .newsletter h3 {
+            font-weight: 500;
+            font-size: 150%;
+        }
+        .newsletter button {
+            font-size: 90%;
+        }
+    }

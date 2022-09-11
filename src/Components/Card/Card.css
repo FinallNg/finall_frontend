@@ -1,4 +1,4 @@
-.wrangler{
+.card-wrangler{
     width: 16rem;
     height: 14rem;
     position: absolute;
@@ -17,7 +17,7 @@
 }
 
 
-.wrangler-content {
+.card-wrangler-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +29,7 @@
 }
 
 
-.wrangler-content-image  {
+.card-wrangler-content-image  {
     left:18%;
     height:80px;
     width: 90px;
@@ -37,9 +37,10 @@
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
+
 }
 
-.wrangler-content-image img {
+.card-wrangler-content-image img {
     width: 100%;
     height: 100%;
 
@@ -47,7 +48,7 @@
 
  
 
-.wrangler .wrangler-content span {
+.card-wrangler .card-wrangler-content span {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,10 +57,11 @@
     margin-top: 20px;
     margin-left: 20px;
     padding-right: 20px;
+
 }
 
 
-.wrangler .wrangler-content span:nth-of-type(1) {
+.card-wrangler .card-wrangler-content span:nth-of-type(1) {
     color: #0F1928;
     width: 110%;
     font-size: 16px;
@@ -74,7 +76,7 @@
 
  
 
-.wrangler .wrangler-content span:nth-of-type(2){
+.card-wrangler .card-wrangler-content span:nth-of-type(2){
     color: #6F757E;
     width: 105%;
     height: 45px;
@@ -97,7 +99,27 @@
 }
 
 
-.wrangler >* {
+.card-wrangler >* {
     position: absolute;
 }
 
+@media screen and ( max-width:1200px) {
+    .card-wrangler-content-image {
+        margin-top: 230px;
+
+    }
+
+    .card-wrangler .wrangler-content span {
+        margin-bottom: 20px;
+    }
+    
+    .card-wrangler .wrangler-content span:nth-of-type(1) {
+        margin-top: 10px;
+    }
+
+    .card-wrangler .wrangler-content span:nth-of-type(2) {
+        margin-bottom: 200px;
+        height: 65px;
+
+    }
+}
