@@ -1,11 +1,10 @@
 import React, {useState} from 'react'
 import './Script'
-import { AiOutlineEdit } from 'react-icons/ai'
+// import { AiOutlineEdit } from 'react-icons/ai'
 import ReactDatePicker from 'react-datepicker'
 import 'react-datepicker/dist/react-datepicker.css'
 import './Settings.css'
 import Notify from '../../Notify/Notify'
-import Profile from '../../../assets/Ellipse.png'
 import Bank from '../../../assets/Bank.png'
 import Visa from '../../../assets/visa.png'
 
@@ -34,7 +33,6 @@ const Settings = () => {
           </div>
 
           <div className = 'finall-pic'>
-            <img src= {Profile} alt ='' />
             <img src = {Bank} alt = '' />
             <img src = {Visa} alt = '' />
             <span>Profile photo</span>
@@ -46,8 +44,10 @@ const Settings = () => {
           
           <div className = 'user-data'>
             <form className = "user-input">
-            <input  id = 'profile'  type="file" accept="image/jpg, image/jpeg"  className='upload' />
+              <div id = 'profile'>
+              <input  id = 'profile'  type="file" accept="image/jpg, image/jpeg" />
             <script src = "Script.js"></script>
+              </div>
             <label htmlFor='First Name' className='form-label'>First Name
             <input id = 'username' type = "text" placeholder = "Example: John"  className='input1'/>
             </label>
