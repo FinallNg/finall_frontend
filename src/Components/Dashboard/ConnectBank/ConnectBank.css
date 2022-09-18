@@ -38,6 +38,10 @@
     position: relative;
 }
 
+.i-right > img{
+    cursor: pointer;
+}
+
 .i-right > * {
     z-index: 1;
     position: absolute;
@@ -212,29 +216,3 @@
 }
 
 
-.t-button{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    width: 20rem;
-    height: 3rem;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: var(--finall2);
-    top: 115%;
-    left: 32rem;
-}
-
-
-.t-button:hover{
-    background: white;
-    cursor: pointer;
-    color: var(--blue);
-    border: 2px solid var(--finall2);
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  }

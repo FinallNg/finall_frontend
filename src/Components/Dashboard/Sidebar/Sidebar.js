@@ -31,22 +31,22 @@ const Sidebar = () => {
 
 
                 <li>
-                    <NavLink exact activeClassName="active" to ='/overview'><img src={OverviewIcon} /> Overview </NavLink>
+                    <NavLink exact activeClassName="active" to ='/overview'><img src={OverviewIcon} alt=''/> Overview </NavLink>
                 </li>
-                <li><NavLink exact activeClassName="active" to ='/transactions'><img src={transactionicon} /> Transactions</NavLink></li>
-                <li><NavLink exact activeClassName="active" to ='/cards'><img src={cardicon} /> Cards</NavLink></li>
-                <li><NavLink exact activeClassName="active" to ='/invoices'><img src={invoiceicon} /> Invoices</NavLink></li>
-                <li><NavLink exact activeClassName="active" to ='/goals'><img src={goalsicon} /> Goals</NavLink></li>
-                <li><NavLink exact activeClassName="active" to ='/metrics'><img src={metricsicon} /> Metrics</NavLink></li>
-                <li><NavLink exact activeClassName="active" to ='/settings'><img src={settingsicon} /> Settings</NavLink></li> 
+                <li><NavLink exact activeClassName="active" to ='/transactions'><img src={transactionicon} alt="" /> Transactions</NavLink></li>
+                <li><NavLink exact activeClassName="active" to ='/cards'><img src={cardicon} alt = ""/> Cards</NavLink></li>
+                <li><NavLink exact activeClassName="active" to ='/invoices'><img src={invoiceicon} alt ="" /> Invoices</NavLink></li>
+                <li><NavLink exact activeClassName="active" to ='/goals'><img src={goalsicon} alt = "" /> Goals</NavLink></li>
+                <li><NavLink exact activeClassName="active" to ='/metrics'><img src={metricsicon} alt = ""/> Metrics</NavLink></li>
+                <li><NavLink exact activeClassName="active" to ='/settings'><img src={settingsicon} alt =""/> Settings</NavLink></li> 
               </ul>
   
         </div>
 
         <div className='sidebar-last'>
             <ul className='menu'>
-                <li><NavLink exact activeClassName="active" to ='/help'><img src={helpicon} /> Help &amp; Started</NavLink></li>
-                <li><NavLink exact activeClassName="active" to ='/logout'><img src={logouticon} /> Log Out</NavLink></li>
+                <li><NavLink exact activeClassName="active" to ='/help'><img src={helpicon} alt = "" /> Help &amp; Started</NavLink></li>
+                <li><NavLink exact activeClassName="active" to ='/logout'><img src={logouticon} alt =""/> Log Out</NavLink></li>
             </ul>
         </div>
 

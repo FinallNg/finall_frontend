@@ -14,6 +14,7 @@ import Square from '../../../assets/square.png'
 import Bulb from '../../../assets/bulb.png'
 import Profile from '../../../assets/Ellipse.png'
 import Message from '../../../assets/email.png'
+import LinkAccount from '../../LinkAccount/LinkAccount'
 
 
 const ConnectBank = () => {
@@ -50,7 +51,9 @@ const ConnectBank = () => {
         <span>for</span>
         <span>seamless analysis</span>
       </div>
-      <button className="t-button">Connect a bank account</button>
+      <div>
+        <LinkAccount />
+      </div>
       </div>
   )
 }
