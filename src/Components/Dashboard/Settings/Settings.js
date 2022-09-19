@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import './Script'
 // import { AiOutlineEdit } from 'react-icons/ai'
+import 'font-awesome/css/font-awesome.min.css';
 import ReactDatePicker from 'react-datepicker'
 import 'react-datepicker/dist/react-datepicker.css'
 import './Settings.css'
@@ -41,52 +42,77 @@ const Settings = () => {
           <div className = 'payment'>
             <button>Add new payment</button>
           </div>
+
+
+         {/* collecting and storing user data in the database */}
           
           <div className = 'user-data'>
-            <form className = "user-input">
-              <div id = 'profile'>
-              <input  id = 'profile'  type="file" accept="image/jpg, image/jpeg" />
+            <form className = "user-input" >
+              <div id = "display_image">
+              <input  id = "image_input"  type="file" accept="image/jpg, image/jpeg" />
             <script src = "Script.js"></script>
               </div>
+
+              <div className='first'>
             <label htmlFor='First Name' className='form-label'>First Name
-            <input id = 'username' type = "text" placeholder = "Example: John"  className='input1'/>
+            <input id = 'username' type = "text" placeholder = "Example: John" />
             </label>
+            </div>
+
+            <div className='second'>
             <label htmlFor = 'Last Name'  className='form-label'> Last Name
-              <input id = 'last-name' type = 'text' placeholder = "Enwono" className='input2'></input>
+              <input id = 'last-name' type = 'text' placeholder = "Enwono" ></input>
             </label>
+            </div>
+
+            <div className='third'>
             <label htmlFor='Sex' className='form-label'>Sex(Optional)
-            <select id='gender' defaultValue={"Female"} className='input3'>
+            <select id='gender' defaultValue={"Female"} >
               <option>Female</option>
               <option>Male</option>
               <option>Others</option>
               <option>I'd rather not say</option>
             </select>
             </label>
+            </div>
+
+            <div className='fourth'>
             <label htmlFor = "DOB" className='form-label'>Date of birth(Optional)
-            <ReactDatePicker id = 'date' selected={selectedDate}  onChange={date => setSelectedDate(date)}
+            <ReactDatePicker  selected={selectedDate}  onChange={date => setSelectedDate(date)}
             dateFormat = 'dd/MM/yyyy'
-            isClearable
-            showYearDropdown
-            className='input4'
+            showFullMonthYearPicker
+            showMonthDropdown
+            showMonthYearPicker
             />
             </label>
+            </div>
 
+            <div className='fifth'>
             <label htmlFor='Email' className = 'form-label'>Email
-            <input id='email' type = 'email' placeholder='Ex:johndoe@gmail.com' className='input5'/>
+            <input id='email' type = 'email' placeholder='Ex:johndoe@gmail.com' />
             </label>
+            </div>
 
+
+            <div className='sixth'>
             <label htmlFor='Phone' className='form-label'>Phone 
-            <input type="number" id='phone' className="input6" placeholder='08012345678' required = "required"/>
+            <input type="phone" id='phone' placeholder='08012345678' required = "required"/>
             </label>
-
+            </div>
+          
+            <div className='seventh'>
             <label  htmlFor = 'Password' className='form-label'>Password
-            <input id = 'password' type= 'password' className='input6' placeholder='Create a strong password'></input>
+            <input id = 'password' type= 'password'  placeholder='Create a strong password'></input>
             </label>
+            </div>
 
+            <div className='eighth'>
             <label  htmlFor = 'Password' className='form-label'>Password
-            <input id = 'password1' type= 'password' className='input7' placeholder='Confirm your new password'></input>
+            <input id = 'password1' type= 'password'  placeholder='Confirm your new password'></input>
             </label>
+            </div>
 
+            <div className='nineth'>
             <label htmlFor = 'Account-currency' className='form-label'>Account currency
             <select id ='currency' defaultValue={"NGN"}>
               <option>NGN</option>
@@ -96,8 +122,10 @@ const Settings = () => {
               <option>AUD</option>
             </select>
             </label>
+            </div>
+
             <div className='confirm'>
-            <button>Save Changes</button>
+            <button action = "submit">Save Changes</button>
             </div>
             
             <div className='delete'>Delete account</div>

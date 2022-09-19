@@ -19,9 +19,11 @@ const Sidebar = () => {
         <input type="checkbox" id="checkbox_toggle" />
             <label for="checkbox_toggle" class="hamburger">&#9776;</label>
             
-        <div className='heading'>
+        <div className='heading'>Finall
+            <a href = '/'>
             <img src={SidebarLogo} alt='Finall Logo' />
-            Finall
+            
+            </a>
         </div>
 
         <div>
