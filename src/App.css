@@ -1,28 +1,27 @@
-:root
-{
+:root {
   --yellow: #F5C32C;
-    --orange : #FCA61F;
-    --black : #242D49;
-    --gray : #788097;
-    --blue : #0000FF;
-    --blueCard : #DDF8FE;
-    --purple: rgb(238 210 255);
-    --green: #00FF00;
-    --red: #FF0000;
-    --gold:#FFD700;
-    --lavender:#E6E6FA;
-    --navy:	#000080;
-    --skyblue:#87CEEB;
-    --midnightblue: #191970;
-    --matte:  #28282B;
-    --charcoal:	#36454F;
-    --boxShadow : 4px 6px 5px rgba(9, 13, 255, 0.25);
-    --orangeCard: rgba(252, 166, 31, 0.45);
-    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
-    --finall1: #cfe6fc;
-    --finall2: #1a33b2;
-    --finall3: #6787e4;
-    --white: #ffffff;
+  --orange: #FCA61F;
+  --black: #242D49;
+  --gray: #788097;
+  --blue: #0000FF;
+  --blueCard: #DDF8FE;
+  --purple: rgb(238 210 255);
+  --green: #00FF00;
+  --red: #FF0000;
+  --gold: #FFD700;
+  --lavender: #E6E6FA;
+  --navy: #000080;
+  --skyblue: #87CEEB;
+  --midnightblue: #191970;
+  --matte: #28282B;
+  --charcoal: #36454F;
+  --boxShadow: 4px 6px 5px rgba(9, 13, 255, 0.25);
+  --orangeCard: rgba(252, 166, 31, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  --finall1: #cfe6fc;
+  --finall2: #1a33b2;
+  --finall3: #6787e4;
+  --white: #ffffff;
 }
 
 
@@ -61,6 +60,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
