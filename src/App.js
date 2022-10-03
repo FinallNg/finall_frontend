@@ -23,6 +23,7 @@ import Goals from "./Components/Dashboard/Goals/Goals";
 import Help from "./Components/Dashboard/Help/Help";
 import Logout from "./Components/Dashboard/Logout/Logout";
 // import Sidebar from "./Components/Dashboard/Sidebar/Sidebar";
+import LearnMore from "./Components/LandingPage/LearnMore/LearnMore";
 
 
 function App() {
@@ -47,7 +48,7 @@ function App() {
           <Route exact path='/goals' element={<Goals />} />
           <Route exact path='/help' element={<Help />} />
           <Route exact path='/logout' element={<Logout />} />
-
+          <Route exact path='/learnmore' element={<LearnMore />} />
         </Routes>
         <Footer />
         {/* <Logout /> */}

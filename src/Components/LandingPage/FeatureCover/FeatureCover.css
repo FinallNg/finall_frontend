@@ -141,3 +141,23 @@
 
 
 }
+
+@media screen and (max-width: 480px) {
+    .feature-feature {
+        height: 135vh;
+    }
+    .feature-header{
+        border: 1px solid black;
+        width: 160%;
+        margin-left: -70px;
+
+    }
+    .feature-header span{
+        border: 1px solid red;
+        
+    
+    }
+
+
+
+}

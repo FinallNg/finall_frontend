@@ -133,7 +133,6 @@
 @media screen and ( max-width:767px) {
     .card-wrangler {
         width: 10rem;
-        padding: px;
     }
     .card-wrangler-content-image img {
         margin-top: -40px;
@@ -159,5 +158,23 @@
         
     }
 
+    
+}
 
+
+@media screen and ( max-width:480px) {
+
+    .card-wrangler {
+        border: 1px solid red;
+        width: 15rem;
+        
+    }
+
+
+    .card-wrangler-content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    
 }
