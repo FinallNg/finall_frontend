@@ -29,9 +29,9 @@
     column-gap: 5px;
 }
 
-.sidebar input[type=checkbox]{
+.sidebar input[type=checkbox] {
     display: none;
-} 
+}
 
 .sidebar .hamburger {
     display: none;
@@ -70,13 +70,15 @@
     column-gap: 15px;
 }
 
-.sidebar ul a:hover, .sidebar ul a.active {
+.sidebar ul a:hover,
+.sidebar ul a.active {
     background-color: #FFF;
     color: #1A33B2;
 
 }
 
-.sidebar ul a:hover img, .sidebar ul a.active img {
+.sidebar ul a:hover img,
+.sidebar ul a.active img {
     /* filter: invert(12%) sepia(63%) saturate(6234%) hue-rotate(246deg) brightness(87%) contrast(156%); */
 
     filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
@@ -102,27 +104,28 @@
         padding: 5px 0px;
     }
 
-    
 
-    .sidebar div, .sidebar .heading {
+
+    .sidebar div,
+    .sidebar .heading {
         display: none;
         /* position: absolute;
         right: 0;
         left: 0; */
     }
 
-    .sidebar input[type=checkbox]:checked ~ div{
+    .sidebar input[type=checkbox]:checked~div {
         display: block;
         /* margin-top: 20px; */
     }
 
-    .sidebar input[type=checkbox]:checked ~ .heading {
+    .sidebar input[type=checkbox]:checked~.heading {
         display: flex;
     }
 
     .sidebar .hamburger {
         display: block;
-        
+
     }
 }
 
