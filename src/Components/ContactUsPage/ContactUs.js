@@ -8,6 +8,7 @@ function ContactUs() {
         fullName: '',
         companyName: '',
         message: '',
+
     });
 
     const handleContactForm = (e) => {
@@ -26,6 +27,7 @@ function ContactUs() {
             fullName: '',
             companyName: '',
             message: '',
+        
         });
         
     }
@@ -37,7 +39,7 @@ function ContactUs() {
         </div>
 
         <form onSubmit={handleSubmit}>
-        <div>
+        
             <label htmlFor="phone">
                 Phone Number
             </label>
@@ -52,9 +54,8 @@ function ContactUs() {
                 required
                 
             />
-        </div>
-
-        <div>
+    
+        
             <label htmlFor="email">
                 Email
             </label>
@@ -68,9 +69,9 @@ function ContactUs() {
                 placeholder="your@email.com"
                 required
             />
-        </div>
+    
 
-        <div>
+    
             <label htmlFor="fullname">
                 Full Name
             </label>
@@ -84,9 +85,9 @@ function ContactUs() {
                 placeholder="John Doe"
                 required
             />
-        </div>
+    
 
-        <div>
+        
             <label htmlFor="companyname">
                 Company Name
             </label>
@@ -100,9 +101,9 @@ function ContactUs() {
                 placeholder="Your Company Name"
                 required
             />
-        </div>
 
-        <div>
+
+        
             <label htmlFor="message">
                 How do you want us to help you?
             </label>
@@ -117,7 +118,17 @@ function ContactUs() {
                 required
             >
             </textarea>
-        </div>
+            <div className='checkbox-div'>
+            <input
+                id="check"
+                type="checkbox"
+                value={contact.checkbox}
+                name="checkbox"
+                onChange={handleContactForm}
+                reqguired
+            />
+            <p>By contacting, you agree to the<span>terms of use</span>   and our <span>privacy policy</span></p>
+            </div>
 
         <button>Submit</button>
         </form>
