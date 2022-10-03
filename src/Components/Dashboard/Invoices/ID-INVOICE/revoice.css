@@ -5,7 +5,7 @@
    border-radius: .5em;
    display: flex;
    flex-direction: column;
-   gap: 1em;
+   gap: 1.5em;
 }
 .revoice-section{
    margin-left: 200px;
@@ -14,10 +14,6 @@
    --lowerblue:#cfe6fc37;
    padding: 1em;
    
-}
-.revoice-section nav{
-   display: flex;
-   justify-content: space-between;
 }
 .revoice-lower{
    display: flex;
@@ -45,6 +41,7 @@ color: white;
 display: flex;
 justify-content: space-between;
 padding:  .6em;
+font-size: .9em;
 }
 .r-i-c-1{
    display: flex;
@@ -66,10 +63,14 @@ justify-content: space-between;
    background-color: var(--paleblue);
    padding: .5em 1.2em;
    border-radius: .5em;
+   cursor:pointer;
+}
+.revoice-details button:hover{
+   opacity:.4
 }
 .revoice-mid-head{
    display: grid;
-   grid-template-columns: 1fr .7fr .7fr .7fr .7fr;
+   grid-template-columns: 1fr .5fr .5fr .5fr .5fr;
    justify-content: space-between;
    background:#CFE6FC;
    margin-left: -2em;
@@ -108,8 +109,27 @@ gap: 1em;
 .revoice-mid{
    position: relative;
 }
+
 @media (max-width:700px) {
    .revoice-section{
       margin: 2em;
    }
+   .revoice-main-intro{
+      flex-direction: column;
+   }
+   .revoice-main{
+      width: 100%;
+   }
+   .revoice-blue-card{
+      width: 100%
+   }
+   .revoice-invoice-card{
+      font-size: .5em;
+   }
+}
+@media(max-width:768px){
+   .txt-reduce{
+      font-size: 1rem;
+   }
+
 }

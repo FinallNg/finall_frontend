@@ -14,7 +14,7 @@ import Sidebar from './Components/Dashboard/Sidebar/Sidebar';
 import Transactions from './Components/Dashboard/Transactions/Transactions'
 import Analytics from "./Components/Dashboard/Analytics/Analytics";
 import ConnectBank from "./Components/Dashboard/ConnectBank/ConnectBank";
-import Revoice from "./Components/Dashboard/Invoices/ID-INVOICE/idinvoice";
+import {Revoice} from "./Components/Dashboard/Invoices/ID-INVOICE/idinvoice";
 
 
 

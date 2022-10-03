@@ -24,6 +24,18 @@
   --white: #ffffff;
 }
 
+.revoice-section nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.revoice-icons{
+  align-items: center;
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
+
 
 
 .App {
