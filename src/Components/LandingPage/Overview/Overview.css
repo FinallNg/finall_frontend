@@ -135,3 +135,51 @@
 
     }
 }
+
+@media screen and ( max-width:480px) {
+    .over-features {
+        width: 100%;
+        border: 4px solid red;
+    }
+
+    .over-headers {
+        flex-direction: column;
+        width: 100%;
+        /*height: 10vh;
+        padding-top: -100px;
+        border: 1px solid blue; */
+    }
+
+
+    
+    .over-headers :nth-of-type(1){
+        font-size: 100%; 
+    }
+
+    .over-headers :nth-of-type(2) {  
+        font-size: 100%;
+        margin-top: -35px; 
+    }
+
+
+
+
+   
+
+   
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+     
+}

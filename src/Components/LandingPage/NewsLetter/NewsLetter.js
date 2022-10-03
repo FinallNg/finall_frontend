@@ -111,7 +111,7 @@ function NewsLetter() {
     <div className="newsletter">
         <h3>Subscribe to our Newsletter</h3>
         <div className='news-content'>
-            <div>
+            <div className='news-para'>
                 <p>
                     Subscribe to our newsletter to get weekly and monthly updates on newly added features and better ways to monitor your finances.
                 </p>

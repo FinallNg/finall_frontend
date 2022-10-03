@@ -28,7 +28,7 @@ const Overview = () => {
        </div>
 
 
-      <div style={{left: '-2rem',top:'-4rem'}}>
+      <div className='over-contents-div' style={{left: '-2rem',top:'-4rem'}}>
        <Card
        icon = {Down}
        heading ={'Import all your bank accounts'}
@@ -37,7 +37,7 @@ const Overview = () => {
        </div>
 
 
-      <div style = {{left:'16rem', top:'-4rem'}}>
+      <div className='over-contents-div' style = {{left:'16rem', top:'-4rem'}}>
        <Card
        icon = {Brief}
        heading ={'View all spending history'}
@@ -47,7 +47,7 @@ const Overview = () => {
 
 
 
-      <div style={{top:'12rem',left:'-20rem'}}>
+      <div className='over-contents-div' style={{top:'12rem',left:'-20rem'}}>
        <Card
        icon = {Piggy}
        heading ={'Savings'}
@@ -56,7 +56,7 @@ const Overview = () => {
        </div>
 
 
-      <div style={{left:'-2rem',top:'12rem'}}>
+      <div className='over-contents-div' style={{left:'-2rem',top:'12rem'}}>
        <Card
        icon = {Caution}
        heading ={'Balance warning'}
@@ -65,7 +65,7 @@ const Overview = () => {
        </div>
 
 
-      <div style={{left:'16rem',top:'12rem'}}>
+      <div className='over-contents-div' style={{left:'16rem',top:'12rem'}}>
        <Card
        icon = {Dollar}
        heading = {'Budgeting'}
