@@ -1,36 +1,47 @@
-import React from 'react'
-import { useState, useEffect} from 'react'
+import { useState, useEffect } from 'react'
 
-const Form = () => {
-  const {values, setValues} = useState({
-   first: '',
+const Form = Validate => {
+  
+ const {values, setValues} = useState({
    profile: '',
+   username: '',
    last: '',
-   sex: '',
+   gender: '',
    birth: '',
    email: '',
    phone: '',
-   currency: '',
-   password: '',
-   password2: '',
-  })
-
-  const {errors,setErrors} = useState({})
+  password: '',
+  password1: '',
+  currency: '',
+ });
 
 
 
-  const handleChange = e =>{
-    setValues({
-      ...values,
-      e.target.name
-    })
-  }
+const {errors,setErrors} = useState({});
 
 
 
-  return (
-    <div>Form</div>
-  )
-}
+const handleChange = e =>{
+  console.log(setValues)
+  const { name, value} = e.target
+ setValues({
+ ...values,
+[name]: value
+});
+};
 
-export default Form
+
+
+
+const handleSubmit = (e) => {
+  e.preventDefault();
+
+  setErrors(Validate(values));
+};
+
+
+
+return{ handleChange , values, handleSubmit, errors };
+};
+
+export default Form;

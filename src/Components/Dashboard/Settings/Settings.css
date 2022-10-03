@@ -13,6 +13,7 @@
     top: -5rem;
     left: 1rem;
     width: 300px;
+    border-radius: 10px;
 } 
 
 .shadow  > select{
@@ -21,13 +22,14 @@
     font-weight: bold;
     left: 19rem;
     color: var(--finall2);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:  lato;
     border-radius: 1%;
     border: 100mm;
     cursor: pointer;
     background-color: aliceblue;
     border-radius: 34px;
 }
+
 
 
 .shadow >option{
@@ -44,7 +46,7 @@
     color:black;
     font-size: 1.1rem;
     font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:  lato;
     font-display: inherit;
     font-variant: unset;
     position: absolute;
@@ -93,7 +95,7 @@
 .finall-pic > span:nth-of-type(1){
     font-weight: bold;
     font-size: 1.5rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:  lato;
     flex-direction: column;
     position: absolute;
     top: 10rem;
@@ -111,7 +113,7 @@
 .user-input div label{
     color: var(--gray);
     font-weight: bold;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: lato;
 }
 
 .user-input{
@@ -129,11 +131,14 @@
     display: flex;
     flex: content;
     width: 100px;
+    font-family: lato;
+    font-size: 1.2rem;
 }
 .user-input div:nth-child(2) input{
     width: 25rem;
     height: 2.4rem;
     border-style: double;
+    font-family: lato;
     font-size: 1.2rem;
 }
 
@@ -146,12 +151,15 @@
     display: flex;
     flex: content;
     width: 100px;
+    font-family: lato;
+    font-size: 1.2rem;
 }
 
 .user-input div:nth-child(3) input{
     width: 25rem;
     height: 2.4rem;
     border-style: double;
+    font-family: lato;
     font-size: 1.2rem;
 }
 
@@ -165,11 +173,14 @@
     display: flex;
     flex: content;
     width: 100px;
+    font-family: lato;
+    font-size: 1.2rem;
 }
 .user-input div:nth-child(4) select{
     width: 25rem;
     height: 2.4rem;
     border-style: double;
+    font-family: lato;
     font-size: 1.2rem;
 }
 
@@ -182,12 +193,16 @@
     display: flex;
     flex: content;
     width: 100px;
+    font-family: lato;
+    font-size: 1.2rem;
 }
 
 .user-input div:nth-child(5) input{
     width: 25rem;
     height: 2.4rem;
     border-style: double;
+    font-family: lato;
+    font-size: 1.2rem;
 } 
 
 .user-input div:nth-child(6){
@@ -200,11 +215,14 @@
     display: flex;
     flex: content;
     width: 100px;
+    font-family: lato;
+    font-size: 1.2rem;
 }
 .user-input div:nth-child(6) input{
     width: 25rem;
     height: 2.4rem;
     border-style: double;
+    font-family: lato;
     font-size: 1.2rem;
 }
 
@@ -223,6 +241,7 @@
     width: 25rem;
     height: 2.4rem;
     border-style: double;
+    font-family: lato;
     font-size: 1.2rem;
 }
 
@@ -236,11 +255,14 @@
     display: flex;
     flex: content;
     width: 100px;
+    font-family: lato;
+    font-size: 1.2rem;
 }
 .user-input div:nth-child(8) input{
     width: 25rem;
     height: 2.4rem;
     border-style: double;
+    font-family: lato;
     font-size: 1.2rem;
 }
 
@@ -255,11 +277,14 @@
     display: flex;
     flex: content;
     width: 100px;
+    font-family: lato;
+    font-size: 1.2rem;
 }
 .user-input div:nth-child(9) input{
     width: 25rem;
     height: 2.4rem;
     border-style: double;
+    font-family: lato;
     font-size: 1.2rem;
 }
 
@@ -274,11 +299,14 @@
     display: flex;
     flex: content;
     width: 100px;
+    font-family: lato;
+    font-size: 1.2rem;
 }
 .user-input div:nth-child(10) select{
     width: 10rem;
     height: 2.4rem;
     border-style: double;
+    font-family: lato;
     font-size: 1.2rem;
 }
 
@@ -294,12 +322,13 @@
     background-color: var(--finall2);
     height: 2rem;
     width: 10rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: lato;
     border-radius: 5px;
     color: white;
     border-color: transparent;
     font-weight: bold;
     font-size: 1rem;
+    transition: 0.3s ease-in;
 }
 
 .confirm{
@@ -313,12 +342,13 @@
     background-color: var(--finall2);
     height: 2.4rem;
     width: 13rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:lato;
     border-radius: 5px;
     color: white;
     border-color: transparent;
     font-weight: bold;
     font-size: 1rem;
+    transition: 0.3s ease-in;
 }
 
 .confirm > :hover{
@@ -342,12 +372,9 @@
     position: relative;
     top: 36rem;
     right: -33rem;
-}
-
-.delete{
     text-decoration: underline;
     font-weight: bold;
     font:larger;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: lato;
     font-size: 1.3rem;
 }

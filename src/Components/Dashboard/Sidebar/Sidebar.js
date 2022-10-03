@@ -22,7 +22,7 @@ const Sidebar = () => {
         <div className='heading'>Finall
             <a href = '/'>
             <img src={SidebarLogo} alt='Finall Logo' />
-            
+        
             </a>
         </div>
 
@@ -47,7 +47,7 @@ const Sidebar = () => {
 
         <div className='sidebar-last'>
             <ul className='menu'>
-                <li><NavLink exact activeClassName="active" to ='/help'><img src={helpicon} alt = "" /> Help &amp; Started</NavLink></li>
+                <li><NavLink exact activeClassName="active" to ='/help'><img src={helpicon} alt = "" /> Help</NavLink></li>
                 <li><NavLink exact activeClassName="active" to ='/logout'><img src={logouticon} alt =""/> Log Out</NavLink></li>
             </ul>
         </div>
