@@ -1,0 +1,135 @@
+.revoice-main{
+   width: 60%;
+   background:var(--lowerblue);
+   padding: 2em;
+   border-radius: .5em;
+   display: flex;
+   flex-direction: column;
+   gap: 1.5em;
+}
+.revoice-section{
+   margin-left: 200px;
+   width: 100%;
+   --paleblue:#93B5EC;
+   --lowerblue:#cfe6fc37;
+   padding: 1em;
+   
+}
+.revoice-lower{
+   display: flex;
+gap: 10%;
+}
+.revoice-logo{
+   width: 50px;
+}
+.revoice-main-intro{
+   display: flex;
+   justify-content: space-between;
+   color: #6787E4;
+}
+.revoice-beside-l{
+   text-align:right;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.revoice-invoice-card{
+   background: url('./Rectangle\ 1156.jpg') no-repeat;
+height:110px ;
+background-size: 100% 100%;
+color: white;
+display: flex;
+justify-content: space-between;
+padding:  .6em;
+font-size: .9em;
+}
+.r-i-c-1{
+   display: flex;
+   flex-direction: column;
+}
+.p-short{
+   width: 35%;
+   text-align: right;
+   padding: 0 0 0 .5em ;
+}
+
+.revoice-details{
+   display: flex;
+justify-content: space-between;
+}
+.revoice-details button{
+   all: unset;
+   color: white;
+   background-color: var(--paleblue);
+   padding: .5em 1.2em;
+   border-radius: .5em;
+   cursor:pointer;
+}
+.revoice-details button:hover{
+   opacity:.4
+}
+.revoice-mid-head{
+   display: grid;
+   grid-template-columns: 1fr .5fr .5fr .5fr .5fr;
+   justify-content: space-between;
+   background:#CFE6FC;
+   margin-left: -2em;
+   margin-right: -2em;
+   padding: .5em 1em;
+}
+.revoice-mid-head h2{
+   font-size:.9rem;
+}
+.revoice-item-detail{
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+   margin-top:1em;
+}
+.revoice-item-detail span{
+   padding:.5em 1em;
+   background-color: #CFE6FC66;
+   width:fit-content;
+}
+.revoice-blue-card{
+   background-color:#6787E4;
+   height:100px;
+   width: 40% ;
+   border-radius: .5em;
+}
+.revoice-payment-txt{
+   display: flex;
+gap: 1em;
+}
+.revoice-lowest{
+   display: flex;
+   flex-direction: column;
+gap: 1em;
+}
+.revoice-mid{
+   position: relative;
+}
+
+@media (max-width:700px) {
+   .revoice-section{
+      margin: 2em;
+   }
+   .revoice-main-intro{
+      flex-direction: column;
+   }
+   .revoice-main{
+      width: 100%;
+   }
+   .revoice-blue-card{
+      width: 100%
+   }
+   .revoice-invoice-card{
+      font-size: .5em;
+   }
+}
+@media(max-width:768px){
+   .txt-reduce{
+      font-size: 1rem;
+   }
+
+}
