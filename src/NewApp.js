@@ -14,6 +14,7 @@ import Sidebar from './Components/Dashboard/Sidebar/Sidebar';
 import Transactions from './Components/Dashboard/Transactions/Transactions'
 import Analytics from "./Components/Dashboard/Analytics/Analytics";
 import ConnectBank from "./Components/Dashboard/ConnectBank/ConnectBank";
+import Budgets from "./Components/Dashboard/Budgets/Budgets";
 
 
 
@@ -29,6 +30,7 @@ function NewApp() {
           <Route exact path='/cards' element={<CardsBanks />} />
           <Route exact path='/invoices' element={<Invoices />} />
           <Route exact path='/goals' element={<Goals />} />
+          <Route exact path='/budgets' element={<Budgets />} />
           <Route exact path='/metrics' element={<Analytics />} />
           <Route exact path='/settings' element={ <Settings />} />
           <Route exact path='/help' element={<Help />} />

@@ -12,6 +12,7 @@ import logouticon from '../../../assets-svg/logouticon.svg'
 import settingsicon from '../../../assets-svg/settingsicon.svg'
 import transactionicon from '../../../assets-svg/transactionicon.svg'
 import metricsicon from '../../../assets-svg/metricsicon.svg'
+import budgetsicon from '../../../assets-svg/cil_money.svg'
 
 const Sidebar = () => {
   return (
@@ -39,6 +40,7 @@ const Sidebar = () => {
                 <li><NavLink exact activeClassName="active" to ='/cards'><img src={cardicon} alt = ""/> Cards</NavLink></li>
                 <li><NavLink exact activeClassName="active" to ='/invoices'><img src={invoiceicon} alt ="" /> Invoices</NavLink></li>
                 <li><NavLink exact activeClassName="active" to ='/goals'><img src={goalsicon} alt = "" /> Goals</NavLink></li>
+                <li><NavLink exact activeClassName="active" to='/budgets'><img src={budgetsicon} alt="" /> Budgets</NavLink></li>
                 <li><NavLink exact activeClassName="active" to ='/metrics'><img src={metricsicon} alt = ""/> Metrics</NavLink></li>
                 <li><NavLink exact activeClassName="active" to ='/settings'><img src={settingsicon} alt =""/> Settings</NavLink></li> 
               </ul>
