@@ -38,10 +38,10 @@ const HeroSection = () => {
           </div>
           <div className='business-boxes business-details'>
             <div className= 'business-head'>
-              <h2>Analyze your <span>business transactions</span> seamlessly</h2>
+              <h2>Reach your savings goals</h2>
             </div>
             <div className='business-sub'>
-              <h3>Your financial data from anywhere around the world</h3>
+              <h3>Continue to achieve savings milestones with FINALL </h3>
             </div>
             <div className='business-button'>
               <HeroSubButton />
@@ -49,15 +49,17 @@ const HeroSection = () => {
           </div>
         </div>
         <div className='goals'>
-        <div className='goal-boxes goal-img'>
+          <div className='goal-boxes goal-img'>
           
           </div>
           <div className='goal-boxes goal-details'>
             <div className= 'goal-head'>
-              <h2>Reach your savings goals</h2>
+              
+              <h2>Analyze your <span>business transactions</span> seamlessly</h2>
             </div>
             <div className='goal-sub'>
-              <h3>Continue to achieve savings milestones while FINALL helps you</h3>
+              
+              <h3>Your financial data from anywhere around the world</h3>
             </div>
             <div className='business-button'>
               <HeroSubButton />

@@ -57,6 +57,7 @@ const Services = () => {
 
   return (
     <div className="services">
+      <h2>Providing best services</h2>
       <Swiper
         modules={[Navigation, A11y]}
         spaceBetween={25}
