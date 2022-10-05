@@ -7,8 +7,6 @@
 .contactus {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     padding: 20px 20px 50px;
     gap: 25px;
 }
@@ -22,8 +20,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     /* padding: 20px 20px 50px; */
     gap: 25px;
 }
@@ -66,6 +63,35 @@
     resize: none;
 }
 
+.checkbox-div {
+    display: flex;
+    text-align: left;
+
+}
+
+.checkbox-div input {
+    width: 2%;
+    display: flex;
+    
+}
+
+.checkbox-div p {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+
+    
+
+}
+
+.checkbox-div p span {
+    color: #1A33B2;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
 .contactus button {
     display: block;
     width: 100%;
@@ -82,7 +108,7 @@
 
 }
 
-@media (min-width: 768px) {
+@media screen and (max-width: 767px) {
     .contactus {
         flex-direction: row;
         flex-wrap: wrap;
@@ -97,10 +123,11 @@
         padding: 25px 100px;
     }
 
-    .contactus h2 {
-        flex: 1 0 100%;
-        font-size: 48px;
-        margin-bottom: 25px;
+    .contactus h3 {
+
+        font-size: 120%;
+        margin-top: 20px;
+        margin-bottom: 5px;
     }
 
     .contactus form > div {
@@ -110,5 +137,60 @@
     .contactus form > div:last-of-type {
         width: 100%;
     }
+
+    .contactus form label {
+        font-size: 90%;
+    }
+
+    .contactus form input {
+        font-size: 80%;
+    }
 }
     
+@media screen and (max-width: 480px){
+
+    .contactus {
+        padding: 0px;
+        
+    
+    }
+    
+    form {
+
+    
+    }
+
+    form label {
+        margin-left:-80px;
+        width: 100%;
+    
+    }
+    
+    
+    .contactus input, .contactus textarea {
+    width: 100%;
+    margin-left: -80px;
+    }
+    
+    
+   .checkbox-div {
+    width: 300%;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    
+   }
+
+    .checkbox-div p {
+
+      font-size: 9px;
+      width: 300%;
+      margin-left: -20px;
+      display: flex;
+
+}
+.checkbox-div input {
+    margin-left: -110px;
+}
+
+}

@@ -110,26 +110,27 @@ function NewsLetter() {
   return (
     <div className="newsletter">
         <h3>Subscribe to our Newsletter</h3>
+        <div className='news-content'>
+            <div className='news-para'>
+                <p>
+                    Subscribe to our newsletter to get weekly and monthly updates on newly added features and better ways to monitor your finances.
+                </p>
+            </div>
 
-        <div>
-            <p>
-                Subscribe to our newsletter to get weekly and monthly updates on newly added features and better ways to monitor your finances.
-            </p>
-        </div>
+            <div className='news-chimp'>
+                <MailchimpSubscribe 
+                    url={`${process.env.REACT_APP_MAILCHIMP_URL}?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`}
 
-        <div>
-            <MailchimpSubscribe 
-                url={`${process.env.REACT_APP_MAILCHIMP_URL}?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`}
-
-                render={({ subscribe, status, message }) => (
-                    <CustomForm
-                        status={status} 
-                        message={message}
-                        onValidated={formData => subscribe(formData)}
-                    />
-                )}
-            
-            />
+                    render={({ subscribe, status, message }) => (
+                        <CustomForm
+                            status={status} 
+                            message={message}
+                            onValidated={formData => subscribe(formData)}
+                        />
+                    )}
+                
+                />
+            </div>
         </div>
     </div>
   )

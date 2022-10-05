@@ -105,8 +105,46 @@
   overflow-x: auto;
 }
 
+.transactions .tbdata:nth-child(1) {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.transactions .tbdata:nth-child(1) span {
+  color: #404040;
+  background-color: #efefef;
+  width: 21px;
+  height: 21px;
+  padding: 5px 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+}
+
+.transactions tbody {
+  position: relative;
+}
+
+.transactions tbody td:last-of-type {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  margin-top: 10px;
+}
+
+.transactions tbody hr {
+  border: 0.5px solid rgba(236, 236, 236, 0.3);
+}
+
 @media screen and (max-width: 640px) {
   .transactions {
     width: 100%;
+  }
+
+  .transactions tbody td:last-of-type {
+    margin-top: 20px;
   }
 }

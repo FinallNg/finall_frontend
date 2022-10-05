@@ -260,3 +260,65 @@
         height: 422.4px;    
     }
 }
+
+@media screen and (max-width:767px){
+    .pricing-box {
+        height: 522.4px;  
+        padding: 0px 60px;
+    
+    }
+
+    .pricing-box:last-child {
+        margin-right: 200px;
+    }
+    
+    .pricing-box:first-child {
+        margin-right: 25px;
+    }
+    
+    
+    .pricing-box:nth-child(2) {
+        margin-right: 25px;
+
+    }
+
+    .price-desc, .pricing-para1, .price-desc2, .price-desc2b, .standard-para1 {
+        width: 150%;
+        margin-left: -20px;
+    
+    }
+
+}
+
+@media screen and (max-width:480px){
+
+    .pricing {
+        flex-direction: column;
+
+    
+    
+    }
+    
+    .pricing-box {
+        margin-top: 100px;
+        height: 384.4px;
+        align-items: center;
+    }
+
+    .pricing-box:nth-child(1){
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+.pricing-box:nth-child(2){
+    margin-top: 30px;
+
+}
+
+.pricing-box:nth-child(3){
+    margin-right: 0px;
+    margin-top: 30px;
+}
+
+
+}
+

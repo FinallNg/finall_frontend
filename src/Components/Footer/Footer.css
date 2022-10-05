@@ -204,6 +204,126 @@ letter-spacing: 1px;
         line-height: 25px;
     }
 
+}
+
+@media screen and (max-width:767px) {
+   .footer-logo-container{
+        width: 30%;
+   }
+
+   .footer-image {
+    width: 60.37px;
+    height: 60px;
+    top: 55px;
+    margin-left: 50px;
+    }
+   
+    .fi{
+    
+        top: 70px;
+        font-size: 20px;
+        left: 40px;
+    }
+
+   .footer-pages {
+        width: 20%;
+   }
+
+   .footer-pages-box h4 {
+        font-size: 80%;
+   }
+
+   .footer-pages-box a {
+    font-size: 60%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        height: 700px;
+        border: 1px solid red;
+    }
+    .footer-container {
+        flex-direction: column;
+        height: 650px; 
+        width: 100%;
+        border: 3px solid black;
+    }
+    .footer-logo-container {
+        height: 70vh;
+        justify-content:center;
+        align-items: center;
+        align-content: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    .footer-image{
+        display: flex;
+        margin-left: 170px;
+        width: 40px;
+        height: 60px;
+    }
+
+    .fi{
+        width: 40.0px;
+        height: 28px;
+        font-size: 12px;
+        margin-left: 185px;
+    
+    }
+    
+    .footer-logo-para {
+        margin: 130px auto 40px auto;
+        width: 90%;
+        height: 20vh;
+        
+    }
+
+    .footer-logo-para p {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .footer-logo-social {
+
+        align-items: center;
+    
+        
+    }
+
+    .footer-logo-social p {
+        font-size: 100%;
+    
+    }
+
+    .footer-icons-box {
+        margin-top: 15px;
+        width: 70%;
+        justify-content: space-around;
+    }
+    
+    
+
+    .footer-pages {
+        border: 1px solid red;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        
+    }
+
+    .footer-pages-box {
+        border-bottom: 2px solid #FFFFFF;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 
 
 

@@ -95,3 +95,42 @@
 
   }
 }
+
+
+@media screen and (max-width:767px) {
+
+  .sign-up {
+    margin-top: 10px;
+  }
+  .sign-up .img-container {
+    height: 40%;
+    width: 50%;
+  }
+  .login-content-box {
+    width: 90%;
+  }
+
+  .sign-up .form-extender {
+    width: 50%;
+  }
+
+  .input-group label {
+    font-size: 80%;
+  }
+
+  .input-group input {
+    font-size: 70%;
+    width: 95%;
+  }
+  
+
+  .sign-up .terms {
+    width: 100%;
+    text-align: center;
+  }
+
+  .login-head {
+    font-size: 120%;
+  }
+
+}
