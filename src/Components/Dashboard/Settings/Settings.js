@@ -61,7 +61,7 @@ const Settings = () => {
             <input id = 'username' type = "text" placeholder = "Example: John"  name = "username"
             value={values.username}
             onChange = {handleChange}/>
-            {/* {errors.username && <p>{errors.username}</p>} */}
+            {errors.username && <p>{errors.username}</p>}
             </label>
             </div>
 
@@ -99,6 +99,7 @@ const Settings = () => {
             <input id='email' type = 'email' placeholder='Ex:johndoe@gmail.com' name="email"
             value={values.email}
             onChange = {handleChange} />
+            {errors.email && <p>{errors.email}</p>}
             </label>
             </div>
 

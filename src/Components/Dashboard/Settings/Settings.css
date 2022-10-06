@@ -13,7 +13,6 @@
     top: -5rem;
     left: 1rem;
     width: 300px;
-    border-radius: 10px;
 } 
 
 .shadow  > select{
@@ -107,6 +106,11 @@
 .user-data {
     position: relative;
     display: flex;
+}
+
+.first .p{
+    height: 20px;
+    color: red;
 }
 
 

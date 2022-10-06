@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 const Form = Validate => {
   
- const {values, setValues} = useState({
+ const [values, setValues] = useState({
    profile: '',
    username: '',
    last: '',
@@ -17,12 +17,11 @@ const Form = Validate => {
 
 
 
-const {errors,setErrors} = useState({});
+const [errors,setErrors] = useState({});
 
 
 
 const handleChange = e =>{
-  console.log(setValues)
   const { name, value} = e.target
  setValues({
  ...values,

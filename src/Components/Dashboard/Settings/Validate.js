@@ -26,6 +26,5 @@ export default function Validate(values) {
     errors.password1 = 'Passwords do not match. Please check again';
   };
 
-  console.log(errors)
   return errors;
 }
