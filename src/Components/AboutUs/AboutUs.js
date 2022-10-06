@@ -45,19 +45,15 @@ const AboutUs = () => {
           </div>
           <div className='about-container-box about-first-box'>
             <div className='about-container-front'>
-              <h3>
+              <h3 className='front3'>
                 Gain easy access to all your financial data in one platform, make better financial decisions.
               </h3>
               <br/>
-              <h3>
+              <h3 className='front-last'>
                 Stay Ahead of the curve with Finall!
               </h3>
             </div>
-            <div className='about-container-back'>
-              <div className='about-container-img3'>
-
-              </div>
-            </div>
+            
           </div>
 
         </div>
@@ -70,7 +66,10 @@ const AboutUs = () => {
               Our team of young and smart experts is motivated by the mission to make your life easy by helping you keep track of your financial transactions to make better decisions.
             </h3>
           </div>
+
           <Team />
+      
+
           <TeamGrid />
           <div className='aboutus-team-head'>
             <h2>Our <span>Mission</span></h2>
@@ -83,9 +82,9 @@ const AboutUs = () => {
       
         </div>
         
-        <NewsLetter />
+        
       </div>
-      
+      <NewsLetter />
 
 
     </div>

@@ -1,20 +1,20 @@
 :root {
-  --yellow: #F5C32C;
-  --orange: #FCA61F;
-  --black: #242D49;
+  --yellow: #f5c32c;
+  --orange: #fca61f;
+  --black: #242d49;
   --gray: #788097;
-  --blue: #0000FF;
-  --blueCard: #DDF8FE;
+  --blue: #0000ff;
+  --blueCard: #ddf8fe;
   --purple: rgb(238 210 255);
-  --green: #00FF00;
-  --red: #FF0000;
-  --gold: #FFD700;
-  --lavender: #E6E6FA;
+  --green: #00ff00;
+  --red: #ff0000;
+  --gold: #ffd700;
+  --lavender: #e6e6fa;
   --navy: #000080;
-  --skyblue: #87CEEB;
+  --skyblue: #87ceeb;
   --midnightblue: #191970;
-  --matte: #28282B;
-  --charcoal: #36454F;
+  --matte: #28282b;
+  --charcoal: #36454f;
   --boxShadow: 4px 6px 5px rgba(9, 13, 255, 0.25);
   --orangeCard: rgba(252, 166, 31, 0.45);
   --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
@@ -22,6 +22,18 @@
   --finall2: #1a33b2;
   --finall3: #6787e4;
   --white: #ffffff;
+}
+
+.revoice-section nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.revoice-icons {
+  align-items: center;
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
 }
 
 
