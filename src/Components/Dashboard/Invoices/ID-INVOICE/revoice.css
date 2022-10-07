@@ -33,6 +33,10 @@ gap: 10%;
    flex-direction: column;
    justify-content: center;
 }
+.revoice-intro-h1{
+   font-size: 1.3rem;
+   line-height: 2em;
+}
 .revoice-invoice-card{
    background: url('./Rectangle\ 1156.jpg') no-repeat;
 height:110px ;

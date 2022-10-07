@@ -23,3 +23,29 @@
         margin-top: 50px;
     }
 }
+.revoice-section nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .revoice-icons {
+    align-items: center;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+  }
+  .revoice-icons div{
+    position: relative;
+  }
+
+  .revoice-bell-icon::after{
+  content: '';
+  background-color: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  right: 0;
+  }
+  
+  
