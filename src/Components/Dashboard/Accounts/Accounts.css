@@ -1,0 +1,63 @@
+.account {
+    font-family: "Lato", sans-serif;
+    padding-left: 3rem;
+    /* background: #DEDEDE;
+    height: 100%; */
+}
+
+/* START OF THE HEADER, CAN BE REUSED */
+.account header .header-title {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.account header .header-title h1 {
+    font-weight: 700;
+    line-height: 2rem;
+    font-size: 1.8rem;
+    color: #33343D;
+}
+
+.account header .header-title p {
+    color: #807D9B;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+}
+
+.account header .header-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.account header .header-image img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.account header .header-image .profile-pic {
+    height: 3rem;
+    width: 3rem;
+}
+
+/* END OF HEADER */
+
+.account .main-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+
+.account .main-heading div {
+    display: flex;
+}
+
+.account section .account-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}

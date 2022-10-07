@@ -62,6 +62,11 @@ const Sidebar = () => {
             </NavLink>
           </li>
           <li>
+            <NavLink exact activeClassName="active" to="/accounts">
+              <img src={cardicon} alt="" /> Accounts
+            </NavLink>
+          </li>
+          <li>
             <NavLink exact activeClassName="active" to="/metrics">
               <img src={metricsicon} alt="" /> Metrics
             </NavLink>
