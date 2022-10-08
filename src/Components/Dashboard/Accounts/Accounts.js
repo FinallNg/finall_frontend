@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from 'react'
 import "./Accounts.css";
+import  { ATMCard } from 'atm-card-react'
 
 // Import Images
 import Bell from "../../../assets-svg/bell.svg";
@@ -10,6 +11,7 @@ import PlusIcon from "../../../assets-svg/plus-icon.svg";
 import ArrowIcon from "../../../assets-svg/arrow-down.svg";
 
 const Accounts = () => {
+  
 
     const accountsDetails = [
         {
@@ -118,31 +120,54 @@ const Accounts = () => {
                     </div>
                 </section>
 
-                <section>
+                <section class='account-card-section'>
                     {
-                        accountsDetails.map((account => (
-                            <div keys={account.id} className="account-container">
+                        accountsDetails.map((account => {
+                            const{acctBalance,acctName,acctNumber,cardType,type,id} = account
+                            return(
+                            <div keys={id} className="account-container">
                                 <div>
-                                    <img src={AtmCard} alt="atm card" />
+                                <ATMCard
+              year={22}
+              month={3}
+              cvv='000'
+              number={acctNumber}
+              holderName={acctName}
+              lifted ={true}
+              dark ={true}
+              bankLogo={
+                <h1 style={{ 
+                  fontFamily: 'Arial', 
+                  fontSize: 16, 
+                  fontWeight: 700,
+                  color: 'white' 
+                }}>{cardType}</h1>
+              }
+              system='VISA'
+              scale ={0.5}
+       />
+
+
+                                    {/* <img src={AtmCard} alt="atm card" /> */}
                                 </div>
                                 <div>
-                                    <h5>{account.type}</h5>
-                                    <p>{account.cardType}</p>
+                                    <h5>{type}</h5>
+                                    <p>{cardType}</p>
                                 </div>
                                 <div>
                                     <h5>Account Name</h5>
-                                    <p>{account.acctName}</p>
+                                    <p>{acctName}</p>
                                 </div>
                                 <div>
                                     <h5>Account Number</h5>
-                                    <p>{account.acctNumber}</p>
+                                    <p>{acctNumber}</p>
                                 </div>
                                 <div>
                                     <h5>Total Balance</h5>
-                                    <p>{account.acctBalance}</p>
+                                    <p>{acctBalance}</p>
                                 </div>
                             </div>
-                        )))
+                         )}))
                     }
                 </section>
             </main>
