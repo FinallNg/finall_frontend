@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './revoice.css'
 import bell from '../../../../assets/bell.png'
 import ellipse from '../../../../assets/Ellipse.png'
 import message from '../../../../assets/email.png'
 import logo from '../../../../assets/logo.png'
-import  { ATMCard } from 'atm-card-react'
+
 export const IntroNav =()=>{
   return (
   <nav> 
@@ -30,11 +30,6 @@ export const Revoice = () => {
   const dueDate = '13 Jul 2020'
   const billTo = 'Chris Drey'
   const billToAddress = 'Lagos,Nigeria'
-  const [number, setNumber] = useState('');
-  const [month, setMonth] = useState(2);
-  const [year, setYear] = useState(22);
-  const [holder, setHolder] = useState('');
-  const [cvv, setCvv] = useState('');
   return (
     <section class='revoice-section'>
   <IntroNav/>
@@ -95,29 +90,6 @@ export const Revoice = () => {
       </main>
 
       <aside>
-      <ATMCard
-              year={year}
-              month={month}
-              cvv={cvv}
-              number={number}
-              holderName={holder}
-              bankLogo={
-                <h1 style={{ 
-                  fontFamily: 'Arial', 
-                  fontSize: 30, 
-                  color: 'white' 
-                }}>Cool Bank Logo</h1>
-              }
-              lifted
-              // system={system}
-              // scale ={px}
-              onChange={(data) => {
-                setNumber(data.number);
-                setCvv(data.cvv);
-                setMonth(data.month);
-                setYear(data.year);
-                setHolder(data.holder);
-              }}/>
       </aside>
       </div>
     </section>
