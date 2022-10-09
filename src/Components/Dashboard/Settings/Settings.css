@@ -6,6 +6,14 @@
     width:30vh;
 }
 
+
+.user-input p{
+    color: red;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+}
+
 .shadow{
     display: flex;
     position: relative;
@@ -108,10 +116,7 @@
     display: flex;
 }
 
-.first .p{
-    height: 20px;
-    color: red;
-}
+
 
 
 .user-input div label{

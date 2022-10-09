@@ -2,7 +2,7 @@ export default function Validate(values) {
   let errors = {}
 
   if (!values.username.trim()) {
-    errors.username = 'Username required';
+    errors.username = 'Username is required';
   }
 
   //validation for Email
@@ -16,12 +16,12 @@ export default function Validate(values) {
   if (!values.password) {
     errors.password = 'Password is required';
   } else if(values.password.length < 7) {
-    errors.password ='Password needs to be at least seven(7) characters or more';
+    errors.password ='Password needs to be at least seven characters';
   }
 
 //Validation logic for password1
   if (!values.password1) {
-    errors.password1 = 'Password is required';
+    errors.password1 = 'confirmed password is required';
   } else if(!values.password1 !== values.password) {
     errors.password1 = 'Passwords do not match. Please check again';
   };

@@ -117,6 +117,9 @@ const Settings = () => {
             <input id = 'password' type= 'password'  placeholder='Create a strong password' name = "password" 
             value={values.password}
             onChange = {handleChange}/>
+            <i  class="bi bi-eye-slash" id = 'visibility'></i>
+            {errors.password && <p>{errors.password}</p>}
+
             </label>
             </div>
 
@@ -125,6 +128,8 @@ const Settings = () => {
             <input id = 'password1' type= 'password'  placeholder='Confirm your new password' name="password1" 
             value={values.password1}
             onChange = {handleChange}/>
+            {errors.password1 && <p>{errors.password1}</p>}
+
             </label>
             </div>
 
