@@ -9,14 +9,17 @@ export const IntroNav =()=>{
   return (
   <nav> 
   <div>
-    <h1>Good Evening, Enwono</h1>
+    <h1 class='revoice-intro-h1'>Good Evening, Enwono</h1>
     <p> Glad to have you here!</p>
   </div>
   <div class='revoice-icons'>
-    <span><img src={bell} alt='bell-icon'/> </span>
+  <div>
+    <span class='revoice-bell-icon'><img src={bell} alt='bell-icon' /> </span>
+  </div>
     <span> <img src={message} alt='bell-icon'/> </span>
     <span><img src={ellipse} alt='bell-icon'/> </span>
-  </div>
+
+    </div>
   </nav>)
 }
 

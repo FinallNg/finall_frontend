@@ -10,6 +10,7 @@ import Settings from "./Settings/Settings";
 import Sidebar from "./Sidebar/Sidebar";
 import Transactions from "./Transactions/Transactions";
 import Budgets from './Budgets/Budgets';
+import Accounts from './Accounts/Accounts';
 
 const Dashboard = () => {
   return (
@@ -24,6 +25,7 @@ const Dashboard = () => {
           <Route exact path="/invoices" element={<Invoices />} />
           <Route exact path="/goals" element={<Goals />} />
           <Route exact path="/budgets" element={<Budgets />} />
+          <Route exact path="/accounts" element={<Accounts />} />
           <Route exact path="/settings" element={<Settings />} />
           <Route exact path="/help" element={<Help />} />
           <Route exact path="/logout" element={<Logout />} />
