@@ -48,7 +48,7 @@ const Settings = () => {
          {/* collecting and storing user data in the database */}
           
           <div className = 'user-data'>
-            <form className = "user-input" onSubmit= {handleSubmit}>
+            <form className = "user-input" method= "POST" onSubmit= {handleSubmit}>
               <div id = "display_image">
               <input  id = "image_input"  type="file" accept="image/jpg, image/jpeg"  name = 'profile'
               value={values.profile}
@@ -91,6 +91,7 @@ const Settings = () => {
             <input type= "date" placeholder='Please enter your Date of birth' name ="birth"
             value={values.birth}
             onChange = {handleChange}/>
+            {errors.birth && <p>{errors.birth}</p>}
             </label>
             </div>
 
@@ -109,6 +110,7 @@ const Settings = () => {
             <input type="tel" id='phone' placeholder='08012345678' required = "required" name = "phone"
             value={values.phone}
             onChange = {handleChange}/>
+            {errors.phone && <p>{errors.phone}</p>}
             </label>
             </div>
           
@@ -117,19 +119,16 @@ const Settings = () => {
             <input id = 'password' type= 'password'  placeholder='Create a strong password' name = "password" 
             value={values.password}
             onChange = {handleChange}/>
-            <i  class="bi bi-eye-slash" id = 'visibility'></i>
             {errors.password && <p>{errors.password}</p>}
-
             </label>
             </div>
 
             <div className='eighth'>
-            <label  htmlFor = 'Password' className='form-label'>Password
+            <label  htmlFor = 'Password' className='form-label'>Confirm Password
             <input id = 'password1' type= 'password'  placeholder='Confirm your new password' name="password1" 
             value={values.password1}
             onChange = {handleChange}/>
             {errors.password1 && <p>{errors.password1}</p>}
-
             </label>
             </div>
 
@@ -151,7 +150,9 @@ const Settings = () => {
             <button action = "submit">Save Changes</button>
             </div>
 
-            <div className='delete'>Delete account</div>
+            <div className='delete'>
+              <span>Delete account</span>
+            </div>
             </form>
 
           </div>
