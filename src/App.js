@@ -23,7 +23,6 @@ import Goals from "./Components/Dashboard/Goals/Goals";
 import Help from "./Components/Dashboard/Help/Help";
 import Logout from "./Components/Dashboard/Logout/Logout";
 // import Sidebar from "./Components/Dashboard/Sidebar/Sidebar";
-import LearnMore from "./Components/LandingPage/LearnMore/LearnMore";
 
 function App() {
   return (

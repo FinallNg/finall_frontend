@@ -1,7 +1,6 @@
 import React from 'react'
 import './HeroSection.css'
 import HeroSectionButton from './HeroSectionButton'
-import HeroSubButton from './HeroSubButton'
 
 const HeroSection = () => {
   return (
@@ -44,13 +43,13 @@ const HeroSection = () => {
               <h3>Continue to achieve savings milestones with FINALL </h3>
             </div>
             <div className='business-button'>
-              <HeroSubButton />
+            <HeroSectionButton />
             </div>
           </div>
         </div>
         <div className='goals'>
           <div className='goal-boxes goal-img'>
-          
+        
           </div>
           <div className='goal-boxes goal-details'>
             <div className= 'goal-head'>
@@ -62,7 +61,7 @@ const HeroSection = () => {
               <h3>Your financial data from anywhere around the world</h3>
             </div>
             <div className='business-button'>
-              <HeroSubButton />
+            <HeroSectionButton />
             </div>
           </div>
         </ div>

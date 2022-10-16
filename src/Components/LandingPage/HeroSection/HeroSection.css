@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     background: #fff;
-    height: 1400px;
+    height: 1550px;
     
 }
 
@@ -78,7 +78,7 @@
 .hero-img {
 color: red;
 background-color: #fff;
-background: url('./images/FINALL 1.svg');
+background: url('./images/lapi.jpeg');
 background-position: center;
 background-size: cover;
 }
@@ -123,11 +123,12 @@ background-size: cover;
     background-color: rgb(247, 247, 247);
     margin-top: 80px;
     margin-bottom: -60px;
+    height: 60vh;
 }
 
 .spending-boxes {
     padding-top: 20px;
-    margin-top: 70px;
+    margin-top: 120px;
 }
 
 .business-head, .goal-head, .spending-head {
@@ -151,6 +152,10 @@ background-size: cover;
 
 .goal-head span {
     color: #1A33B2;
+}
+
+.goal-details   {
+    margin-top: 100px;
 }
 
 .business-sub, .goal-sub, .spending-sub {
@@ -185,9 +190,10 @@ background-size: cover;
 }
 
 .business-img  {
-    background: url('./images/Personal\ goals-amico\ 1.png');
+   background: url('./images/Personal\ goals-amico\ 1.png');
     background-position: center;
     background-size: cover;
+    height: 70vh;
     margin-top: -60px;
 }
 
@@ -202,11 +208,12 @@ background-size: cover;
     background-size: cover; 
     height: 300px;
     width: 450px;
+    margin-top: 50px;
 }
 .spending-img-box {
     width: 30%;
-    height: 55%;
-    margin-top: 40px;
+    height: 70%;
+    margin-top: 80px;
     margin-right: 40px;
     
 }
