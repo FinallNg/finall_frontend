@@ -16,6 +16,16 @@ const Settings = () => {
   return (
     <div>
       <Notify />
+      <div  className="modal">
+        <div className='modal-content'>
+          <span>Delete your Finall Account</span>
+          <p>You are about to delete your Finall Account. 
+            Please confirm that you understand what this means. 
+            Then verify yourself by re-entering your account password.</p>
+            <input type = 'checkbox' />I understand that this process is permanent and cannot be reverted.
+          <button>Click</button>
+        </div>
+      </div>
       <div className = "Accounts">
         <div className="shadow">
         <select selected = "Account">
@@ -151,7 +161,7 @@ const Settings = () => {
             </div>
 
             <div className='delete'>
-              <span>Delete account</span>
+              <span onClick={openModal}>Delete account</span>
             </div>
             </form>
 
@@ -160,5 +170,16 @@ const Settings = () => {
     </div>
   )
 }
+
+const openModal = function(){
+  document.querySelector('.modal').style.display = "flex";
+}
+
+window.addEventListener('click', function(e) {
+  let modal = document.querySelector('.modal');
+  if(e.target === modal){
+    modal.style.display = "none"
+  }
+})
 
 export default Settings
