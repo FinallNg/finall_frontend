@@ -3,28 +3,28 @@ import NewsLetter from '../LandingPage/NewsLetter/NewsLetter';
 import Team from '../LandingPage/Team/Team';
 import './AboutUs.css' ;
 import TeamGrid from '../LandingPage/Team/TeamGrid';
+import HeroSectionButton from '../LandingPage/HeroSection/HeroSectionButton';
 
 const AboutUs = () => {
   return (
     <div className='about-page'>
       <div className='about-page-container'>
         <div className='about-h1'>
-          <h1>Finall is a fintech platform that allows users <span>import financial data from different</span> platforms to create a financial dashboard.</h1>
+          <h1>Finall Helps you grow your  <span>Financial Health </span> beyond your expectations.</h1>
+        </div>
+        <div className='about-service'>
+          <h2>services we offer</h2> 
         </div>
         <div className='about-container'>
           <div className='about-container-box about-first-box'>
             <div className='about-container-front'>
-              <h3>A Financial Dashboard is where you import all your financial data and you get to see all the details of your financial data at a glance. </h3>
-              <h3>The objective of Finall is to give you access to all your financial data on one platform with ease.</h3>
+              <h3>The core objective of Finall is to give  access to all your financial data on one platform without hassle. we make life simple and easy for you. </h3>
             </div>
             <div className='about-container-back'>
               <div className='about-container-img1'>
 
               </div>
             </div>
-          </div>
-          <div className='about-content-middle'>
-            <h3>We also help you with your budgeting plan tailored to suit your lifestyle. It keeps track of every financial activity on your accounts and helps you stay within budget and achieve your goals.</h3>
           </div>
           <div className='about-container-box'>
             <div className='about-container-front'>
@@ -35,10 +35,7 @@ const AboutUs = () => {
             <div className='about-container-back'>
               <div className='about-container-back-h'>
               <h3>
-                Finall is a fintech platform built on the basic concepts of integrity, security, stability and trust. 
-              </h3> <br/>
-              <h3>
-                Be rest assured that your financial data is safe with us.
+              We also help you with your budgeting plan tailored to suit your lifestyle. It keeps track of every financial activity on your accounts and helps you stay within budget and achieve your goals. 
               </h3>
               </div>
             </div>
@@ -48,16 +45,30 @@ const AboutUs = () => {
               <h3 className='front3'>
                 Gain easy access to all your financial data in one platform, make better financial decisions.
               </h3>
-              <br/>
               <h3 className='front-last'>
-                Stay Ahead of the curve with Finall!
+                Stay Ahead of the Curve with <span>Finall!</span>
               </h3>
             </div>
+            <div className='about-container-back'>
+              <div className='about-container-img1'>
+
+              </div>
+            </div> 
             
           </div>
 
         </div>
         <div className='aboutus-team'>
+          <div className='aboutus-team-head'>
+              <h2>Our <span>Mission</span></h2>
+            </div>
+            <div className='aboutus-team-sub'>
+              <h3>
+                To help people stay ahead of the curve with ease by managing their financial lifestyle.
+              </h3>
+            </div>
+
+
           <div className='aboutus-team-head'>
             <h2>Our <span>Team</span></h2>
           </div>
@@ -68,23 +79,24 @@ const AboutUs = () => {
           </div>
 
           <Team />
-      
 
           <TeamGrid />
-          <div className='aboutus-team-head'>
-            <h2>Our <span>Mission</span></h2>
-          </div>
-          <div className='aboutus-team-sub'>
-            <h3>
-              To help people stay ahead of the curve with ease by managing their financial lifestyle.
-            </h3>
-          </div>
-      
         </div>
-        
-        
       </div>
-      <NewsLetter />
+      <div className='newsletter-head-div'>
+        <div className='newsletter-head-content'>
+          <h2>subscribe to our NewsLetter</h2>
+          <p>Subscribe to our newsletter to get weekly and monthly updates on newly added features and better ways to monitor you finances.</p>
+        </div>
+        <div className='newsletter-head-button'>
+          <button><a href=''>get started</a></button>
+        </div>
+      </div>
+      <div className='newsletter-div'>
+        <NewsLetter />
+
+      </div>
+      
 
 
     </div>
