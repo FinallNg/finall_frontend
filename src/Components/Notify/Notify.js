@@ -15,6 +15,7 @@ const Notify = () => {
             <img src={Dot} alt="" />
             <img src={Bell} alt="" />
             </div>
+
           </div>
     </div>
   )

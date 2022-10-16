@@ -12,6 +12,7 @@ import logouticon from "../../../assets-svg/logouticon.svg";
 import settingsicon from "../../../assets-svg/settingsicon.svg";
 import transactionicon from "../../../assets-svg/transactionicon.svg";
 import metricsicon from "../../../assets-svg/metricsicon.svg";
+import budgetsicon from '../../../assets-svg/cil_money.svg'
 
 const Sidebar = () => {
   return (
@@ -23,7 +24,7 @@ const Sidebar = () => {
 
       <div className="heading">
         Finall
-        <a href="/">
+        <a href='/'>
           <img src={SidebarLogo} alt="Finall Logo" />
         </a>
       </div>
@@ -32,7 +33,7 @@ const Sidebar = () => {
         <ul className="menu">
           <li>
             <NavLink exact activeClassName="active" to="/overview">
-              <img src={OverviewIcon} alt="" /> Overview{" "}
+              <img src={OverviewIcon} alt="" />  Dashboard{" "}
             </NavLink>
           </li>
           <li>
@@ -56,6 +57,16 @@ const Sidebar = () => {
             </NavLink>
           </li>
           <li>
+            <NavLink exact activeClassName="active" to="/budgets">
+              <img src={budgetsicon} alt="" /> Budgets
+            </NavLink>
+          </li>
+          <li>
+            <NavLink exact activeClassName="active" to="/accounts">
+              <img src={cardicon} alt="" /> Accounts
+            </NavLink>
+          </li>
+          <li>
             <NavLink exact activeClassName="active" to="/metrics">
               <img src={metricsicon} alt="" /> Metrics
             </NavLink>
@@ -72,7 +83,7 @@ const Sidebar = () => {
         <ul className="menu">
           <li>
             <NavLink exact activeClassName="active" to="/help">
-              <img src={helpicon} alt="" /> Help &amp; Started
+              <img src={helpicon} alt="" /> Help
             </NavLink>
           </li>
           <li>
@@ -92,6 +103,7 @@ const Sidebar = () => {
                 <li><NavLink exact activeClassName="active" to ='/cards'>Cards</NavLink></li>
                 <li><NavLink exact activeClassName="active" to ='/invoices'>Invoices</NavLink></li>
                 <li><NavLink exact activeClassName="active" to ='/goals'>Goals</NavLink></li>
+                <li><NavLink exact activeClassName="active" to ='/budgets'>Budgets</NavLink></li>
                 <li><NavLink exact activeClassName="active" to ='/settings'>Settings</NavLink></li> 
               </ul>
   

@@ -4,7 +4,26 @@ import bell from '../../../../assets/bell.png'
 import ellipse from '../../../../assets/Ellipse.png'
 import message from '../../../../assets/email.png'
 import logo from '../../../../assets/logo.png'
-const Revoice = () => {
+
+export const IntroNav =()=>{
+  return (
+  <nav> 
+  <div>
+    <h1 class='revoice-intro-h1'>Good Evening, Enwono</h1>
+    <p> Glad to have you here!</p>
+  </div>
+  <div class='revoice-icons'>
+  <div>
+    <span class='revoice-bell-icon'><img src={bell} alt='bell-icon' /> </span>
+  </div>
+    <span> <img src={message} alt='bell-icon'/> </span>
+    <span><img src={ellipse} alt='bell-icon'/> </span>
+
+    </div>
+  </nav>)
+}
+
+export const Revoice = () => {
 
   const invoiceNo ='INV-2020-060'
   const issueDate = '06 Jul 2020'
@@ -13,21 +32,10 @@ const Revoice = () => {
   const billToAddress = 'Lagos,Nigeria'
   return (
     <section class='revoice-section'>
-    <nav> 
-    <div>
-      <h1>Good Evening, Enwono</h1>
-      <p> Glad to have you here!</p>
-    </div>
-    <div>
-      <span><img src={bell} alt='bell-icon'/> </span>
-      <span> <img src={message} alt='bell-icon'/> </span>
-      <span><img src={ellipse} alt='bell-icon'/> </span>
-    </div>
-    </nav>
-
+  <IntroNav/>
     <div class='revoice-lower'>
        <main className='revoice-main'>
-      <div class='revoice-main-intro'>
+      <div class='revoice-main-intro txt-reduce'>
       <div>
       <img src={logo} alt='logo' class='revoice-logo'/>
       <p>finall@sidehustle.com</p>
@@ -88,4 +96,3 @@ const Revoice = () => {
   )
 }
 
-export default Revoice

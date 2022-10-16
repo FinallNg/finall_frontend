@@ -1,9 +1,56 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
+import { FiTruck, FiFeather, FiShoppingCart } from "react-icons/fi";
+
 import "../Transactions/Transactions.css";
 
 const Transactions = () => {
+  const demoTransactions = [
+    {
+      icon: <FiShoppingCart />,
+      receiver: "Tesco Market",
+      type: "shopping",
+      date: "13 Dec 2020",
+      amount: "75.67",
+    },
+    {
+      icon: <FiFeather />,
+      receiver: "Fiorgio Restaurant",
+      type: "food",
+      date: "14 Dec 2020",
+      amount: "115.67",
+    },
+    {
+      icon: <FiFeather />,
+      receiver: "ElectroMen Market",
+      type: "food",
+      date: "14 Dec 2020",
+      amount: "230.67",
+    },
+    {
+      icon: <FiShoppingCart />,
+      receiver: "ElectroMen Market",
+      type: "shopping",
+      date: "15 Dec 2020",
+      amount: "785.67",
+    },
+    {
+      icon: <FiTruck />,
+      receiver: "Tesco Market",
+      type: "shopping",
+      date: "16 Dec 2020",
+      amount: "759.67",
+    },
+    {
+      icon: <FiTruck />,
+      receiver: "Tesco Market",
+      type: "shopping",
+      date: "17 Dec 2020",
+      amount: "353.67",
+    },
+  ];
+
   const [transactions, setTransactions] = useState([]);
   const [page, setPage] = useState(1);
   const url = `https://finall-app.herokuapp.com/api/v1/users/62adf34ffd4713384367abda/accounts/62f8313e26f57f70a2e9829e/transactions?page=${page}`;
@@ -56,7 +103,7 @@ const Transactions = () => {
           <table className="transaction-table">
             <thead className="tbrow">
               <tr>
-                <th className="tbhead">Narration</th>
+                <th className="tbhead">Receiver</th>
                 <th className="tbhead">Type</th>
                 <th className="tbhead">Date</th>
                 <th className="tbhead">Amount</th>
@@ -64,16 +111,19 @@ const Transactions = () => {
             </thead>
 
             <tbody>
-              {transactions &&
-                transactions?.data?.map((transaction) => (
-                  <tr
-                    className="tbrow"
-                    key={transaction.narration + Math.random()}
-                  >
-                    <td className="tbdata">{transaction.narration}</td>
+              {demoTransactions &&
+                demoTransactions.map((transaction) => (
+                  <tr className="tbrow" key={transaction.date + Math.random()}>
+                    <td className="tbdata">
+                      <span>{transaction.icon}</span>
+                      {transaction.receiver}
+                    </td>
                     <td className="tbdata">{transaction.type}</td>
                     <td className="tbdata">{formatDate(transaction.date)}</td>
                     <td className="tbdata">${transaction.amount}</td>
+                    <td>
+                      <hr />
+                    </td>
                   </tr>
                 ))}
             </tbody>
