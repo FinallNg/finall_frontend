@@ -24,7 +24,7 @@ const Sidebar = () => {
 
       <div className="heading">
         Finall
-        <a href="/">
+        <a href='/'>
           <img src={SidebarLogo} alt="Finall Logo" />
         </a>
       </div>
@@ -33,7 +33,7 @@ const Sidebar = () => {
         <ul className="menu">
           <li>
             <NavLink exact activeClassName="active" to="/overview">
-              <img src={OverviewIcon} alt="" /> Overview{" "}
+              <img src={OverviewIcon} alt="" />  Dashboard{" "}
             </NavLink>
           </li>
           <li>
@@ -83,7 +83,7 @@ const Sidebar = () => {
         <ul className="menu">
           <li>
             <NavLink exact activeClassName="active" to="/help">
-              <img src={helpicon} alt="" /> Help &amp; Started
+              <img src={helpicon} alt="" /> Help
             </NavLink>
           </li>
           <li>

@@ -21,7 +21,7 @@ const SpendingHabit = () => {
           <div className='business-button'>
             <HeroSubButton />
           </div>
-          </div>
+        </div>
       </div>
   )
 }

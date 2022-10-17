@@ -134,3 +134,24 @@
   }
 
 }
+
+@media screen and (max-width:480px) {
+  .sign-up {
+    flex-direction: column;
+    align-items: center;
+    height: 220vh;
+    margin-bottom: 40px;
+  }
+
+  .sign-up .img-container {
+    margin-top: 60px;
+}
+
+
+.sign-up .form-extender {
+  width: 100%;
+}
+
+
+
+}
