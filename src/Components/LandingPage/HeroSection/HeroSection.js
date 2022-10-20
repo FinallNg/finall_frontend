@@ -43,7 +43,7 @@ const HeroSection = () => {
               <h3>Continue to achieve savings milestones with FINALL </h3>
             </div>
             <div className='business-button'>
-            <HeroSectionButton />
+              <HeroSectionButton />
             </div>
           </div>
         </div>

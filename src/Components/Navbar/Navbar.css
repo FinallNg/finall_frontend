@@ -4,6 +4,19 @@
     margin: 0;
 }
 
+header ul li a {
+    text-decoration: none;
+    margin: 10px 20px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid transparent;
+    font-weight: 400;
+    font-size: 25px;
+    color: #0F1928;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+
 
 @media screen and (max-width: 1023px) {
     header {

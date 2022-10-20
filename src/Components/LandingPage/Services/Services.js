@@ -17,7 +17,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 
-const Services = () => {
+const Services = () => { 
   const prevRef = useRef(null);
   const nextRef = useRef(null);
 
@@ -58,7 +58,7 @@ const Services = () => {
   return (
     <div className="services">
       <h2>Providing best services</h2>
-      <Swiper
+      <Swiper className="carousel" 
         modules={[Navigation, A11y]}
         spaceBetween={25}
         slidesPerView={1.2}
@@ -89,7 +89,7 @@ const Services = () => {
         }}
       >
         {carouselItems.map((item, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide className="swiperslide" key={index}>
             {({ isNext }) => (
               <div
                 className={isNext ? "card-container-active" : "card-container"}

@@ -14,7 +14,6 @@
 .over-headers{
     display: flex;
     
-    font-size: 18px;
 }
 
 .over-headers :nth-of-type(1){
@@ -27,9 +26,8 @@
     left: -12rem;
     font-style: normal;
     align-items: center;
-    font-weight: bolder;
-    size: 42px;
-    font-size: 2rem;
+    font-weight: 700;
+    font-size: 42px;
     display: flex;
     word-spacing: 1px;
     letter-spacing: 1px;
@@ -45,9 +43,9 @@
     font-style: normal;
     align-items: center;
     display: flex;
-    font-weight: bold;
-    font-size: 2rem;
-    size: 42px;
+    font-weight: 700;
+    font-size: 42px;
+
 
 }
 

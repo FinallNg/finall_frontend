@@ -13,22 +13,19 @@
 
 .feature-header{
     display: flex;
-    font-size: 18px; 
    
 }
 
 .feature-header :nth-of-type(1){
     color: var(--finall2);
     font-family: 'Lato';
-    height: 68px;
     margin-top: -160px;
     left: -13rem;
     font-style: normal;
     align-items: center;
-
-    font-weight: bolder;
-    size: 42px;
-    font-size: 2rem;
+    margin-bottom: 160px;
+    font-weight: 700;
+    font-size: 42px;
     display: flex;
     word-spacing: 1px;
     letter-spacing: 1px;
@@ -39,15 +36,12 @@
 .feature-header :nth-of-type(2){
     color: var(--finall3);
     font-family: "Lato";
-    height: 68px;
     left: 0.7rem;
     font-style: normal;
     align-items: center;
     margin: -160px 10px 0px 10px;
-    display: flex;
-    font-weight: bold;
-    font-size: 2rem;
-    size: 42px;
+    font-weight: 700;
+    font-size: 42px;
     word-spacing: 1px;
     letter-spacing: 1px;
 
@@ -56,14 +50,12 @@
 .feature-header :nth-of-type(3){
     color: var(--finall2);
     font-family: "Lato";
-    height: 68px;
-    margin-top: -160px;
     left: 18rem;
-    font-style: normal;
     align-items: center;
     display: flex;
-    font-weight: bold;
-    font-size: 2rem;
+    font-weight: 700;
+    font-size: 42px;
+     margin-top: -320px;
 }
 
 

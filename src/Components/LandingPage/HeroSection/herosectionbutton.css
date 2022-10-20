@@ -1,12 +1,13 @@
 .hero-section-button button {
     background-color: #1A33B2;
-    padding: 12px 20px;
+    padding: 12px 25px;
     color: #fff;
     border: none;
     border-radius: 7px;
-    font-size: 70%;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 700;
 }
+
 
 .hero-section-button button:active,
 .hero-section-button button:hover {
