@@ -120,12 +120,12 @@ const Accounts = () => {
                     </div>
                 </section>
 
-                <section class='account-card-section'>
+                <section className='account-card-section'>
                     {
                         accountsDetails.map((account => {
                             const{acctBalance,acctName,acctNumber,cardType,type,id} = account
                             return(
-                            <div keys={id} className="account-container">
+                            <div key={id} className="account-container">
                                 <div>
                                 <ATMCard
               year={22}

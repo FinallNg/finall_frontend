@@ -4,7 +4,7 @@ import Form from './Form'
 import Validate from './Validate';
 // import { AiOutlineEdit } from 'react-icons/ai'
 import 'font-awesome/css/font-awesome.min.css';
-import './Settings.css'
+import './Connect.css'
 import Notify from '../../Notify/Notify'
 import Bank from '../../../assets/Bank.png'
 import Visa from '../../../assets/visa.png'
@@ -22,10 +22,13 @@ const Settings = () => {
           <p>You are about to delete your Finall Account. 
             Please confirm that you understand what this means. 
             Then verify yourself by re-entering your account password.</p>
-            <input type = 'checkbox' />I understand that this process is permanent and cannot be reverted.
-          <button>Click</button>
+           <p> <input type = 'checkbox' />I understand that this process is permanent and cannot be reverted.</p>
+           <p></p>
+          <button>Delete Account</button>
         </div>
       </div>
+
+      
       <div className = "Accounts">
         <div className="shadow">
         <select selected = "Account">
@@ -67,25 +70,25 @@ const Settings = () => {
               </div>
 
               <div className='first'>
-            <label htmlFor='First Name' className='form-label'>First Name
-            <input id = 'username' type = "text" placeholder = "Example: John"  name = "username"
+            <label htmlFor='First Name' className='form-label'>First Name </label>
+            <input id = 'username' required = "required" type = "text" placeholder = "Example: John"  name = "username"
             value={values.username}
             onChange = {handleChange}/>
             {errors.username && <p>{errors.username}</p>}
-            </label>
             </div>
 
             <div className='second'>
-            <label htmlFor = 'Last Name'  className='form-label'> Last Name
-              <input id = 'last' type = 'text' placeholder = "Ex:Doe" name = "last" 
+            <label htmlFor = 'Last Name'  className='form-label'> Last Name </label>
+              <input id = 'last' type = 'text' required = "required" placeholder = "Ex:Doe" name = "last" 
               value={values.last}
               onChange = {handleChange}/>
-            </label>
+               {errors.last && <p>{errors.last}</p>}
+            
             </div>
 
             <div className='third'>
-            <label htmlFor='Sex' className='form-label'>Sex(Optional)
-            <select id='gender' defaultValue={"Female"}  name = "gender"
+            <label htmlFor='Sex' className='form-label'>Sex(Optional) </label>
+            <select id='gender' name = "gender"
             value={values.gender}
             onChange = {handleChange}>
               <option>Female</option>
@@ -93,67 +96,60 @@ const Settings = () => {
               <option>Others</option>
               <option>I'd rather not say</option>
             </select>
-            </label>
             </div>
 
             <div className='fourth'>
-            <label htmlFor = "DOB" className='form-label'>Date of birth(Optional)
+            <label htmlFor = "DOB" className='form-label'>Date of birth(Optional) </label>
             <input type= "date" placeholder='Please enter your Date of birth' name ="birth"
             value={values.birth}
             onChange = {handleChange}/>
             {errors.birth && <p>{errors.birth}</p>}
-            </label>
             </div>
 
             <div className='fifth'>
-            <label htmlFor='Email' className = 'form-label'>Email
-            <input id='email' type = 'email' placeholder='Ex:johndoe@gmail.com' name="email"
+            <label htmlFor='Email' className = 'form-label'>Email </label>
+            <input id='email' type = 'email' required ="required" placeholder='Ex:johndoe@gmail.com' name="email"
             value={values.email}
             onChange = {handleChange} />
             {errors.email && <p>{errors.email}</p>}
-            </label>
             </div>
 
 
             <div className='sixth'>
-            <label htmlFor='Phone' className='form-label'>Phone 
+            <label htmlFor='Phone' className='form-label'>Phone </label>
             <input type="tel" id='phone' placeholder='08012345678' required = "required" name = "phone"
             value={values.phone}
             onChange = {handleChange}/>
             {errors.phone && <p>{errors.phone}</p>}
-            </label>
             </div>
           
             <div className='seventh'>
-            <label  htmlFor = 'Password' className='form-label'>Password
-            <input id = 'password' type= 'password'  placeholder='Create a strong password' name = "password" 
+            <label  htmlFor = 'Password' className='form-label'>Password </label>
+            <input id = 'password' type= 'password'  required = "required"  placeholder='Create a strong password' name = "password" 
             value={values.password}
             onChange = {handleChange}/>
             {errors.password && <p>{errors.password}</p>}
-            </label>
             </div>
 
             <div className='eighth'>
-            <label  htmlFor = 'Password' className='form-label'>Confirm Password
-            <input id = 'password1' type= 'password'  placeholder='Confirm your new password' name="password1" 
+            <label  htmlFor = 'Password' className='form-label'>Confirm Password </label>
+            <input id = 'password1' type= 'password' required = "required"  placeholder='Confirm your new password' name="password1" 
             value={values.password1}
             onChange = {handleChange}/>
             {errors.password1 && <p>{errors.password1}</p>}
-            </label>
             </div>
 
             <div className='nineth'>
-            <label htmlFor = 'Account-currency' className='form-label'>Account currency
-            <select id ='currency' defaultValue={"NGN"}  name = 'currency'
+            <label htmlFor = 'Account-currency' className='form-label'>Account currency </label>
+            <select id ='currency' name = 'currency'
             value={values.currency}
             onChange = {handleChange}>
-              <option>NGN</option>
-              <option>USD</option>
-              <option>CAD</option>
-              <option>GBP</option>
-              <option>AUD</option>
+              <option value='NGN'>NGN</option>
+              <option value= 'USD'>USD</option>
+              <option value = 'CAD'>CAD</option>
+              <option value = 'GBP'>GBP</option>
+              <option value = 'AUD'>AUD</option>
             </select>
-            </label>
             </div>
 
             <div className='confirm'>
