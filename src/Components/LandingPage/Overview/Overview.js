@@ -19,7 +19,7 @@ const Overview = () => {
 
     {/* bottom side */}
     <div className="over-contents" >
-      <div className='over-contents-div' style ={{left:'-20rem',top:'-4rem' }}>
+      <div className='over-contents-div' style ={{left:'-25rem',top:'-4rem' }}>
       <Card 
       icon = {Organize}
       heading = {'Organize transactions'}
@@ -37,7 +37,7 @@ const Overview = () => {
        </div>
 
 
-      <div className='over-contents-div' style = {{left:'16rem', top:'-4rem'}}>
+      <div className='over-contents-div' style = {{left:'25rem', top:'-4rem'}}>
        <Card
        icon = {Brief}
        heading ={'View all spending history'}
@@ -47,7 +47,7 @@ const Overview = () => {
 
 
 
-      <div className='over-contents-div' style={{top:'12rem',left:'-20rem'}}>
+      <div className='over-contents-div' style={{top:'15rem',left:'-25rem'}}>
        <Card
        icon = {Piggy}
        heading ={'Savings'}
@@ -56,7 +56,7 @@ const Overview = () => {
        </div>
 
 
-      <div className='over-contents-div' style={{left:'-2rem',top:'12rem'}}>
+      <div className='over-contents-div' style={{left:'-2rem',top:'15rem'}}>
        <Card
        icon = {Caution}
        heading ={'Balance warning'}
@@ -65,7 +65,7 @@ const Overview = () => {
        </div>
 
 
-      <div className='over-contents-div' style={{left:'16rem',top:'12rem'}}>
+      <div className='over-contents-div' style={{left:'25rem',top:'15rem'}}>
        <Card
        icon = {Dollar}
        heading = {'Budgeting'}

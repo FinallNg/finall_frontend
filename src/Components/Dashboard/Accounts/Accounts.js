@@ -162,7 +162,7 @@ const Accounts = () => {
                                     <h5>Account Number</h5>
                                     <p>{acctNumber}</p>
                                 </div>
-                                <div>
+                                <div className='account-balance'>
                                     <h5>Total Balance</h5>
                                     <p>{acctBalance}</p>
                                 </div>

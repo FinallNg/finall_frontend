@@ -3,6 +3,7 @@
     padding-left: 3rem;
     /* background: #DEDEDE;
     height: 100%; */
+    padding-right: 3rem;
 }
 
 /* START OF THE HEADER, CAN BE REUSED */
@@ -44,6 +45,10 @@
 
 /* END OF HEADER */
 
+.account main {
+    padding-top: 3rem;
+}
+
 .account .main-heading {
     display: flex;
     align-items: center;
@@ -53,6 +58,18 @@
 
 .account .main-heading div {
     display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.account .main-heading div h1 {
+    color: #33343D;
+    font-size: 1.5rem;
+}
+
+.account .main-heading div h2 {
+    color: #1A33B2;
+    font-size: 1.2rem;
 }
 
 .account section .account-container {
@@ -65,4 +82,29 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
+}
+
+.account section .account-container {
+    border-bottom: .001px solid #33343D;
+    padding-bottom: 2rem;
+}
+
+.account section .account-container div h5 {
+    color: #33343D;
+    font-size: 1rem;
+    opacity: .7;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.account section .account-container div p {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #33343D;;
+}
+
+.account section .account-container .account-balance p {
+    color: #1A33B2;
+    font-weight: 700;
+    font-size: 1.6rem;
 }
