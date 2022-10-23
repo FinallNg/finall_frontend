@@ -1,14 +1,7 @@
 import React from 'react'
 import './Script'
 import { NavLink } from "react-router-dom";
-// import Form from './Form'
-// import Validate from './Validate';
-// import { AiOutlineEdit } from 'react-icons/ai'
-//import 'font-awesome/css/font-awesome.css';
 import './Settings.css'
-// import Notify from '../../Notify/Notify'
-// import Bank from '../../../assets/Bank.png'
-// import Visa from '../../../assets/visa.png'
 import profileImage from '../../../assets/settings-icons/profile-image.png'
 import accountIcon from '../../../assets/settings-icons/acco-icon.png'
 import bankIcon from '../../../assets/settings-icons/bank-icon.png'
