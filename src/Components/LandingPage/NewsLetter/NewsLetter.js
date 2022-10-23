@@ -106,10 +106,10 @@ const CustomForm = ({ status, message, onValidated }) => {
     );
 };
 
-function NewsLetter() {
+function NewsLetter({head}) {
   return (
     <div className="newsletter">
-        <h3>Subscribe to our Newsletter</h3>
+        <h3>{head}</h3>
         <div className='news-content'>
             <div className='news-para'>
                 <p>

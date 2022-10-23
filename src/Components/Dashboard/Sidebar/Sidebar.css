@@ -7,8 +7,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 25px 0px;
-    overflow: auto;
+    padding:  0px;
+    /* overflow: auto; */
 }
 
 .sidebar div {
@@ -20,8 +20,6 @@
     color: #fff;
     font-size: 16px;
     font-weight: bold;
-    /* align-self: flex-start;
-    justify-self: flex-start; */
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
@@ -74,13 +72,10 @@
 .sidebar ul a.active {
     background-color: #FFF;
     color: #1A33B2;
-
 }
 
 .sidebar ul a:hover img,
 .sidebar ul a.active img {
-    /* filter: invert(12%) sepia(63%) saturate(6234%) hue-rotate(246deg) brightness(87%) contrast(156%); */
-
     filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
 }
 

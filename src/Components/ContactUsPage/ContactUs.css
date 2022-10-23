@@ -7,8 +7,10 @@
 .contactus {
     display: flex;
     flex-direction: column;
-    padding: 20px 20px 50px;
-    gap: 25px;
+    border: 1px solid red;
+    width: 80%;
+    margin: 20px auto;
+
 }
 
 .contactus-head {
@@ -16,13 +18,38 @@
     margin: 20px auto;
 }
 
+.contactus-head h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contactus-content {
+    width: 100%;
+    border: 1px solid blue;
+    margin-top: 50px;
+    display: flex;
+}
+
+.contactus-details {
+    width: 50%;
+}
+
+.contactus-image {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
 .contactus form {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     /* padding: 20px 20px 50px; */
-    gap: 25px;
+    gap: 2px;
 }
 
 
@@ -66,6 +93,8 @@
 .checkbox-div {
     display: flex;
     text-align: left;
+    margin-top: -30px;
+    margin-bottom: -30px;
 
 }
 
@@ -80,6 +109,7 @@
     display: flex;
     align-items: center;
     margin-top: -20px;
+    margin-left: 10px;
 
     
 
@@ -107,6 +137,85 @@
     cursor: pointer;
 
 }
+
+.contactus-image {
+    border: 1px solid green;
+    width: 30%;
+    margin: 0px auto;
+
+}
+
+.contactus-image-pic {
+    border: 1px solid yellow;
+    height: 50vh;
+    margin-bottom: 80px;
+}
+
+.contactus-image-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid red;
+    height: 40vh;
+}
+
+.contactus-image-writeup {
+    margin-bottom: 65px;
+}
+
+.contactus-writeup-line {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contactus-writeup-icon {
+    margin-right: 10px;
+    color: #1A33B2;
+}
+
+.cont-writeup-icon {
+    
+}
+
+.contactus-writeup-icon p {
+    color: #27303E;;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: left;
+    width: 100%;
+    margin-top: -5px;
+    border: 1px solid red;
+}
+
+.contactus-image-socials {
+    display: flex;
+    border: 1px solid blue;
+    width: 30%;
+    height: 7vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactus-socials a {
+    height: 30px;
+    width: 30px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: #1A33B2;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 767px) {
     .contactus {

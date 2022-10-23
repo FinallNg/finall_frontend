@@ -132,7 +132,7 @@ const Budgets = () => {
             </header>
             <div className="budget-container">
                 {budgetDetails.map((budget) => (
-                    <div keys={budget.id} className="budget-card">
+                    <div key={budget.id} className="budget-card">
                         <div className="budget-card-header">
                             <div className="budget-card-header-img" style={{ backgroundColor: budget.background, width: "2.5rem", height: "2.5rem", borderRadius: "50%" }}>
                                 <img src={budget.src} alt="" />

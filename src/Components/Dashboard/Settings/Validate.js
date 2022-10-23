@@ -7,6 +7,10 @@ export default function Validate(values) {
     errors.username = 'Username is required';
   };
 
+  if (!values.last.trim()){
+    errors.last = 'Last name is required'
+  }
+
 // Validation to check for entry of Date of birth
 if (!values.birth){
   errors.birth = 'Please enter a date'
