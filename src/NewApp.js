@@ -35,7 +35,9 @@ function NewApp() {
           <Route exact path='/budgets' element={<Budgets />} />
           <Route exact path='/accounts' element={<Accounts />} />
           <Route exact path='/metrics' element={<Analytics />} />
-          <Route exact path='/settings' element={ <Settings />} />
+          <Route exact path='/settings' element={ <Settings />}>
+            <Route path="account" element={<Overview />} /> 
+          </Route>
           <Route exact path='/help' element={<Help />} />
           <Route exact path='/logout' element={<Logout />} />
           <Route exact path='/connectbank' element={<ConnectBank/>} />
