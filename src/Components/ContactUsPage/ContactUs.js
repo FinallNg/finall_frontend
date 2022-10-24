@@ -3,6 +3,7 @@ import './ContactUs.css';
 import { MdLocationOn, MdMail } from "react-icons/md";
 import { FaPhoneAlt, FaTwitter, FaInstagram} from "react-icons/fa";
 import { RiFacebookFill } from "react-icons/ri";
+import contacts from '../../assets/rafiki.png';
 
 function ContactUs() {
     const [contact, setContact] = useState({
@@ -116,12 +117,12 @@ function ContactUs() {
                     <p>By contacting, you agree to the<span>terms of use</span>   and our <span>privacy policy</span></p>
                     </div>
 
-                <button>Submit message</button>
+                <button><a href=''>Submit message</a></button>
                 </form>
             </div>
             <div className='contactus-image'>
                 <div className='contactus-image-pic'>
-                    img
+                    <img src={contacts} alt='contact image'></img>
                 </div>
                 <div className='contactus-image-details'>
                     <div className='contactus-image-writeup'>

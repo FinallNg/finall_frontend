@@ -12,7 +12,7 @@ function Navbar() {
               <img src={logo} alt='logo' />
           </div>
   
-          <div>
+          <div className='nav1' >
               <ul>
                 <li><NavLink exact activeClassName="active" to ='/'>Home</NavLink></li>
                 <li><NavLink exact activeClassName="active" to ='/about'>About</NavLink></li>
@@ -23,10 +23,15 @@ function Navbar() {
   
           </div>
   
-          <div>
+          <div className='nav2'>
               <Link className='cta' to='/login'> Login</Link>
 
               <button className='cta'><Link to='/signup'>Get Started</Link></button>
+          </div>
+          <div className='mobile-nav'>
+            hdjjddbjh
+
+
           </div>
       </header>
     )

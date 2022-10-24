@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
 }
+.mobile-nav {
+    display: none;
+}
 
 header ul li a {
     text-decoration: none;
@@ -14,6 +17,10 @@ header ul li a {
     color: #0F1928;
     letter-spacing: 1px;
     word-spacing: 1px;
+}
+
+.nav2 a {
+    font-size: 23px;
 }
 
 
@@ -188,16 +195,13 @@ header ul li a {
 
 /* devices smaller than 440px */
 
-@media (max-width: 440px) {
+@media (max-width: 480px) {
     
         header {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            padding: 2.5px 7.5px;
+            display:none;
+
         }
-        
+        /*
         header img{
             width: 10px;
             height: 10px;
@@ -251,6 +255,6 @@ header ul li a {
             text-decoration: none;
             color: #fff;
             font-weight: bold;
-        }
+        }*/
     
 }

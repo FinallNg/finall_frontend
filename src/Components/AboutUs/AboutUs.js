@@ -3,6 +3,10 @@ import NewsLetter from '../LandingPage/NewsLetter/NewsLetter';
 import Team from '../LandingPage/Team/Team';
 import './AboutUs.css' ;
 import TeamGrid from '../LandingPage/Team/TeamGrid';
+import Revenue from '../../assets/Revenue.png'
+import Budget from '../../assets/v_u1 1 (1).png'
+import Gain from '../../assets/My password-cuate 1.png'
+import vec from '../../assets/Vector 335.png'
 import HeroSectionButton from '../LandingPage/HeroSection/HeroSectionButton';
 
 const AboutUs = () => {
@@ -22,14 +26,14 @@ const AboutUs = () => {
             </div>
             <div className='about-container-back'>
               <div className='about-container-img1'>
-
+                <img src={Revenue} alt='revenue image'></img>
               </div>
             </div>
           </div>
           <div className='about-container-box'>
             <div className='about-container-front'>
               <div className='about-container-img2'>
-
+                <img src={Budget} alt='revenue image'></img>
               </div>
             </div>
             <div className='about-container-back'>
@@ -49,10 +53,17 @@ const AboutUs = () => {
                 Stay Ahead of the Curve with <span>Finall!</span>
               </h3>
             </div>
+          
+                
+  
             <div className='about-container-back'>
+             
               <div className='about-container-img1'>
-
+                <img className='line-image' src={vec} alt='revenue image'></img>
+                <img  className='gain-img' src={Gain} alt='revenue image'></img>
+                
               </div>
+              
             </div> 
             
           </div>
