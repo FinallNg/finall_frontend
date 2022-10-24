@@ -121,59 +121,65 @@ const Accounts = () => {
           </div>
         </section>
 
-                <section class='account-card-section'>
-                    {
-                        accountsDetails.map((account => {
-                            const{acctBalance,acctName,acctNumber,cardType,type,id} = account
-                            return(
-                            <div keys={id} className="account-container">
-                                <div>
-                                <ATMCard
-              year={22}
-              month={3}
-              cvv='000'
-              number={acctNumber}
-              holderName={acctName}
-              lifted ={true}
-              dark ={true}
-              bankLogo={
-                <h1 style={{ 
-                  fontFamily: 'Arial', 
-                  fontSize: 16, 
-                  fontWeight: 700,
-                  color: 'white' 
-                }}>{cardType}</h1>
-              }
-              system='VISA'
-              scale ={0.5}
-       />
+        <div className="account-responsive-container">
+          <section className="account-card-section">
+            {accountsDetails.map((account) => {
+              const { acctBalance, acctName, acctNumber, cardType, type, id } =
+                account;
+              return (
+                <div key={id} className="account-container">
+                  <div>
+                    <ATMCard
+                      year={22}
+                      month={3}
+                      cvv="000"
+                      number={acctNumber}
+                      holderName={acctName}
+                      lifted={false}
+                      bgColor="#121212"
+                      dataColor="#8c8c8c"
+                      dark={true}
+                      bankLogo={
+                        <h1
+                          style={{
+                            fontFamily: "Arial",
+                            fontSize: 16,
+                            fontWeight: 700,
+                            color: "#d9d9d9",
+                          }}
+                        >
+                          {cardType}
+                        </h1>
+                      }
+                      system="VISA"
+                      scale={0.5}
+                    />
+                  </div>
 
-
-                                    {/* <img src={AtmCard} alt="atm card" /> */}
-                                </div>
-                                <div>
-                                    <h5>{type}</h5>
-                                    <p>{cardType}</p>
-                                </div>
-                                <div>
-                                    <h5>Account Name</h5>
-                                    <p>{acctName}</p>
-                                </div>
-                                <div>
-                                    <h5>Account Number</h5>
-                                    <p>{acctNumber}</p>
-                                </div>
-                                <div>
-                                    <h5>Total Balance</h5>
-                                    <p>{acctBalance}</p>
-                                </div>
-                            </div>
-                         )}))
-                    }
-                </section>
-            </main>
+                  <div>
+                    <h5>{type}</h5>
+                    <p>{cardType}</p>
+                  </div>
+                  <div>
+                    <h5>Account Name</h5>
+                    <p>{acctName}</p>
+                  </div>
+                  <div>
+                    <h5>Account Number</h5>
+                    <p>{acctNumber}</p>
+                  </div>
+                  <div className="account-balance">
+                    <h5>Total Balance</h5>
+                    <p>{acctBalance}</p>
+                  </div>
+                </div>
+              );
+            })}
+          </section>
         </div>
-    )
-}
+      </main>
+    </div>
+  );
+};
 
 export default Accounts;
