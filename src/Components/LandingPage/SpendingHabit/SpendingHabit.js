@@ -1,5 +1,6 @@
 import React from 'react'
-import HeroSubButton from '../HeroSection/HeroSubButton'
+import HeroSectionButton from '../HeroSection/HeroSectionButton'
+
 import './SpendingHabit.css'
 
 const SpendingHabit = () => {
@@ -19,9 +20,9 @@ const SpendingHabit = () => {
             <h3>Let our experts analyze your spending so that you can reach your money goals, easy!</h3>
           </div>
           <div className='business-button'>
-            <HeroSubButton />
+            <HeroSectionButton />
           </div>
-          </div>
+        </div>
       </div>
   )
 }

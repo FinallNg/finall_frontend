@@ -1,10 +1,28 @@
     .Teamcard-container {
-        max-width: 179px;
-        border-radius: 5px;
+        width: 302px;
+        height: 405px;
+        border-radius: 20px;
         border: 0.5px solid #373737;
         display: flex;
         flex-direction: column;
     }
+
+    .Teamcard-details {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Teamcard-details h3 {
+        font-size: 24px;
+        font-weight: 400px;
+    }
+
+    .Teamcard-details span {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
     @media(max-width: 500px){
         .Teamcard-container{
             max-width: 302px;
@@ -18,6 +36,8 @@
         display: flex;
         flex-direction: column;
     }
+
+
 
     .Teamcard-img-wrapper {
         height: 70%;

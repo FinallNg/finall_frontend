@@ -1,68 +1,159 @@
 .account {
-    font-family: "Lato", sans-serif;
-    padding-left: 3rem;
-    /* background: #DEDEDE;
-    height: 100%; */
+  font-family: "Lato", sans-serif;
+  padding-inline: 1rem;
+  z-index: 1;
+  overflow-x: hidden;
+  margin-bottom: 1em;
 }
 
-/* START OF THE HEADER, CAN BE REUSED */
+@media screen and (min-width: 768px) {
+  .account {
+    padding-inline: 3rem;
+  }
+}
+
+/* START OF CUSTOM HEADER */
+.account header {
+  display: flex;
+  gap: 1em;
+  padding: 1em 0;
+}
+
 .account header .header-title {
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .account header .header-title h1 {
-    font-weight: 700;
-    line-height: 2rem;
-    font-size: 1.8rem;
-    color: #33343D;
+  font-weight: 700;
+  line-height: 2rem;
+  font-size: 1.8rem;
+  color: #33343d;
 }
 
 .account header .header-title p {
-    color: #807D9B;
-    font-size: 1.3rem;
-    line-height: 1.3rem;
+  color: #807d9b;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
 }
 
 .account header .header-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
 }
 
 .account header .header-image img {
-    width: 1.5rem;
-    height: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .account header .header-image .profile-pic {
-    height: 3rem;
-    width: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+/* END OF CUSTOM HEADER */
+
+.account main {
+  padding-top: 3rem;
+  width: 100%;
 }
 
-/* END OF HEADER */
-
 .account .main-heading {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 3em;
 }
 
 .account .main-heading div {
-    display: flex;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.account .main-heading > div img {
+  cursor: pointer;
+}
+
+.account .main-heading div h1 {
+  color: #33343d;
+  font-size: 1.5rem;
+}
+
+.account .main-heading div:nth-of-type(2) {
+  cursor: pointer;
+}
+
+.account .main-heading div h2 {
+  color: #1a33b2;
+  font-size: 1.2rem;
 }
 
 .account section .account-container {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 0.001px solid #33343d;
+  padding-block: 1em;
+  gap: 3em;
 }
-.account-card-section{
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
+
+.account-card-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  flex: 0 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .account-card-section {
+    width: 1050px;
+  }
+}
+
+.account section .account-container div h5 {
+  color: #33343d;
+  font-size: 1rem;
+  opacity: 0.7;
+  font-weight: 400;
+  padding-bottom: 1em;
+}
+
+.account section .account-container div p {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #33343d;
+}
+
+.account section .account-container .account-balance p {
+  color: #1a33b2;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.account .account-responsive-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.account ::-webkit-scrollbar {
+  width: 10px;
+}
+
+.account ::-webkit-scrollbar-track {
+  color: #f1f1f1;
+}
+
+.account ::-webkit-scrollbar-thumb {
+  background-color: #555;
+}
+
+.account ::-webkit-scrollbar-thumb:hover {
+  background: #333;
 }

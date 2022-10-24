@@ -1,0 +1,144 @@
+}
+
+.services .card-content {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  width: 115%;
+  margin: -5px auto 0px -15px;
+
+}
+
+.services .card-body-active {
+  color: #fff;
+  padding: 0 15px; 
+}
+
+.services .card-title-active {
+  margin-top: 28.96px;
+  margin-bottom: 2px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  width: 110%;
+  margin: 0px auto 10px -15px;
+  
+  
+}
+
+.services .card-content-active {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+
+  
+}
+
+.services .card-img-container-active {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: 0px auto -20px auto;
+  
+}
+
+
+
+}
+
+@media screen and (max-width:767px){
+
+  .services {
+    width: 90%;
+    
+  }
+  
+}
+
+@media screen and (max-width: 640px) {
+  .services .card-container,
+  .services .card-container-active {
+    height: 401.82px;
+  }
+
+  .services .card-img,
+  .services .card-img-active {
+    width: 82.26px !important;
+    height: 88.36px !important;
+  }
+
+  .services .card-title,
+  .services .card-title-active {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .services .card-img-container,
+  .services .card-img-container-active {
+    padding-top: 41.09px;
+    padding-bottom: 21.66px;
+  }
+
+  .services .card-title,
+  .services .card-title-active {
+    margin-bottom: 10px;
+  }
+
+  .services .slide-arrow {
+    width: 42.55px;
+    height: 42.55px;
+    background: #f5faff;
+  }
+
+  .services .slide-icons {
+    color: #0b1f8e;
+  }
+
+  .services .prev {
+    left: 24.56px !important;
+  }
+
+  .services .next {
+    right: 24.56px !important;
+  }
+}
+
+
+
+@media screen and (max-width: 480px){
+  .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+.services h2 {
+  font-size: 20px;
+}
+  .services .card-container {
+    margin-left: -250px;
+  }
+  .services .card-container-active {
+    max-width: 359px;
+    height: 350px;
+    background: var(--finall2);
+    box-shadow: 4px 4px 50px #e6eaee;
+    border-radius: 20px;
+    margin-left: -313px;
+    margin-right: 40px;
+    
+  
+    
+  }
+
+.services .card-title-active {
+  font-size: 105%;
+}
+
+
+.services .card-content-active {
+
+  font-size: 13px;
+}
+
+
+}
