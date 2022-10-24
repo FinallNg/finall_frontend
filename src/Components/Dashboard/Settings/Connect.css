@@ -87,12 +87,6 @@
     right: -44rem;
 }
 
-.finall-pic > img:nth-of-type(2){
-    position: absolute;
-    transform: scale(0.9);
-    right: -41.7rem;
-    top: 6rem;
-}
 
 .finall-pic > span:nth-of-type(1){
     font-weight: bold;

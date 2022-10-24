@@ -6,8 +6,7 @@ import Validate from './Validate';
 import 'font-awesome/css/font-awesome.min.css';
 import './Connect.css'
 import Notify from '../../Notify/Notify'
-import Bank from '../../../assets/Bank.png'
-import Visa from '../../../assets/visa.png'
+import Card from '../../../assets/card.png'
 
 
 const Settings = () => {
@@ -48,8 +47,7 @@ const Settings = () => {
           </div>
 
           <div className = 'finall-pic'>
-            <img src = {Bank} alt = '' />
-            <img src = {Visa} alt = '' />
+            <img src = {Card} alt = '' />
             <span>Profile photo</span>
           </div>
           
