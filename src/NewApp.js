@@ -18,7 +18,7 @@ import ContactSupport from "./Components/Dashboard/Settings/ContactSupport"
 import Budgets from "./Components/Dashboard/Budgets/Budgets";
 import {Revoice} from "./Components/Dashboard/Invoices/ID-INVOICE/idinvoice";
 import Accounts from './Components/Dashboard/Accounts/Accounts';
-
+import Settings from './Components/Dashboard/Settings/Settings';
 
 
 function NewApp() {
@@ -41,6 +41,7 @@ function NewApp() {
           <Route exact="true"  path='/logout' element={<Logout />} />
           <Route exact="true"  path='/connectbank' element={<ConnectBank/>} />
           <Route exact="true"  path='/contact_support' element={<ContactSupport/>} />
+          <Route exact path='/settings' element={ <Settings />} />
         </Routes>
       </BrowserRouter>
     </div>
