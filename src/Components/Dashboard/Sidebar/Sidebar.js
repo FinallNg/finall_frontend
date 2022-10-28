@@ -12,7 +12,7 @@ import logouticon from "../../../assets-svg/logouticon.svg";
 import settingsicon from "../../../assets-svg/settingsicon.svg";
 import transactionicon from "../../../assets-svg/transactionicon.svg";
 import metricsicon from "../../../assets-svg/metricsicon.svg";
-import budgetsicon from '../../../assets-svg/cil_money.svg'
+import budgetsicon from '../../../assets/budget-icon1.png';
 
 const Sidebar = () => {
   return (
