@@ -136,8 +136,6 @@ const Accounts = () => {
                       number={acctNumber}
                       holderName={acctName}
                       lifted={false}
-                      bgColor="#121212"
-                      dataColor="#8c8c8c"
                       dark={true}
                       bankLogo={
                         <h1
