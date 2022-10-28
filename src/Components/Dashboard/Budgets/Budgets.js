@@ -1,14 +1,14 @@
 import "./Budgets.css";
 
 // import images
-import Hospital from "../../../assets-svg/building.svg";
-import Shopping from "../../../assets-svg/shopping.svg";
-import Feeding from "../../../assets-svg/eatery.svg";
-import Transport from "../../../assets-svg/airplane.svg";
-import Club from "../../../assets-svg/clubbing.svg";
-import Bell from "../../../assets-svg/bell.svg";
-import Mail from "../../../assets-svg/mail.svg"
-import ProfilePic from "../../../assets-svg/profile-pic.svg";
+import Hospital from "../../../assets/building.png";
+import Shopping from "../../../assets/shopping.png";
+import Feeding from "../../../assets/eatery.png";
+import Transport from "../../../assets/airplane.png";
+import Club from "../../../assets/clubbing.png";
+import Bell from "../../../assets/bell.png";
+import Mail from "../../../assets/mail.png";
+import ProfilePic from "../../../assets/profile-pic.png";
 
 
 const Budgets = () => {

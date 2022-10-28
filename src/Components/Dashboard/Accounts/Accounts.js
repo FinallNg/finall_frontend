@@ -3,12 +3,12 @@ import "./Accounts.css";
 import { ATMCard } from "atm-card-react";
 
 // Import Images
-import Bell from "../../../assets-svg/bell.svg";
-import Mail from "../../../assets-svg/mail.svg";
-import ProfilePic from '../../../assets-svg/profile-pic.svg';
+import Bell from "../../../assets/bell.png";
+import Mail from "../../../assets/mail.png";
+import ProfilePic from "../../../assets/profile-pic.png";
 import AtmCard from "../../../assets/atm-card.png";
-import PlusIcon from '../../../assets-svg/plus-icon.svg';
-import ArrowIcon from '../../../assets-svg/arrow-down.svg';
+import PlusIcon from "../../../assets/plus-icon.png";
+import ArrowIcon from "../../../assets/arrow-down.png";
 
 const Accounts = () => {
   const accountsDetails = [
