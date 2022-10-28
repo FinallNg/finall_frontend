@@ -5,10 +5,10 @@ import { ATMCard } from "atm-card-react";
 // Import Images
 import Bell from "../../../assets-svg/bell.svg";
 import Mail from "../../../assets-svg/mail.svg";
-import ProfilePic from "../../../assets-svg/profile-pic.svg";
+import ProfilePic from '../../../assets-svg/profile-pic.svg';
 import AtmCard from "../../../assets/atm-card.png";
-import PlusIcon from "../../../assets-svg/plus-icon.svg";
-import ArrowIcon from "../../../assets-svg/arrow-down.svg";
+import PlusIcon from '../../../assets-svg/plus-icon.svg';
+import ArrowIcon from '../../../assets-svg/arrow-down.svg';
 
 const Accounts = () => {
   const accountsDetails = [
