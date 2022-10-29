@@ -12,6 +12,7 @@ import Sidebar from "./Sidebar/Sidebar";
 import Transactions from "./Transactions/Transactions";
 import Budgets from './Budgets/Budgets';
 import Accounts from './Accounts/Accounts';
+import ConnectBank from './ConnectBank/ConnectBank'
 
 const Dashboard = () => {
   return (
@@ -29,9 +30,10 @@ const Dashboard = () => {
           <Route exact  path="/accounts" element={<Accounts />} />
           <Route exact  path="/edit_profile" element={<Connect />} />
           <Route exact   path="/contact_support" element={<ContactSupport />} />
+          <Route exact   path="/connect" element={<ConnectBank />} />
           <Route exact  path="/help" element={<Help />} />
           <Route exact   path="/logout" element={<Logout />} />
-          <Route exact   path="/0verview" element={<Overview />} />
+          <Route exact   path="/overview" element={<Overview />} />
         </Routes>
       </BrowserRouter>
     </div>

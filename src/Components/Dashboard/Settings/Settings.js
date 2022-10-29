@@ -12,7 +12,8 @@ import prefIcon from '../../../assets/settings-icons/pref-icon.png'
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { regular } from '@fortawesome/fontawesome-svg-core/import.macro' 
+import { regular } from '@fortawesome/fontawesome-svg-core/import.macro'
+
 const Settings = () =>{
   return (
     <div className='settings'>
@@ -35,37 +36,37 @@ const Settings = () =>{
         <h3>Settings home</h3>
       </div>
       <div className='settings-container'>
-        <NavLink className="nav-link" exact to="/settings/account">
+        <NavLink className="nav-link" exact="true" to="/settings/account">
           <div className="settings-item">
             <img alt='settings' src={accountIcon} />
             <p>Account</p>
           </div>
         </NavLink>
-        <NavLink className="nav-link" exact to="/overview">
+        <NavLink className="nav-link" exact="true" to="/overview">
           <div className="settings-item">
             <img alt='settings' src={prefIcon} />
             <p>Preferences</p>
           </div>
         </NavLink>
-        <NavLink className="nav-link" exact to="/overview">
+        <NavLink className="nav-link" exact="true" to="/overview">
           <div className="settings-item">
             <img alt='settings' src={suppIcon} />
             <p>Support</p>
           </div>
         </NavLink>
-        <NavLink className="nav-link" exact to="/overview">
+        <NavLink className="nav-link" exact="true" to="/overview">
           <div className="settings-item">
             <img alt='settings' src={cateIcon} />
             <p>Categories</p>
           </div>
         </NavLink>
-        <NavLink className="nav-link" exact to="/overview">
+        <NavLink className="nav-link" exact="true" to="/overview">
           <div className="settings-item">
             <img alt='settings' src={termsIcon} />
             <p>Terms and Policies</p>
           </div>
         </NavLink>
-        <NavLink className="nav-link" exact to="/overview">
+        <NavLink className="nav-link" exact="true" to="/overview">
           <div className="settings-item">
             <img alt='settings' src={bankIcon} />
             <p>Connected bank accounts</p>

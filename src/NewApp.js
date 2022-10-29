@@ -39,7 +39,7 @@ function NewApp() {
           <Route exact   path='/edit_profile' element={ <Connect />} />
           <Route exact   path='/help' element={<Help />} />
           <Route exact   path='/logout' element={<Logout />} />
-          <Route exact   path='/connectbank' element={<ConnectBank/>} />
+          <Route exact   path='/connect' element={<ConnectBank/>} />
           <Route exact   path='/contact_support' element={<ContactSupport/>} />
           <Route exact   path='/settings' element={ <Settings />} />
         </Routes>
