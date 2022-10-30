@@ -83,19 +83,19 @@ background-position: center;
 background-size: cover;
 }
 
-.hero-details h1 {
+.hero-h1 {
+    width: 100%;
+}
+
+.hero-h1 h1 {
+    font-size: 42px;
     margin: 80px 0px 10px 0px;
     width: 100%;
-    font-size: 220%;
     display: block;
     font-weight: 700;
     word-spacing: 2px;
     letter-spacing: 1px;
-    
-}
-
-.hero-h1 {
-    width: 100%;
+    line-height: 52px;
 }
 
 .hero-h1 span {
@@ -108,15 +108,19 @@ background-size: cover;
 }
 
 .hero-p p {
-    font-size: 85%;
+    font-size: 125%;
     color: #555;
     letter-spacing: 1px;
     word-spacing: 1px;
+    line-height: 32px;
 }
 
 .hero-button {
     width: 100%;
     display: block;
+    display: flex;
+    justify-items: flex-start;
+
 }
 
 .spending {
@@ -140,10 +144,10 @@ background-size: cover;
 .business-head h2, .goal-head h2, .spending-head h2 {
     letter-spacing: 1px;
     word-spacing: 1px;
-    font-size: 180%;
+    font-size: 40px;
     display: block;
-    font-weight: 700;
-    width: 90%;
+    font-weight: 600;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     text-align: start ;
@@ -165,18 +169,21 @@ background-size: cover;
 }
 
 .business-sub h3, .goal-sub h3, .spending-sub h3 {
-    font-size: 140%;
-    font-weight: 700;
+    font-size: 27px;
+    font-weight: 400;
     letter-spacing: 1px;
     word-spacing: 1px;
     color:#3F4753;
     width: 90%;
     margin: 0px auto;
+    line-height: 326x;
 
 }
 
 .spending-sub h3 {
-    font-size: 80%;
+    font-size: 23px;
+    font-weight: 400;
+    
     
 }
 
@@ -185,7 +192,7 @@ background-size: cover;
     text-align: start;
     margin-right: auto;
     margin-left: auto;
-    background-color: rgb(247, 247, 247);
+   
 
 }
 

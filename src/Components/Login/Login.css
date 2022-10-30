@@ -37,14 +37,13 @@
   /*align-items: center;*/
 }
 
+
+
 .login-head {
   margin: 50px 0px;
-
-}
-
-.login-head {
   color: #1A33B2;
-  font-size: 140%;
+  font-size: 42px;
+  font-weight: 700;
   letter-spacing: 1px;
 }
 
@@ -70,11 +69,11 @@
 
 .button-class button a {
   color: #1A33B2;
-  font-size: 80%;
+  font-size: 130%;
 }
 
 .google-icon , .facebook-icon {
-  font-size:13px;
+  font-size:15px;
   margin-right: 10px;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
@@ -114,7 +113,7 @@
 
 .input-group label {
   margin-bottom: 5px;
-  font-size: 90%;
+  font-size: 20px;
   letter-spacing: 1px;
   word-spacing: 1px;
   font-weight: 500;
@@ -151,7 +150,7 @@
 }
 
 .form-check label {
-  font-size: 75%;
+  font-size: 85%;
   letter-spacing: 1px;
 }
 
@@ -161,7 +160,7 @@
 }
 
 .form-password-reset a {
-  font-size: 60%;
+  font-size: 75%;
   font-weight: 400;
   letter-spacing: px;
   text-decoration: none;
@@ -174,15 +173,19 @@
 }
 
 .form-login-btn button {
-  padding: 11px;
+  padding: 13px;
   border: none;
   border-radius: 5px;
   width: 100%;
   background-color: #1A33B2;
+  
+}
+
+.form-login-btn button a {
   color: #fff;
   letter-spacing: 1px;
   word-spacing: 1px;
-  font-size: 80%;
+  font-size: 125%;
 }
 
 .form-new {
@@ -194,13 +197,13 @@
 
 
 .form-new p {
-font-size: 60%;
+font-size: 90%;
 margin-right: 10px;
 letter-spacing: 1px;
 }
 
 .form-new a {
-  font-size: 60%;
+  font-size: 90%;
   color: #1A33B2;
   letter-spacing: 1px;
   text-decoration: none;

@@ -7,13 +7,44 @@
 .contactus {
     display: flex;
     flex-direction: column;
-    padding: 20px 20px 50px;
-    gap: 25px;
+    width: 80%;
+    margin: 20px auto;
+
 }
 
 .contactus-head {
     width: 100%;
     margin: 20px auto;
+    font-weight: 700;
+    font-size: 42px;
+    color: #1A33B2;
+    
+}
+
+.contactus-head h3 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.contactus-content {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+
+.contactus-details {
+    width: 50%;
+}
+
+.contactus-image {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactus-image-pic img {
+    width: 100%;
+    height: 100%;
 }
 
 .contactus form {
@@ -22,7 +53,7 @@
     flex-direction: column;
     align-items: flex-start;
     /* padding: 20px 20px 50px; */
-    gap: 25px;
+    gap: 2px;
 }
 
 
@@ -31,15 +62,11 @@
     width: 100%;
 }
 
-.contactus h3 {
-    font-weight: 600;
-    font-size: 180%;
-    color: #1A33B2;
-}
+
 
 .contactus label {
     display: block;
-    font-size: 18px;
+    font-size: 20px;
     color: #27303E;
     /* padding-left: 10px; */
     text-align: left;
@@ -54,7 +81,7 @@
     outline: none;
     border-radius: 5px;
     padding: 16px;
-    font-size: 16px;
+    font-size: 18px;
     color: #0F1928;
 
 }
@@ -66,6 +93,8 @@
 .checkbox-div {
     display: flex;
     text-align: left;
+    margin-top: -30px;
+    margin-bottom: -30px;
 
 }
 
@@ -80,6 +109,7 @@
     display: flex;
     align-items: center;
     margin-top: -20px;
+    margin-left: 10px;
 
     
 
@@ -99,14 +129,89 @@
     padding: 20px;
     margin: 25px auto;
     background-color: #1A33B2;
-    color: #fff;
-    font-size: 18px;
-    letter-spacing: 5%;
+    
     outline: none;
     border: none;
-    cursor: pointer;
+    
 
 }
+
+.contactus button a {
+    color: #fff;
+    font-size:18px;
+    font-weight: 400;
+    letter-spacing: 5%;
+}
+
+.contactus-image {
+    width: 30%;
+    margin: 0px auto;
+
+}
+
+.contactus-image-pic {
+    height: 50vh;
+    margin-bottom: 80px;
+}
+
+.contactus-image-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 40vh;
+}
+
+.contactus-image-writeup {
+    margin-bottom: 65px;
+}
+
+.contactus-writeup-line {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contactus-writeup-icon {
+    margin-right: 10px;
+    color: #1A33B2;
+}
+
+.contactus-writeup-icon p {
+    color: #27303E;;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: left;
+    width: 100%;
+    margin-top: -5px;
+}
+
+.contactus-image-socials {
+    display: flex;
+    width: 40%;
+    height: 7vh;
+    margin-top: 22px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactus-socials a {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #1A33B2;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 767px) {
     .contactus {

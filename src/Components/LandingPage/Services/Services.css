@@ -2,30 +2,42 @@
 
 .services {
   position: relative;
-  max-width: 1440px;
   overflow: hidden;
 }
 
 
 .services h2 {
   color: var(--finall2);
-  font-size: 35px;
-  font-weight: 600;
+  font-size: 42px;
+  font-weight: 700;
   word-spacing: 2px;
   letter-spacing: 1px;
   text-transform: capitalize;
   font-family: "Lato", sans-serif;
-  margin-bottom: 69px;
+  margin-bottom: 85px;
   
 }
 
+.carousel{
+  width: 90%;
+
+
+}
+
+.swiperslide {
+  max-width: 420px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
 .services .card-container {
-  max-width: 359px;
+  width: 415px;
   height: 435px;
   background: #ffffff;
   box-shadow: 4px 4px 50px #e6eaee;
   border-radius: 20px;
- 
+  padding: 0px;
 }
 
 .services .card-img-container {
@@ -53,7 +65,7 @@
 
 .services .card-title {
   font-weight: 700;
-  font-size: 23px;
+  font-size: 28px;
   line-height: 32px;
   width: 106%;
   margin: 28.71px 0px 15px -10px;
@@ -74,13 +86,13 @@
 }
 
 .services .card-container-active {
-  max-width: 359px;
+  width: 415px;
   height: 435px;
   background: var(--finall2);
   box-shadow: 4px 4px 50px #e6eaee;
   border-radius: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
   
   word-spacing: 1px;
   letter-spacing: 1px;
@@ -104,7 +116,7 @@
   margin-top: 28.96px;
   margin-bottom: 2px;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 32px;
   width: 110%;
   margin: 0px 0px 10px -15px;
@@ -112,9 +124,11 @@
 
 .services .card-content-active {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 23px;
+  font-size: 16px;
+  line-height: 25px;
   text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 1px;
 }
 
 .services .card-img-container-active {

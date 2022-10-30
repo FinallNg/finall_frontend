@@ -21,7 +21,7 @@ function LandingPage() {
         <FinancialServices />
         <Overview />
         <FeatureCover />
-        <NewsLetter />
+        <NewsLetter head='Subscribe to our Newsletter' />
 
     </div>
   )

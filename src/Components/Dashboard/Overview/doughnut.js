@@ -4,7 +4,7 @@ import "../Overview/doughnut.css"
 
 function Doughnut(){
     return(
-        <div classname="doughnut-all">
+        <div className="doughnut-all">
         <div className="doughnut">
             <h3>Monthly Savings plan</h3>
             <img src={doughnut} alt ="pie chart" />

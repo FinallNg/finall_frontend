@@ -20,7 +20,7 @@ const FeatureCover = () => {
 
     {/* bottom side */}
     <div className="feature-content" >
-      <div style ={{left:'-18rem',top:'-4rem'}}>
+      <div style ={{left:'-25rem',top:'-4rem'}}>
       <Card
       icon = {Split}
       heading = {'Account Overview'}
@@ -38,7 +38,7 @@ const FeatureCover = () => {
        </div>
 
 
-      <div style = {{left:'16rem', top:'-4rem'}}>
+      <div style = {{left:'25rem', top:'-4rem'}}>
        <Card
        icon = {History}
        heading ={'Transaction History'}
@@ -48,7 +48,7 @@ const FeatureCover = () => {
 
 
 
-      <div style={{top:'12rem',left:'-18rem'}}>
+      <div style={{top:'15rem',left:'-25rem'}}>
        <Card
        icon = {Save}
        heading ={'Track debts'}
@@ -57,7 +57,7 @@ const FeatureCover = () => {
        </div>
 
 
-      <div style={{left:'-2rem',top:'12rem'}}>
+      <div style={{left:'-2rem',top:'15rem'}}>
        <Card
        icon = {Saved}
        heading ={'Pay yourself'}
@@ -66,7 +66,7 @@ const FeatureCover = () => {
        </div>
 
 
-      <div style={{left:'16rem',top:'12rem'}}>
+      <div style={{left:'25rem',top:'15rem'}}>
        <Card
        icon = {Chart}
        heading = {'Measure growth'}

@@ -12,13 +12,13 @@ import logouticon from "../../../assets-svg/logouticon.svg";
 import settingsicon from "../../../assets-svg/settingsicon.svg";
 import transactionicon from "../../../assets-svg/transactionicon.svg";
 import metricsicon from "../../../assets-svg/metricsicon.svg";
-import budgetsicon from '../../../assets-svg/cil_money.svg'
+import budgetsicon from '../../../assets/budget-icon1.png';
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
       <input type="checkbox" id="checkbox_toggle" />
-      <label for="checkbox_toggle" class="hamburger">
+      <label htmlFor="checkbox_toggle" className="hamburger">
         &#9776;
       </label>
 
@@ -32,47 +32,47 @@ const Sidebar = () => {
       <div>
         <ul className="menu">
           <li>
-            <NavLink exact activeClassName="active" to="/overview">
+            <NavLink exact="true"  activeclassname="active" to="/overview">
               <img src={OverviewIcon} alt="" />  Dashboard{" "}
             </NavLink>
           </li>
           <li>
-            <NavLink exact activeClassName="active" to="/transactions">
+            <NavLink exact="true" activeclassname="active" to="/transactions">
               <img src={transactionicon} alt="" /> Transactions
             </NavLink>
           </li>
           <li>
-            <NavLink exact activeClassName="active" to="/cards">
+            <NavLink exact="true"  activeclassname="active" to="/cards">
               <img src={cardicon} alt="" /> Cards
             </NavLink>
           </li>
           <li>
-            <NavLink exact activeClassName="active" to="/invoices">
+            <NavLink exact="true"  activeclassname="active" to="/invoices">
               <img src={invoiceicon} alt="" /> Invoices
             </NavLink>
           </li>
           <li>
-            <NavLink exact activeClassName="active" to="/goals">
+            <NavLink exact="true"  activeclassname="active" to="/goals">
               <img src={goalsicon} alt="" /> Goals
             </NavLink>
           </li>
           <li>
-            <NavLink exact activeClassName="active" to="/budgets">
+            <NavLink exact="true" activeclassname="active" to="/budgets">
               <img src={budgetsicon} alt="" /> Budgets
             </NavLink>
           </li>
           <li>
-            <NavLink exact activeClassName="active" to="/accounts">
+            <NavLink exact="true"  activeclassname="active" to="/accounts">
               <img src={cardicon} alt="" /> Accounts
             </NavLink>
           </li>
           <li>
-            <NavLink exact activeClassName="active" to="/metrics">
+            <NavLink exact="true"  activeclassname="active" to="/metrics">
               <img src={metricsicon} alt="" /> Metrics
             </NavLink>
           </li>
           <li>
-            <NavLink exact activeClassName="active" to="/settings">
+            <NavLink exact="true"  activeclassname="active" to="/settings">
               <img src={settingsicon} alt="" /> Settings
             </NavLink>
           </li>
@@ -82,39 +82,17 @@ const Sidebar = () => {
       <div className="sidebar-last">
         <ul className="menu">
           <li>
-            <NavLink exact activeClassName="active" to="/help">
+            <NavLink exact="true"  activeclassname="active" to="/help">
               <img src={helpicon} alt="" /> Help
             </NavLink>
           </li>
           <li>
-            <NavLink exact activeClassName="active" to="/logout">
+            <NavLink exact='true' activeclassname="active" to="/logout">
               <img src={logouticon} alt="" /> Log Out
             </NavLink>
           </li>
         </ul>
       </div>
-
-      {/* <div>
-              <ul>
-                <li>
-                    <NavLink exact activeClassName="active" to ='/overview'>Overview</NavLink>
-                </li>
-                <li><NavLink exact activeClassName="active" to ='/transactions'>Transactions</NavLink></li>
-                <li><NavLink exact activeClassName="active" to ='/cards'>Cards</NavLink></li>
-                <li><NavLink exact activeClassName="active" to ='/invoices'>Invoices</NavLink></li>
-                <li><NavLink exact activeClassName="active" to ='/goals'>Goals</NavLink></li>
-                <li><NavLink exact activeClassName="active" to ='/budgets'>Budgets</NavLink></li>
-                <li><NavLink exact activeClassName="active" to ='/settings'>Settings</NavLink></li> 
-              </ul>
-  
-        </div>
-
-        <div>
-            <ul>
-                <li><NavLink exact activeClassName="active" to ='/help'>Help &amp; Started</NavLink></li>
-                <li><NavLink exact activeClassName="active" to ='/logout'>Log Out</NavLink></li>
-            </ul>
-        </div> */}
     </div>
   );
 };
