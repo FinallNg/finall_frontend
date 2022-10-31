@@ -113,12 +113,12 @@ export const Details = () =>{
 export const Amount = () =>{
   return(
     <div className='invoice'>
-    <p>Amount Due (USD)</p>
-    <h1>$48,0000<span>(Tax incl)</span></h1><br></br>
-    <button class="Due">Due on Jan 30,2023</button>
+    <p class="Am">Amount Due (USD)</p><br></br>
+    <h1 class="tax">$48,0000<span class="spin">(Tax incl)</span></h1><br></br>
+    <button class="Due"><b>Due on Jan 30,2023</b></button>
     <button className='prev'>Previews</button>
     <button className='Loads'>Downloads</button>
     <button className='send'>Send Invoice</button>
-</div>
+    </div>
   )
 }

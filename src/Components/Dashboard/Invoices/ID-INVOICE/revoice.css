@@ -143,12 +143,15 @@ gap: 1em;
    position: absolute;
    top: 112px;
    left: 70%;
-   height: 40%;
+   height: 36%;
 }
 .invoice{
    background-color:var(--lowerblue);;
-   width: 60%;
-   display: block;
+   width: 25%;
+   position: absolute;
+   top: 391px;
+   left: 70%;
+   height: 50%;
 }
 .Add{
    background-color: rgb(209, 235, 241);
@@ -157,40 +160,44 @@ gap: 1em;
    border-style: none;
    color: #1a33b2;
    border-radius: 0.5em;
-   margin: 31px 0px 0px 100px;
+   margin: 15px 0px 0px 100px;
    font-weight: bold;
 }
 .Due{
-   background-color: tomato;
-    padding: .5em 1.2em;
+   background-color: rgb(240, 151, 135);
+   padding: .9em 1.2em;
    cursor: pointer;
    border-style: none;
    color: red;
    border-radius: 10px;
+   margin-left: 85px;
 }
 .prev{
    background-color:#6787E4;
-   padding: .5em 1.2em;
+   padding: .7em 1.2em;
    cursor: pointer;
    border-style: none;
    color: white;
    border-radius: .5em;
+   margin: 15px 65px 52px 13px
 }
 .Loads{
    background-color:#6787E4;
-   padding: .5em 1.2em;
+   padding: .7em 1.2em;
    cursor: pointer;
    border-style: none;
    color: white;
    border-radius: .5em;
+   margin-left: 65px;
 }
 .send{
    background-color:#6787E4;
-   padding: .5em 1.2em;
+   padding: .8em 2.2em;
    cursor: pointer;
    border-style: none;
    color: white;
-   border-radius: .5em;
+   border-radius: .9em;
+   margin-left: 100px;
 }
 .Details{
    padding:15px;
@@ -204,4 +211,15 @@ hr{
 }
 .Zig{
    padding: 1px 22px 11px 11px;
+   margin-top: -9px;
+}
+.spin{
+   font-size: 14px;
+}
+.Am{
+   padding: 15px;
+}
+.tax{
+   margin-top: -37px;
+   padding: 15px;
 }
