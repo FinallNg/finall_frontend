@@ -61,7 +61,7 @@ useEffect(() => {
       </div>
 
       <div className='second-box'>
-      <div style={{ width: '60%', height: 275 }}>
+      <div style={{ width: '60%', height: 310 }}>
         <ResponsiveContainer>
           <BarChart className='bar'
            width={500} height={275} data={data}>
