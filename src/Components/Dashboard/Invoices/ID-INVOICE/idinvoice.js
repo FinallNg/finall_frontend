@@ -91,8 +91,34 @@ export const Revoice = () => {
 
       <aside>
       </aside>
-      </div>
+    </div><br></br><br></br>
+      <Details/><br></br><br></br>
+      <Amount/>
     </section>
   )
 }
-
+export const Details = () =>{
+  return(
+    <div class ="client-Details">
+      <h1 className="Details">Client Details</h1><br></br>
+      <h2 className="name">Usman Zigwai</h2><hr></hr><br></br>
+      <div className='Zig'>
+      <h3>Zigman Agency LTD</h3>
+      <p>7,chestville estate, Marina,Lagos.</p>
+      </div>
+      <button class="Add">Add Customer</button>
+    </div>
+  )
+}
+export const Amount = () =>{
+  return(
+    <div className='invoice'>
+    <p>Amount Due (USD)</p>
+    <h1>$48,0000<span>(Tax incl)</span></h1><br></br>
+    <button class="Due">Due on Jan 30,2023</button>
+    <button className='prev'>Previews</button>
+    <button className='Loads'>Downloads</button>
+    <button className='send'>Send Invoice</button>
+</div>
+  )
+}

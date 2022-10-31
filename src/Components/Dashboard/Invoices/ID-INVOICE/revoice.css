@@ -137,3 +137,71 @@ gap: 1em;
    }
 
 }
+.client-Details{
+   background-color:var(--lowerblue);;
+   width: 25%;
+   position: absolute;
+   top: 112px;
+   left: 70%;
+   height: 40%;
+}
+.invoice{
+   background-color:var(--lowerblue);;
+   width: 60%;
+   display: block;
+}
+.Add{
+   background-color: rgb(209, 235, 241);
+   padding: .9em 1.2em;
+   cursor: pointer;
+   border-style: none;
+   color: #1a33b2;
+   border-radius: 0.5em;
+   margin: 31px 0px 0px 100px;
+   font-weight: bold;
+}
+.Due{
+   background-color: tomato;
+    padding: .5em 1.2em;
+   cursor: pointer;
+   border-style: none;
+   color: red;
+   border-radius: 10px;
+}
+.prev{
+   background-color:#6787E4;
+   padding: .5em 1.2em;
+   cursor: pointer;
+   border-style: none;
+   color: white;
+   border-radius: .5em;
+}
+.Loads{
+   background-color:#6787E4;
+   padding: .5em 1.2em;
+   cursor: pointer;
+   border-style: none;
+   color: white;
+   border-radius: .5em;
+}
+.send{
+   background-color:#6787E4;
+   padding: .5em 1.2em;
+   cursor: pointer;
+   border-style: none;
+   color: white;
+   border-radius: .5em;
+}
+.Details{
+   padding:15px;
+}
+.name{
+   padding-left:55px;
+}
+hr{
+   color: blue;
+   width:100%;
+}
+.Zig{
+   padding: 1px 22px 11px 11px;
+}
