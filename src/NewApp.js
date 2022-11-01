@@ -19,6 +19,7 @@ import Budgets from "./Components/Dashboard/Budgets/Budgets";
 import {Revoice} from "./Components/Dashboard/Invoices/ID-INVOICE/idinvoice";
 import Accounts from './Components/Dashboard/Accounts/Accounts';
 import Settings from './Components/Dashboard/Settings/Settings';
+import Preferences from './Components/Dashboard/Settings/Preferences';
 
 
 function NewApp() {
@@ -42,6 +43,10 @@ function NewApp() {
           <Route exact   path='/connect' element={<ConnectBank/>} />
           <Route exact   path='/contact_support' element={<ContactSupport/>} />
           <Route exact   path='/settings' element={ <Settings />} />
+          <Route exact   path='/settings/account' element={ <Accounts />} />
+          <Route exact  path='/settings/preferences' element={ <Preferences />} />
+          {/* <Route exact  path='/settings/categories' element={ <Categories />} /> */}
+          {/* <Route exact  path='/settings/categories' element={ <Categories />} />  */}
         </Routes>
       </BrowserRouter>
     </div>
