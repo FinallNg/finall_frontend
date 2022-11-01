@@ -70,7 +70,8 @@ function Preferences() {
         </div>
         <hr/>
         <div className="themes">
-          <h3>Themes</h3>
+          <h3>Themes</h3> 
+          
           <p>Coming Soon!</p>
         </div>
         <div className='btn_save'>

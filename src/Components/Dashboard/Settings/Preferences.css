@@ -188,6 +188,7 @@
     line-height: 32px;
     transition: 400ms all;
   }
+  
 
   .btn_save button:hover{
     background: #0f2075;
