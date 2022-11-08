@@ -13,7 +13,7 @@ const Settings = () => {
 
   const {handleChange ,values, handleSubmit , errors} = Form(Validate);
   return (
-    <div>
+    <div className='accounts__container'>
       <Notify />
       <div  className="modal">
         <div className='modal-content'>

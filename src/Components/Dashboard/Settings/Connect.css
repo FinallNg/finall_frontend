@@ -1,3 +1,6 @@
+.accounts__container{
+    margin-bottom: 10rem;
+}
 
 .Accounts{
     display:flex;
@@ -5,9 +8,6 @@
     margin-top: 0.3rem;
     width:40vh;
 }
-
-
-
 
 .shadow{
     display: flex;
@@ -387,8 +387,7 @@
     position: relative;
     top: 45rem;
     right: -33rem;
-    text-decoration: underline;
-    text-decoration-color: var(--finall2);
+    text-decoration: none;
     font-weight: bold;
     font:larger;
     font-family: lato;

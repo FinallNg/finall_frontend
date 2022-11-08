@@ -1,4 +1,4 @@
-.account {
+.preference {
   font-family: "Lato", sans-serif;
   padding-inline: 1rem;
   z-index: 1;
@@ -6,11 +6,6 @@
   margin-bottom: 1em;
 }
 
-@media screen and (min-width: 768px) {
-  .account {
-    padding-inline: 3rem;
-  }
-}
 
 /* START OF CUSTOM HEADER */
 .account header {

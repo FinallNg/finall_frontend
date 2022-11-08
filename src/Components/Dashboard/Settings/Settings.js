@@ -1,6 +1,6 @@
 import React from 'react'
 import './Script'
-import { NavLink } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import './Settings.css'
 import profileImage from '../../../assets/settings-icons/profile-image.png'
 import accountIcon from '../../../assets/settings-icons/acco-icon.png'
@@ -36,37 +36,37 @@ const Settings = () =>{
         <h3>Settings home</h3>
       </div>
       <div className='settings-container'>
-        <NavLink className="nav-link" exact="true" to="/settings/account">
+        <NavLink className="nav-link" exact="true" to="account">
           <div className="settings-item">
             <img alt='settings' src={accountIcon} />
             <p>Account</p>
           </div>
         </NavLink>
-        <NavLink className="nav-link" exact="true" to="/overview">
+        <NavLink className="nav-link" exact="true" to="preferences">
           <div className="settings-item">
             <img alt='settings' src={prefIcon} />
             <p>Preferences</p>
           </div>
         </NavLink>
-        <NavLink className="nav-link" exact="true" to="/overview">
+        <NavLink className="nav-link" exact="true" to="support">
           <div className="settings-item">
             <img alt='settings' src={suppIcon} />
             <p>Support</p>
           </div>
         </NavLink>
-        <NavLink className="nav-link" exact="true" to="/overview">
+        <NavLink className="nav-link" exact="true" to="categories">
           <div className="settings-item">
             <img alt='settings' src={cateIcon} />
             <p>Categories</p>
           </div>
         </NavLink>
-        <NavLink className="nav-link" exact="true" to="/overview">
+        <NavLink className="nav-link" exact="true" to="terms-and-policies">
           <div className="settings-item">
             <img alt='settings' src={termsIcon} />
             <p>Terms and Policies</p>
           </div>
         </NavLink>
-        <NavLink className="nav-link" exact="true" to="/overview">
+        <NavLink className="nav-link" exact="true" to="connected-accounts">
           <div className="settings-item">
             <img alt='settings' src={bankIcon} />
             <p>Connected bank accounts</p>
@@ -74,6 +74,8 @@ const Settings = () =>{
         </NavLink>
       </div>
     </div>
+
+    
   )
 }
 
