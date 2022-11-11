@@ -41,6 +41,7 @@
 
 }
 
+
 .pricing-box {
     width: 360px;
     height: 568px;
@@ -66,11 +67,12 @@
 }
 
 
-.pricing-box:nth-child(2) {
+.pricing-box :nth-child(2) {
     margin-right: 25px;
     background-color: #1A33B2 ;
     color: #FFFFFF;
 }
+
 .pricing-box-content {
     display: flex;
     flex-direction: column;
@@ -260,8 +262,9 @@
         margin-left: 0px;
         margin-bottom: 0px;
     }
-.pricing-box:nth-child(2){
+    .pricing-box:nth-child(2){
     margin-top: 30px;
+    
 
 }
 
