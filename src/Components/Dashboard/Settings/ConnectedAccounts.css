@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap');
+
+.connected_accounts{
+    font-family: 'Lato', sans-serif;
+}
+
+/* START OF CUSTOM HEADER */
+.connected_accounts header {
+    display: flex;
+    gap: 1em;
+    padding: 1em 2rem;
+  }
+  
+  .connected_accounts header .header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .connected_accounts header .header-title h1 {
+    font-weight: 700;
+    line-height: 2rem;
+    font-size: 28px;
+    color: #1A33B2;
+  }
+  .connected_accounts header .header-title:hover {
+    cursor: pointer;
+  }
+ 
+  .connected_accounts header .header-title p {
+    color: #807d9b;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+  }
+  
+  .connected_accounts header .header-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .connected_accounts header .header-image img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .connected_accounts header .header-image .profile-pic {
+    height: 3rem;
+    width: 3rem;
+  }
+  /* END OF CUSTOM HEADER */
+
+  .connected_accounts h2, .bank_list p{
+    color: #33343D;
+    font-weight: 700;
+    margin-top: 2rem;
+    font-size: 24px;
+    line-height: 24px;
+    
+  }
+
+  .connected_accounts h2{
+    margin: 20px 0 41px 2rem;
+  }
+
+  .bank_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid #93B5EC;
+    padding-bottom: 25px;
+    margin-left: 2rem;
+    width: 85%;
+  }
+
+  .btn_action_wrapper{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    justify-content: centerd;
+  }
+
+  .btn_action_wrapper button{
+    background-color: #1A33B2;
+    width: 110px;
+    height: 48px;
+    padding: 16px 28px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+  }
+
+  
+  .btn_action_wrapper button:nth-child(2){
+    background-color: #fff;
+    color: #E20B0B;
+    border: 1px solid #14236c;
+  }
+  
+  .btn_action_wrapper button:hover{
+    background-color: #14236c;
+    cursor: pointer;
+  }
+
+  .btn_create_new{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .btn_create_new button{
+    width: 30%;
+    height: 56px;
+    background: #1A33B2;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: #F5FAFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    transition: 400ms all;
+  }
+  
+  .btn_create_new button:hover{
+    background: #0f2075;
+    cursor: pointer;
+  }

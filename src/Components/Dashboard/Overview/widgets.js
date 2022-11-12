@@ -11,7 +11,7 @@ export const ExpenseWidget=(props)=>{
        <Card border="light" className="shadow-sm">
               <div className="category-text">
                 <h5>{category}</h5>
-                <h3 className="mb-1">{title}</h3>
+                <h3 className="mb-2">{title}</h3>
               </div>
               <div className="small mt-2">
                 <span>
@@ -33,7 +33,7 @@ export const ExpenseWidget=(props)=>{
      <Card border="light" className="shadow-sm">
             <div className="category-text">
               <h5>{category}</h5>
-              <h3 className="mb-1">{title}</h3>
+              <h3 className="mb-3">{title}</h3>
             </div>
             <div className="small mt-20">
               <span>
