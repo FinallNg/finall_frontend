@@ -36,7 +36,7 @@ const Settings = () =>{
         <h3>Settings home</h3>
       </div>
       <div className='settings-container'>
-        <NavLink className="nav-link" exact="true" to="account">
+        <NavLink className="nav-link" exact="true" to="connect_bank">
           <div className="settings-item">
             <img alt='settings' src={accountIcon} />
             <p>Account</p>
@@ -66,7 +66,7 @@ const Settings = () =>{
             <p>Terms and Policies</p>
           </div>
         </NavLink>
-        <NavLink className="nav-link" exact="true" to="connected-accounts">
+        <NavLink className="nav-link" exact="true" to="connect">
           <div className="settings-item">
             <img alt='settings' src={bankIcon} />
             <p>Connected bank accounts</p>

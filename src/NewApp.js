@@ -37,15 +37,13 @@ function NewApp() {
           <Route exact   path='/budgets' element={<Budgets />} />
           <Route exact   path='/accounts' element={<Accounts />} />
           <Route exact   path='/metrics' element={<Analytics />} />
-          <Route exact   path='/edit_profile' element={ <Connect />} />
           <Route exact   path='/help' element={<Help />} />
           <Route exact   path='/logout' element={<Logout />} />
-          <Route exact   path='/connect' element={<ConnectBank/>} />
-          <Route exact   path='/contact_support' element={<ContactSupport/>} />
+          <Route exact   path='/settings/contact_support' element={<ContactSupport/>} />
           <Route exact   path='/settings' element={ <Settings />} />
-          <Route exact   path='/settings/account' element={ <Accounts />} />
+          <Route exact   path='/settings/connect_bank' element={ <ConnectBank/>} />
           <Route exact  path='/settings/preferences' element={ <Preferences />} />
-          {/* <Route exact  path='/settings/categories' element={ <Categories />} /> */}
+          <Route exact  path='/settings/connect' element={ <Connect />} />
           {/* <Route exact  path='/settings/categories' element={ <Categories />} />  */}
         </Routes>
       </BrowserRouter>
