@@ -6,7 +6,7 @@ import "./NewApp.css"
 import CardsBanks from './Components/Dashboard/CardsBanks/CardsBanks';
 import Goals from './Components/Dashboard/Goals/Goals';
 import Help from './Components/Dashboard/Help/Help';
-import Invoices from './Components/Dashboard/Invoices/Invoices';
+// import Invoices from './Components/Dashboard/Invoices/Invoices';
 import Logout from './Components/Dashboard/Logout/Logout';
 import Overview from './Components/Dashboard/Overview/Overview';
 import Connect from './Components/Dashboard/Settings/Connect'
@@ -20,7 +20,7 @@ import {Revoice} from "./Components/Dashboard/Invoices/ID-INVOICE/idinvoice";
 import Accounts from './Components/Dashboard/Accounts/Accounts';
 import Settings from './Components/Dashboard/Settings/Settings';
 import Preferences from './Components/Dashboard/Settings/Preferences';
-import ConnectedAccounts from "./Components/Dashboard/Settings/ConnectedAccounts";
+// import ConnectedAccounts from "./Components/Dashboard/Settings/ConnectedAccounts";
 
 
 function NewApp() {
@@ -44,11 +44,7 @@ function NewApp() {
           <Route exact   path='/settings' element={ <Settings />} />
           <Route exact   path='/settings/connect_bank' element={ <ConnectBank/>} />
           <Route exact  path='/settings/preferences' element={ <Preferences />} />
-<<<<<<< HEAD
           <Route exact  path='/settings/connect' element={ <Connect />} />
-=======
-          <Route exact  path='/settings/connected-accounts' element={ <ConnectedAccounts />} />
->>>>>>> 7e98a0b7aafbc080bba2e2126cfa9bd8a81a9619
           {/* <Route exact  path='/settings/categories' element={ <Categories />} />  */}
         </Routes>
       </BrowserRouter>
