@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import './ConnectedAccounts.css'
 import Bell from "../../../assets/bell.png";
-import Bell_2 from "../../../assets/bell-2.png";
+// import Bell_2 from "../../../assets/bell-2.png";
 import Mail from "../../../assets/mail.png";
 import ProfilePic from "../../../assets/profile-pic.png";
 import ArrowIcon from "../../../assets/arrow-down.png";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function ConnectedAccounts() {
 
