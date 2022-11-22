@@ -48,13 +48,13 @@ const Settings = () =>{
             <p>Preferences</p>
           </div>
         </NavLink>
-        <NavLink className="nav-link" exact="true" to="support">
+        <NavLink className="nav-link" exact="true" to="contact_support">
           <div className="settings-item">
             <img alt='settings' src={suppIcon} />
             <p>Support</p>
           </div>
         </NavLink>
-        <NavLink className="nav-link" exact="true" to="categories">
+        <NavLink className="nav-link" exact="true" to="connected_accounts">
           <div className="settings-item">
             <img alt='settings' src={cateIcon} />
             <p>Categories</p>

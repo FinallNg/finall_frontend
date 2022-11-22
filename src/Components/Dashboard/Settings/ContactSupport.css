@@ -28,22 +28,102 @@
     justify-content: center;
     color: var(--finall2);
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: lato;
     position: relative;
     top: 3rem;
+    display : flex;
+    left: -2rem;
 
 }
 
 .user-feed{
-    display: flexbox;
+    display: flex;
+    padding-left: 11px;
+    justify-content:first baseline;
+}
+
+.user-feed input{
+    background-color:  #F1F8FF;
+    border-style: none;
+}
+
+
+.user-feedback button{
+    top: 30rem;
+    position: relative;
+    left:1rem;
 }
 
 .user-feed div label{
     align-items: left;
+    font: lato;
+    font-weight: 500;
+    font-size: 0.9rem;
 }
 
-.user-feed div:nth-child(1){
+.user-feed1{
     position: relative;
+    top: 4rem;
+    left: -1rem;
+    padding-left: 3px;
+}
 
+.user-feed1 input{
+    width: 29em;
+    padding-left: 1px;
+    padding-right: 1px;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.user-feed2{
+    position:relative;
+    top: 9rem;
+    right: 25rem;
+}
+
+.user-feed2 input{
+    width: 29em;
+    padding-left: 1px;
+    padding-right: 1px;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.user-feed3{
+    position: relative;
+    top: 14rem;
+    right: 49rem;
+}
+
+.user-feed3 input{
+    width: 29em;
+    padding-left: 1px;
+    padding-right: 1px;
+    height: 14rem;
+    border-radius: 5px;
+    padding-bottom: 190px;
+    padding-left: 6px;
+}
+
+.user-feedback button{
+    position: relative;
+    top: 16rem;
+    left: 0.91rem;
+    width: 23rem;
+    height: 2rem;
+    align-items: center;
+    background-color: var(--finall2);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.user-feedback button:hover{
+    background-color: white;
+    border: 2px solid var(--finall2);
+    color: var(--finall2);
+    transition: 0.3s ease-out;
+    transform: scale(1.1);
 }
