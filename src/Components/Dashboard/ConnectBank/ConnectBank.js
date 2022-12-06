@@ -1,7 +1,5 @@
 import React from 'react'
 import './ConnectBank.css'
-import Dot from '../../../assets/dot.png'
-import Bell from '../../../assets/bell.png'
 import Door from '../../../assets/open_door.png'
 import Ding from '../../../assets/ding.png'
 import Profile from '../../../assets/Ellipse.png'
