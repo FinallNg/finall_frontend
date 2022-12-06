@@ -4,7 +4,7 @@ import SpendingHabit from './SpendingHabit/SpendingHabit'
 import NewsLetter from './NewsLetter/NewsLetter'
 // import Team from './Team/Team'
 import FinancialServices from "../LandingPage/FinancialServices/FinancialServices"
-import Services from "../LandingPage/Services/Services"
+// import Services from "../LandingPage/Services/Services"
 import FeatureCover from './FeatureCover/FeatureCover'
 import Overview from './Overview/Overview'
 import Dashboard from '../Dashboard/Dashboard'
@@ -16,7 +16,7 @@ function LandingPage() {
   return (
     <div>
         <HeroSection />
-        <Services />
+        {/* <Services /> */}
         <SpendingHabit />
         <FinancialServices />
         <Overview />
