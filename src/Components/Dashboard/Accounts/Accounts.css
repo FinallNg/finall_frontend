@@ -6,6 +6,9 @@
   margin-bottom: 1em;
 }
 
+.account {
+  padding: 0 1.5rem;
+}
 
 /* START OF CUSTOM HEADER */
 .account header {
@@ -97,7 +100,17 @@
   gap: 3em;
 }
 
-.account-card-section {
+.account .account-card-section {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.account .account-card-section .account-container {
+  margin: 0 auto;
+  width: 98%;
+}
+
+.account .account-card-section {
   display: flex;
   flex-direction: column;
   gap: 1em;
