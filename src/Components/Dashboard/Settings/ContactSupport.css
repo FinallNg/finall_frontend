@@ -94,7 +94,7 @@
 .user-feed3{
     position: relative;
     top: 14rem;
-    right: 49rem;
+    right: 49.2rem;
 }
 
 .user-feed3 input{
@@ -110,7 +110,7 @@
 .user-feedback button{
     position: relative;
     top: 16rem;
-    left: 0.91rem;
+    left: 0.7rem;
     width: 23rem;
     height: 2rem;
     align-items: center;

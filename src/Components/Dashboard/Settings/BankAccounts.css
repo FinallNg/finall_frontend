@@ -1,0 +1,17 @@
+.db-card{
+    display: flex;
+    margin-top: 25px;
+    padding-top: 40px;
+}
+
+
+.cd-entry{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 72px;
+    row-gap: 45px;
+    padding-left: 83px;
+    max-width: fit-content;
+    align-items: center;
+    justify-content: space-between;
+}
