@@ -1,8 +1,8 @@
 import React from 'react'
 import NewsLetter from '../LandingPage/NewsLetter/NewsLetter';
-import Team from '../LandingPage/Team/Team';
+// import Team from '../LandingPage/Team/Team';
 import './AboutUs.css' ;
-import TeamGrid from '../LandingPage/Team/TeamGrid';
+// import TeamGrid from '../LandingPage/Team/TeamGrid';
 import Revenue from '../../assets/Revenue.png'
 import Budget from '../../assets/v_u1 1 (1).png'
 import Gain from '../../assets/My password-cuate 1.png'
@@ -26,14 +26,14 @@ const AboutUs = () => {
             </div>
             <div className='about-container-back'>
               <div className='about-container-img1'>
-                <img src={Revenue} alt='revenue image'></img>
+                <img src={Revenue} alt='revenue image' />
               </div>
             </div>
           </div>
           <div className='about-container-box'>
             <div className='about-container-front'>
               <div className='about-container-img2'>
-                <img src={Budget} alt='revenue image'></img>
+                <img src={Budget} alt='revenue image' />
               </div>
             </div>
             <div className='about-container-back'>
@@ -59,8 +59,8 @@ const AboutUs = () => {
             <div className='about-container-back'>
              
               <div className='about-container-img1'>
-                <img className='line-image' src={vec} alt='revenue image'></img>
-                <img  className='gain-img' src={Gain} alt='revenue image'></img>
+                <img className='line-image' src={vec} alt='revenue image' />
+                <img  className='gain-img' src={Gain} alt='revenue image' />
                 
               </div>
               
@@ -89,9 +89,9 @@ const AboutUs = () => {
             </h3>
           </div>
 
-          <Team />
+          {/* <Team /> */}
 
-          <TeamGrid />
+          {/* <TeamGrid /> */}
         </div>
       </div>
       <div className='newsletter-head-div'>
@@ -100,7 +100,7 @@ const AboutUs = () => {
           <p>Subscribe to our newsletter to get weekly and monthly updates on newly added features and better ways to monitor you finances.</p>
         </div>
         <div className='newsletter-head-button'>
-          <button><a href=''>get started</a></button>
+          <button><a href='##'>get started</a></button>
         </div>
       </div>
       <div className='newsletter-div'>
