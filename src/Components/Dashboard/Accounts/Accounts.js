@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+// eslint-disable-next-line
+import React from "react";
 import "./Accounts.css";
 import { ATMCard } from "atm-card-react";
 

@@ -11,7 +11,7 @@ import AboutUs from "./Components/AboutUs/AboutUs";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import Services from "./Components/Services/Services";
-import Dashboard from "./Components/Dashboard/Dashboard";
+// import Dashboard from "./Components/Dashboard/Dashboard";
 
 // import Logout from "./Components/Dashboard/Logout/Logout"
 
@@ -20,7 +20,7 @@ import Transactions from "./Components/Dashboard/Transactions/Transactions";
 import CardsBanks from "./Components/Dashboard/CardsBanks/CardsBanks";
 import Invoices from "./Components/Dashboard/Invoices/Invoices";
 import Goals from "./Components/Dashboard/Goals/Goals";
-import Budgets from "./Components/Dashboard/Budgets/Budgets"
+import Budgets from "./Components/Dashboard/Budgets/Budgets";
 import Help from "./Components/Dashboard/Help/Help";
 import Logout from "./Components/Dashboard/Logout/Logout";
 // import Sidebar from "./Components/Dashboard/Sidebar/Sidebar";
