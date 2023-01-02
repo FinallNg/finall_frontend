@@ -19,7 +19,7 @@ const Settings = () =>{
     <div className='settings'>
       <div className='nav'>
         <div className='nav-left'>
-          <h3>Good Evening, Enowono</h3>
+          <h3>Good Evening, Enwono</h3>
           <p>Welcome back, nice to see you again!</p>
         </div>
         <div className='nav-right'>
@@ -48,7 +48,7 @@ const Settings = () =>{
             <p>Preferences</p>
           </div>
         </NavLink>
-        <NavLink className="nav-link" exact="true" to="contact_support">
+        <NavLink className="nav-link" exact="true" to="support">
           <div className="settings-item">
             <img alt='settings' src={suppIcon} />
             <p>Support</p>

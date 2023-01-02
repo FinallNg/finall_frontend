@@ -20,7 +20,7 @@ const Support = () => {
 
             <div className='user-feed3'>
               <label htmlFor='Help' className='feed'>How do you want us to help you?</label>
-              <input type="text" maxLength= "500" placeholder='Type here' required= "required" />
+              <textarea  type="text" maxLength= "500" placeholder='Type here' required= "required" />
             </div>
           </form>
           

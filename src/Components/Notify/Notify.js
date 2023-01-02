@@ -2,8 +2,7 @@ import React from 'react'
 import './Notify.css'
 import Profile from '../../assets/Ellipse.png'
 import Message from '../../assets/email.png'
-import Dot from '../../assets/dot.png'
-import Bell from '../../assets/bell.png'
+import Ding from '../../assets/ding.png'
 
 const Notify = () => {
   return (
@@ -12,8 +11,7 @@ const Notify = () => {
           <div className = "slap">
             <img src={Profile} alt="" />
             <img src={Message} alt="" />
-            <img src={Dot} alt="" />
-            <img src={Bell} alt="" />
+            <img src={Ding} alt="" />
             </div>
 
           </div>

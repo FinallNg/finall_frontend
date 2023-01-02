@@ -1,0 +1,58 @@
+.sp-user {
+  padding-top: 2px;
+}
+
+.support-links img {
+  position: absolute;
+  padding: 2rem;
+  top: 1rem;
+}
+
+.arrow span:nth-of-type(1) {
+  position: absolute;
+  padding: 4rem;
+  top: -1rem;
+  color: var(--navy);
+  font-family: "Lato";
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.support-containers {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 72px;
+  row-gap: 45px;
+  padding-left: 83px;
+  max-width: fit-content;
+}
+
+.support-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 16px;
+  width: 450px;
+  height: 80px;
+  background: #ffffff;
+  box-shadow: 2px 2px 10px rgba(26, 51, 178, 0.25);
+  order: 0;
+  border-radius: 10px;
+  border: 2px solid var(--midnightblue);
+}
+
+.support-item p {
+  font-family: "Lato";
+  font-weight: bold;
+  color: #33343d;
+  font-style: normal;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-size: 22px;
+}
+
+.sup-link {
+  text-decoration: none;
+}

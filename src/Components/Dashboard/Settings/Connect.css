@@ -1,503 +1,487 @@
-.accounts__container{
-    margin-bottom: 10rem;
+.accounts__container {
+  margin-bottom: 10rem;
 }
 
-.Accounts{
-    display:flex;
-    height: 100vh;
-    margin-top: 0.3rem;
-    width:40vh;
+.Accounts {
+  display: flex;
+  height: 100vh;
+  margin-top: 0.3rem;
+  width: 40vh;
 }
 
-.shadow{
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    top: -5rem;
-    left: 1rem;
-    width: 300px;
-} 
-
-.shadow  > select{
-    top: 10%;
-    font-size: 1.2rem;
-    font-weight: bold;
-    left: 19rem;
-    color: var(--finall2);
-    font-family:  lato;
-    border-radius: 1%;
-    border: 100mm;
-    cursor: pointer;
-    background-color: aliceblue;
-    border-radius: 34px;
+.shadow {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  top: -5rem;
+  left: 1rem;
+  width: 300px;
 }
 
-
-
-.shadow >option{
-    border: transparent;
+.shadow > select {
+  top: 10%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  left: 19rem;
+  color: var(--finall2);
+  font-family: lato;
+  border-radius: 1%;
+  border: 100mm;
+  cursor: pointer;
+  background-color: aliceblue;
+  border-radius: 34px;
 }
 
-.settings1{
-    height: 5rem;
-    display: flex;
-    margin-top: 2rem;
+.shadow > option {
+  border: transparent;
 }
 
-.settings1 > span:nth-child(1){
-    color:black;
-    font-size: 1.3rem;
-    font-weight: bold;
-    font-family:  lato;
-    font-display: inherit;
-    font-variant: unset;
-    position: absolute;
-    left: 14rem;
-    top: 10rem;
+.settings1 {
+  height: 5rem;
+  display: flex;
+  margin-top: 2rem;
 }
 
-.finall-pic{
-    position: relative;
-    width: 60px;
+.settings1 > span:nth-child(1) {
+  color: black;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: lato;
+  font-display: inherit;
+  font-variant: unset;
+  position: absolute;
+  left: 14rem;
+  top: 10rem;
 }
 
-
-#display_image{
-    width: 160px;
-    height: 160px;
-    border: 1px solid black;
-    border-radius: 200px;
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-    left: -16rem;
-    bottom: 26rem;
+.finall-pic {
+  position: relative;
+  width: 60px;
 }
 
-#display_image input{
-    position: absolute;
-    left: 9rem;
+#display_image {
+  width: 160px;
+  height: 160px;
+  border: 1px solid black;
+  border-radius: 200px;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  left: -16rem;
+  bottom: 26rem;
 }
 
-
-.finall-pic > img:nth-of-type(1){
-    top: 5rem;
-    position: absolute;
-    transform: scale(0.9);
-    right: -44rem;
+#display_image input {
+  position: absolute;
+  left: 9rem;
 }
 
-
-.finall-pic > span:nth-of-type(1){
-    font-weight: bold;
-    font-size: 1.5rem;
-    font-family:  lato;
-    flex-direction: column;
-    position: absolute;
-    top: 16rem;
-    width: 200px;
-    right: -7rem;
+.finall-pic > img:nth-of-type(1) {
+  top: 5rem;
+  position: absolute;
+  transform: scale(0.9);
+  right: -44rem;
 }
 
+.finall-pic > span:nth-of-type(1) {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: lato;
+  flex-direction: column;
+  position: absolute;
+  top: 16rem;
+  width: 200px;
+  right: -7rem;
+}
 
 .user-data {
-    position: relative;
-    display: flex;
+  position: relative;
+  display: flex;
 }
 
-
-.user-input div label{
-    color: var(--gray);
-    font-weight: bold;
-    font-family: lato;
+.user-input div label {
+  color: var(--gray);
+  font-weight: bold;
+  font-family: lato;
 }
 
-.user-input{
-    position: relative;
-    display: flex;
-    flex-direction: column;
+.user-input {
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
-
-.user-input p{
-    color: red;
-    font-weight: bold;
-    width: 400px;
-    justify-content: right;
-    margin-bottom: 2rem;
+.user-input p {
+  color: red;
+  font-weight: bold;
+  width: 400px;
+  justify-content: right;
+  margin-bottom: 2rem;
 }
 
-.user-input div label{
-    align-items: left;
-    width: 200px;
-    right: 6.3rem;
-    position: relative;
+.user-input div label {
+  align-items: left;
+  width: 200px;
+  right: 6.3rem;
+  position: relative;
 }
 
-.user-input div:nth-child(2){
-    right: 19rem;
-    top: 20rem;
-    position: absolute;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    flex: content;
-    width: 100px;
-    font-family: lato;
-    font-size: 1.2rem;
+.user-input div:nth-child(2) {
+  right: 19rem;
+  top: 20rem;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex: content;
+  width: 100px;
+  font-family: lato;
+  font-size: 1.2rem;
 }
-.user-input div:nth-child(2) input{
-    width: 25rem;
-    height: 2.4rem;
-    border-style: double;
-    font-family: lato;
-    font-size: 1.2rem;
-}
-
-.user-input div:nth-child(3){
-    top:20rem;
-    right: -17rem;
-    position: absolute;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    flex: content;
-    width: 100px;
-    font-family: lato;
-    font-size: 1.2rem;
+.user-input div:nth-child(2) input {
+  width: 25rem;
+  height: 2.4rem;
+  border-style: double;
+  font-family: lato;
+  font-size: 1.2rem;
 }
 
-.user-input div:nth-child(3) input{
-    width: 25rem;
-    height: 2.4rem;
-    border-style: double;
-    font-family: lato;
-    font-size: 1.2rem;
+.user-input div:nth-child(3) {
+  top: 20rem;
+  right: -17rem;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex: content;
+  width: 100px;
+  font-family: lato;
+  font-size: 1.2rem;
 }
 
-.user-input div:nth-child(4){
-    top: 25rem;
-    right: 19rem;
-    position: absolute;
-    flex: content;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    flex: content;
-    width: 100px;
-    font-family: lato;
-    font-size: 1.2rem;
-}
-.user-input div:nth-child(4) select{
-    width: 25rem;
-    height: 2.4rem;
-    border-style: double;
-    font-family: lato;
-    font-size: 1.2rem;
+.user-input div:nth-child(3) input {
+  width: 25rem;
+  height: 2.4rem;
+  border-style: double;
+  font-family: lato;
+  font-size: 1.2rem;
 }
 
-.user-input div:nth-child(5){
-    top: 25rem;
-    right: -17rem;
-    position: absolute;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    flex: content;
-    width: 100px;
-    font-family: lato;
-    font-size: 1.2rem;
+.user-input div:nth-child(4) {
+  top: 25rem;
+  right: 19rem;
+  position: absolute;
+  flex: content;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex: content;
+  width: 100px;
+  font-family: lato;
+  font-size: 1.2rem;
+}
+.user-input div:nth-child(4) select {
+  width: 25rem;
+  height: 2.4rem;
+  border-style: double;
+  font-family: lato;
+  font-size: 1.2rem;
 }
 
-.user-input div:nth-child(5) input{
-    width: 25rem;
-    height: 2.4rem;
-    border-style: double;
-    font-family: lato;
-    font-size: 1.2rem;
-} 
-
-.user-input div:nth-child(6){
-    top: 30rem;
-    right: 19rem;
-    position: absolute;
-    flex: content;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    flex: content;
-    width: 100px;
-    font-family: lato;
-    font-size: 1.2rem;
-}
-.user-input div:nth-child(6) input{
-    width: 25rem;
-    height: 2.4rem;
-    border-style: double;
-    font-family: lato;
-    font-size: 1.2rem;
+.user-input div:nth-child(5) {
+  top: 25rem;
+  right: -17rem;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex: content;
+  width: 100px;
+  font-family: lato;
+  font-size: 1.2rem;
 }
 
-.user-input div:nth-child(7){
-    top: 30rem;
-    right: -17rem;
-    position: absolute;
-    flex: content;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    flex: content;
-    width: 100px;
-    font-family: lato;
-    font-size: 1.2rem;
-}
-.user-input div:nth-child(7) input{
-    width: 25rem;
-    height: 2.4rem;
-    border-style: double;
-    font-family: lato;
-    font-size: 1.2rem;
+.user-input div:nth-child(5) input {
+  width: 25rem;
+  height: 2.4rem;
+  border-style: double;
+  font-family: lato;
+  font-size: 1.2rem;
 }
 
-.user-input div:nth-child(8){
-    top: 34.9rem;
-    right: 19rem;
-    position: absolute;
-    flex: content;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    flex: content;
-    width: 100px;
-    font-family: lato;
-    font-size: 1.2rem;
+.user-input div:nth-child(6) {
+  top: 30rem;
+  right: 19rem;
+  position: absolute;
+  flex: content;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex: content;
+  width: 100px;
+  font-family: lato;
+  font-size: 1.2rem;
 }
-.user-input div:nth-child(8) input{
-    width: 25rem;
-    height: 2.4rem;
-    border-style: double;
-    font-family: lato;
-    font-size: 1.2rem;
-}
-
-
-.user-input div:nth-child(9){
-    top: 34.9rem;
-    right: -17rem;
-    position: absolute;
-    flex: content;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    flex: content;
-    width: 100px;
-    font-family: lato;
-    font-size: 1.2rem;
-}
-.user-input div:nth-child(9) input{
-    width: 25rem;
-    height: 2.4rem;
-    border-style: double;
-    font-family: lato;
-    font-size: 1.2rem;
+.user-input div:nth-child(6) input {
+  width: 25rem;
+  height: 2.4rem;
+  border-style: double;
+  font-family: lato;
+  font-size: 1.2rem;
 }
 
-
-.user-input div:nth-child(10){
-    top: 40rem;
-    right: 19rem;
-    position: absolute;
-    flex: content;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    flex: content;
-    width: 100px;
-    font-family: lato;
-    font-size: 1.2rem;
+.user-input div:nth-child(7) {
+  top: 30rem;
+  right: -17rem;
+  position: absolute;
+  flex: content;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex: content;
+  width: 100px;
+  font-family: lato;
+  font-size: 1.2rem;
 }
-.user-input div:nth-child(10) select{
-    width: 25rem;
-    height: 2.4rem;
-    border-style: double;
-    font-family: lato;
-    font-size: 1.2rem;
-}
-
-
-.payment{
-    display: flex;
-    position:relative;
-    left: 45rem;
-    bottom: -9rem;
+.user-input div:nth-child(7) input {
+  width: 25rem;
+  height: 2.4rem;
+  border-style: double;
+  font-family: lato;
+  font-size: 1.2rem;
 }
 
-.payment > button{
-    background-color: var(--finall2);
-    height: 2rem;
-    width: 10rem;
-    font-family: lato;
-    border-radius: 5px;
-    color: white;
-    border-color: transparent;
-    font-weight: bold;
-    font-size: 1rem;
-    transition: 0.3s ease-in;
+.user-input div:nth-child(8) {
+  top: 34.9rem;
+  right: 19rem;
+  position: absolute;
+  flex: content;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex: content;
+  width: 100px;
+  font-family: lato;
+  font-size: 1.2rem;
+}
+.user-input div:nth-child(8) input {
+  width: 25rem;
+  height: 2.4rem;
+  border-style: double;
+  font-family: lato;
+  font-size: 1.2rem;
 }
 
-.payment > :hover{
-    background-color: white;
-    border: 2px solid var(--finall2);
-    color: var(--finall2);
-    cursor:pointer;
+.user-input div:nth-child(9) {
+  top: 34.9rem;
+  right: -17rem;
+  position: absolute;
+  flex: content;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex: content;
+  width: 100px;
+  font-family: lato;
+  font-size: 1.2rem;
+}
+.user-input div:nth-child(9) input {
+  width: 25rem;
+  height: 2.4rem;
+  border-style: double;
+  font-family: lato;
+  font-size: 1.2rem;
 }
 
-.confirm{
-    display: flex;
-    position: relative;
-    top: 47rem;
+.user-input div:nth-child(10) {
+  top: 40rem;
+  right: 19rem;
+  position: absolute;
+  flex: content;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex: content;
+  width: 100px;
+  font-family: lato;
+  font-size: 1.2rem;
+}
+.user-input div:nth-child(10) select {
+  width: 25rem;
+  height: 2.4rem;
+  border-style: double;
+  font-family: lato;
+  font-size: 1.2rem;
 }
 
-
-.confirm > button{
-    background-color: var(--finall2);
-    height: 2.4rem;
-    width: 13rem;
-    font-family:lato;
-    border-radius: 5px;
-    color: white;
-    border-color: transparent;
-    font-weight: bold;
-    font-size: 1rem;
-    transition: 0.4s ease-in-out;
+.payment {
+  display: flex;
+  position: relative;
+  left: 45rem;
+  bottom: -9rem;
 }
 
-.confirm > :hover{
-    background-color: white;
-    border: 2px solid var(--finall2);
-    color: var(--finall2);
-    cursor:pointer;
+.payment > button {
+  background-color: var(--finall2);
+  height: 2rem;
+  width: 10rem;
+  font-family: lato;
+  border-radius: 5px;
+  color: white;
+  border-color: transparent;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: 0.3s ease-in;
 }
 
-
-
-
-.delete > span:nth-child(1){
-    display: flex;
-    position: relative;
-    top: 45rem;
-    right: -33rem;
-    text-decoration: none;
-    font-weight: bold;
-    font:larger;
-    font-family: lato;
-    font-size: 1.5rem;
+.payment > :hover {
+  background-color: white;
+  border: 2px solid var(--finall2);
+  color: var(--finall2);
+  cursor: pointer;
 }
 
-.delete > :hover{
-    cursor: pointer;
-    color: var(--finall2);
+.confirm {
+  display: flex;
+  position: relative;
+  top: 47rem;
 }
 
-.modal{
-    display: none;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    z-index: 950;
-    left: 0;
-    top:0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(4px);
+.confirm > button {
+  background-color: var(--finall2);
+  height: 2.4rem;
+  width: 13rem;
+  font-family: lato;
+  border-radius: 5px;
+  color: white;
+  border-color: transparent;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: 0.4s ease-in-out;
 }
 
-.modal-content{
-    background-color: #fefefe;
-    padding: 24px;
-    border: 1px solid #888;
-    max-width: 700px;
-    -webkit-animation-name: modal-animation;
-    -webkit-animation-duration: 0.5s;
-    animation-name: modal-animation;
-    animation-duration: 0.5s;
+.confirm > :hover {
+  background-color: white;
+  border: 2px solid var(--finall2);
+  color: var(--finall2);
+  cursor: pointer;
 }
 
-.modal-content span:nth-child(1){
-    align-items: center;
-    justify-items: center;
-    font-size: 1.8rem;
-    font-weight: bold;
-    font-family: lato;
-    width: 600px;
-    padding-left: 140px;
-    padding-bottom: 4px;
+.delete > span:nth-child(1) {
+  display: flex;
+  position: relative;
+  top: 45rem;
+  right: -33rem;
+  text-decoration: none;
+  font-weight: bold;
+  font: larger;
+  font-family: lato;
+  font-size: 1.5rem;
 }
 
-.modal-content p:nth-of-type(1){
-    font-size: 1.3rem;
-    font-family: lato;
-    width: 660px;
-    font-weight: bold;
-    text-align: center;
-    padding-right: 44px;
-    padding-top: 3px;
-    padding-bottom: 4px;
+.delete > :hover {
+  cursor: pointer;
+  color: var(--finall2);
 }
 
-.modal-content p:nth-of-type(2){
-    gap: 2px;
-    margin-left: 13px;
-    margin-right: 13px;
-    font-size: 1.1rem;
-    font-family: lato;
+.modal {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 950;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
 }
 
-.modal-content button{
-    background-color: var(--finall2);
-    height: 2.4rem;
-    width: 13rem;
-    font-family:lato;
-    border-radius: 5px;
-    color: white;
-    border-color: transparent;
-    font-weight: bold;
-    font-size: 1rem;
-    transition: 0.4s ease-in-out;
-    margin-left: 180px;
-    margin-top: 2rem;
+.modal-content {
+  background-color: #fefefe;
+  padding: 24px;
+  border: 1px solid #888;
+  max-width: 700px;
+  -webkit-animation-name: modal-animation;
+  -webkit-animation-duration: 0.5s;
+  animation-name: modal-animation;
+  animation-duration: 0.5s;
 }
 
-.modal-content button:hover{
-    transform: scale(1.1);
-    transition: 0.3s ease-in;
-     background-color: white;
-    border: 2px solid var(--finall2);
-    color: var(--finall2);
-    cursor:pointer;
+.modal-content span:nth-child(1) {
+  align-items: center;
+  justify-items: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: lato;
+  width: 600px;
+  padding-left: 140px;
+  padding-bottom: 4px;
 }
 
+.modal-content p:nth-of-type(1) {
+  font-size: 1.3rem;
+  font-family: lato;
+  width: 660px;
+  font-weight: bold;
+  text-align: center;
+  padding-right: 44px;
+  padding-top: 3px;
+  padding-bottom: 4px;
+}
 
-@-webkit-keyframes modal-animation{
-    from{
-        top: -100px;
-        opacity: 0;
-    }
-    to{
-        top: 0px;
-        opacity: 1;
-    }
+.modal-content p:nth-of-type(2) {
+  gap: 2px;
+  margin-left: 13px;
+  margin-right: 13px;
+  font-size: 1.1rem;
+  font-family: lato;
+}
+
+.modal-content button {
+  background-color: var(--finall2);
+  height: 2.4rem;
+  width: 13rem;
+  font-family: lato;
+  border-radius: 5px;
+  color: white;
+  border-color: transparent;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: 0.4s ease-in-out;
+  margin-left: 180px;
+  margin-top: 2rem;
+}
+
+.modal-content button:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in;
+  background-color: white;
+  border: 2px solid var(--finall2);
+  color: var(--finall2);
+  cursor: pointer;
+}
+
+@-webkit-keyframes modal-animation {
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
 }
 
 @keyframes modal-animation {
-    from{
-        top:-100px;
-        opacity: 0;
-    }
-    to{
-        top:0px;
-        opacity: 1;
-    }
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
 }
