@@ -13,7 +13,7 @@ const Goals = () => {
     {
       id: 1,
       src: Globe,
-      title: "Trip to Dubia",
+      title: "Trip to Dubai",
       amount: "$1000.00",
       date: "January 2022",
     },
