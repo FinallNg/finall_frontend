@@ -11,24 +11,18 @@ import AtmCard from "../../../assets/atm-card.png";
 import PlusIcon from "../../../assets/plus-icon.png";
 import ArrowIcon from "../../../assets/arrow-down.png";
 
-const url = "finall-app.herokuapp.com/api/v1/users/62b208fab5e09b628baa2429/accounts/totalBalance";
-
-
 const Accounts = () => {
 
-  const [totalBalance, setTotalBalance] = useState(0);
+  // const [totalBalance, setTotalBalance] = useState(0);
 
-  useEffect(() => {
-    async function getTotalBalance() {
-      const response = await axios.get(url);
-      console.log(response)
-      setTotalBalance(response["totalBalance"]);
-
-    }
-
-    getTotalBalance()
-  }, [])
-
+  // useEffect(() => {
+  //   const getTotalBalance = async () => {
+  //     const response = await axios.get("finall-app.herokuapp.com/api/v1/users/62b208fab5e09b628baa2429/accounts/totalBalance");
+  //     console.log(response);
+  //     setTotalBalance(response["totalBalance"]);
+  //   }
+  //   getTotalBalance()
+  // }, [])
 
   const accountsDetails = [
     {
