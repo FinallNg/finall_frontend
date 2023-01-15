@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
 
-const PricingBoxButton = ({plan, background}) => {
+const PricingBoxButton = ({ plan, background }) => {
   return (
-    <div className='pricing-box-button'>
-      <button><a href='' style={{background}}>{plan}</a></button>
+    <div className="pricing-box-button">
+      <button>
+        <a href="/" style={{ background }}>
+          {plan}
+        </a>
+      </button>
     </div>
-  )
-}
+  );
+};
 
-export default PricingBoxButton
+export default PricingBoxButton;

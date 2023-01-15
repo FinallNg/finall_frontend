@@ -21,6 +21,8 @@ import Accounts from './Components/Dashboard/Accounts/Accounts';
 import Settings from './Components/Dashboard/Settings/Settings';
 import Preferences from './Components/Dashboard/Settings/Preferences';
 import ConnectedAccounts from "./Components/Dashboard/Settings/ConnectedAccounts";
+import Connect from './Components/Dashboard/Settings/Connect'
+import Support from './Components/Dashboard/Settings/Support'
 
 
 function NewApp() {
@@ -40,11 +42,13 @@ function NewApp() {
           <Route exact   path='/metrics' element={<Analytics />} />
           <Route exact   path='/help' element={<Help />} />
           <Route exact   path='/logout' element={<Logout />} />
-          <Route exact   path='/settings/contact_support' element={<ContactSupport/>} />
           <Route exact   path='/settings' element={ <Settings />} />
+          <Route exact   path='/settings/contact_support' element={<ContactSupport/>} />
           <Route exact   path='/settings/connect_bank' element={ <ConnectBank/>} />
           <Route exact  path='/settings/preferences' element={ <Preferences />} />
           <Route exact  path='/settings/connected-accounts' element={ <ConnectedAccounts />} />
+          <Route exact  path='/settings/connect' element={ <Connect />} />
+          <Route exact  path='/settings/support' element={ <Support/>} />
           {/* <Route exact  path='/settings/categories' element={ <Categories />} />  */}
         </Routes>
       </BrowserRouter>
