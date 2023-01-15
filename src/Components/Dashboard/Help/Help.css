@@ -54,7 +54,7 @@ flex-grow: 0;
     display: flex;
 }
 .help-box1{  
-     
+padding-left: 15px;
 margin: 20px; 
 width: 329px;
 height: 195px;
